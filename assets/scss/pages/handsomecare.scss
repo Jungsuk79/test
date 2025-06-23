@@ -1,0 +1,286 @@
+@import '@/assets/scss/mixin.scss';
+
+/*세탁 & 수선 안내페이지*/
+.contents-handsomecare {
+  .cmp-page-tit {
+    position: relative;
+    .button {
+      position: absolute;
+      bottom: 10px;
+      right:0;
+    }
+  }
+  .num-txt-wrap {
+    display:flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    .num {
+      width:26px;
+      @include fontStyle(16, $font-weight:700);
+    }
+    .txt {
+      width:calc(100% - 26px);
+      padding-left: 6px;
+      @include fontStyle(16, $font-weight:400);
+    }
+  }
+  .hc-bannerbox {
+    position: relative;min-height:280px;margin-bottom:30px;
+    .text-box {
+      position:absolute;
+      top:50%;
+      left:60px;
+      transform: translateY(-50%);
+      .cmp-font {
+        color:$color-white;
+        &.fnt-30 {
+          margin:12px 0 24px;
+        }
+      }
+      
+    }
+  }
+  .service-tabs {
+    .fixed-tabs {
+      display: flex;
+      flex-direction: row;
+      height: 58px;
+      background-color: #fff;
+      button {
+        width: 33.33%;
+        height: 58px;
+        border-bottom: 1px solid #e5e5e5;
+        @include fontStyle(18);
+        &.on {
+          font-weight: 700;
+          border-bottom: 2px solid #000;
+        }
+      }
+    }
+    &.fixed{
+      height: 58px;
+      .fixed-tabs {
+        width:940px;
+      } 
+    }
+  }
+  .tab-content {
+    >div:not(class){padding:30px 0 50px;
+      &:last-child{padding-bottom: 20px;}
+    }
+    .text-box {
+      text-align: center;
+      .cmp-font {
+        &.fnt-30 {
+          margin:12px 0 8px;
+        }
+      }
+    }
+    .img-box {
+      margin:30px 0 40px;
+    }
+    .list-box{
+      margin-top:20px;
+      > li{
+        &:not(:first-child) {
+          margin-top:16px;
+        }
+        .tit{
+          padding-bottom:8px;
+          span{
+            display: inline-block;
+            margin-right: 10px;
+            @include fontStyle(16, $font-weight:700);
+          }
+         }
+        .tit-sub{
+          margin-left : 10px;
+          padding-left: 19px;
+          padding-bottom: 24px;
+          border-left: 1px solid var(--border-color-light-grey);
+          span {
+            display: inline-block;
+          }
+        }
+        // .cmp-dotList {
+        //   display: flex;
+        //   justify-content: start;
+        //   margin-top:16px;
+        //   li {
+        //     &:not(:first-child) {
+        //       margin-left:20px;
+        //     }
+        //   }
+        // }
+      }
+    }
+    .contBg-box {
+      margin-top:40px;
+      .item {
+        background: #F8F8F8;
+        padding:44px 30px;
+        width: calc(50% - 2px);
+        margin-right:2px;
+        position: relative;
+        &:last-child {
+          margin-right:0;
+        }
+        p {
+          // @include fontStyle(14);
+          &:not(:first-child) {
+            padding-top:10px;
+          }
+        }
+        .icon {
+          position: absolute;
+          top:38px;
+          right:20px;
+        }
+      }
+      &.box-full {
+        .item {
+          width:100%;
+          padding:40px 30px
+        }
+        .img {
+          position: absolute;
+          top:56px;
+          right:30px;
+          width:197px;
+          height:48px;
+        }
+      }
+      &.repair-contBg {
+        .item,.info-type3 {
+          padding:24px 30px;
+          min-height:126px;
+          &.small-h {
+            min-height:100px;
+          }
+        }
+        .wid {
+          display: inline-block;
+          width:70px;
+        }
+      }
+    }
+    .column-box {
+      .item {
+        padding:10px 20px;
+        width: calc(33.3% - 1px);
+        position: relative;
+        &::before {
+          content: "";
+          display: block;
+          width:1px;
+          height:106px;
+          background:var(--border-color-light-grey);
+          position: absolute;
+          top:10px;
+          right:0;
+        }
+        &:last-child::before{display:none;}
+        &:first-child {
+          padding-left:0;
+        }
+        .icon {
+          position: absolute;
+          top:20px;
+          right:30px;
+        }
+      }
+    }
+    .listInfo-box {
+      dl {
+        padding-bottom:40px;
+        border-bottom: 1px solid var(--border-color-light-grey);
+        &:not(:first-child) {
+          padding-top:40px
+        }
+        &.noLine {
+          border-bottom-width: 0; 
+          padding-bottom:0;
+        }
+      }
+      dt {
+        @include fontStyle(20);
+        padding-bottom:20px;
+      }
+      .brand-item {
+        span {
+          display: inline-block;
+          padding-right:8px;
+        }
+      }
+    }
+  }
+  .line-link {
+    width:100%;
+    padding:24px 24px 24px 0;
+    border-bottom: 1px solid var(--border-color-light-grey);
+  }
+  .cmp-acc {
+    .v-expansion-panel-header {
+      padding-left:0;
+    }
+    .v-expansion-panel-content{
+      .v-expansion-panel-content__wrap{padding: 24px 20px;
+        .toggle-img{width:150px;margin-right:20px;}
+      }
+    }
+    .cmp-acc-shoplist {
+      .v-expansion-panel-header,
+      .v-expansion-panel-content__wrap {
+        padding:0 !important;
+      }
+      .v-expansion-panel-content__wrap{
+        padding-top: 0;
+      }
+      .v-expansion-panel-header {
+        background-color:#f8f8f8;
+      }
+      .takemap-header {
+        padding:24px 20px;
+      }
+      .area-map{
+        padding: 0 24px 24px;
+      }
+      .v-expansion-panel--active:not(:first-child),
+      .v-expansion-panel--active + .v-expansion-panel {
+        margin-top:0;
+      }
+      .v-expansion-panel:last-child.v-item--active{
+        border-bottom: 0;
+      }
+
+      .v-expansion-panel{
+        &:last-child {
+          border-bottom:none;
+        }
+        &.v-item--active{
+          .btns-group{
+            .cmp-icon.i-locon{display: block;}
+            .cmp-icon.i-locoff{display: none;}
+          } 
+        }
+        .btns-group{
+          .cmp-icon.i-locon{display: none;}
+          .cmp-icon.i-locoff{display: block;}
+        }
+      }
+
+      .shoplist-info {
+        padding:0 24px 24px;
+        @include fontStyle(14);
+      }
+    }
+  }
+
+  .table-wrap {
+    margin-bottom:24px;
+    .text-left {
+      padding-left:24px;
+    }
+  }
+  .cmp-dotList > li.nodotType{padding-left:0}
+}

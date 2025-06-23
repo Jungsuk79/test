@@ -1,0 +1,512 @@
+@use 'sass:map';
+@use 'sass:meta';
+@use 'sass:list';
+@use 'sass:math';
+
+// example
+// @include webkit($transform: rotate(45deg));
+// @include webkit($transition: transform 1s);
+// @include webkit($transition: (top:1s, transform:1s, opacity:1s));
+@mixin webkit($args...) {
+  @each $k, $v in meta.keywords($args) {
+    @if(meta.type-of($v) == 'list') {
+      #{$k}: #{$v};
+      @if (index($v, 'transform') == 1) {
+        -webkit-#{$k}: -webkit-#{$v};
+      } @else {
+        -webkit-#{$k}: #{$v};
+      }
+    } @else if(meta.type-of($v) == 'map') {
+      $s1: '';
+      $s2: '';
+      @each $v1, $v2 in $v {
+        $i: index($v, $v1 $v2);
+        $v3: $v1;
+        @if ($v1 == 'transform') {
+          $v3: '-webkit-' + $v1;
+        }
+        @if ($i == 1) {
+          $s1: $v1 + ' ' + $v2;
+          $s2: $v3 + ' ' + $v2;
+        } @else {
+          $s1: $s1 + ', ' + $v1 + ' ' + $v2;
+          $s2: $s2 + ', ' + $v3 + ' ' + $v2;
+        }
+      }
+      #{$k}: #{$s1};
+      -webkit-#{$k}: #{$s2};
+    } @else {
+      #{$k}: #{$v};
+      -webkit-#{$k}: #{$v};
+    }
+  }
+}
+
+@mixin lineClamp($line: 2) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: #{$line};
+  overflow: hidden;
+  word-break: break-all;
+}
+
+@mixin lineCrop($line: 2, $line-height: 22px){
+  line-height:#{$line-height};
+  max-height:#{$line-height * $line};
+  overflow: hidden;
+  word-break: break-all;
+}
+
+@mixin imgSprite($type: common, $posi: 0 0) {
+  background: url(/images/#{$type}.png) no-repeat #{$posi};
+  @if $type == common {
+    background-size: 1000px auto;
+  }
+}
+
+$icon-list: (
+  'search',   'search2',  'close',    'del',       'heartOff', 'heartOn',    'add',       'play' ,    'contact',  'share' ,
+  'login',    'logout',   'my' ,      'insta' ,    'youtube',  'appstore1',  'appstore2', 'delivery', 'locoff',   'locon',
+  'filter',   'minus',    'list' ,    'cleaning',  'question', 'info',       'locked',    'arrow',    'backward', 'forward',
+  'style',    'zoom' ,    'hpoint' ,  'boxplay',   'benefit' , 'coupon',     'oera',      'milege',   'inquiry',  'check',
+  'volumeon', 'play2',    'zoommini', 'calendar',  'prev',     'next',       'down',      'up',       'refresh',  'triangle',
+  'grid1' ,   'grid2',    'grid1on' , 'grid2on',   'first',    'last',       'upRight',   "star",     "thumb",    'listDot',
+  'vplay',    'vpause',   'volumeOn', 'volumeOff', 'fullOn',   'fullOff'
+);
+
+// icon SVG sprite
+@mixin iconSprite() {
+  $url: url(/images/common/common-icon.svg);
+  $url32: url(/images/common/common-icon-32.svg);
+  $url18: url(/images/common/common-icon-18.svg);
+  $url16: url(/images/common/common-icon-16.svg);
+  $url12: url(/images/common/common-icon-12.svg);
+  $width: 500px;
+  $icon_width: 24px;
+  $offset: -50px;
+  $ratio32: 1; // (32 / 24);
+  $ratio16: 1; // (18 / 24);
+  $ratio18: 1; // (18 / 24);
+  $ratio12: 1; // (18 / 24);
+  .cmp-icon {
+    display: inline-block;
+    width: $icon_width;
+    height: $icon_width;
+    margin: auto;
+    text-indent: -9999px;
+    font-size: 0;
+    background-image: $url;
+    background-size: $width auto;
+    background-repeat: no-repeat;
+    &.invert {
+      filter: invert(1);
+    }
+
+    &.cmp-icon-32 {
+      background-image: $url32;
+    }
+    &.cmp-icon-18 {
+      background-image: $url18;
+    }
+    &.cmp-icon-16 {
+      background-image: $url16;
+    }
+    &.cmp-icon-12 {
+      background-image: $url12;
+    }
+    &.cmp-icon-32 {
+      width: 32px;
+      height: 32px;
+      background-size: #{math.round($width * $ratio32)} auto;
+    }
+    &.cmp-icon-18 {
+      width: 18px;
+      height: 18px;
+      background-size: #{math.round($width * $ratio18)} auto;
+    }
+    &.cmp-icon-16 {
+      width: 16px;
+      height: 16px;
+      background-size: #{math.round($width * $ratio16)} auto;
+    }
+    &.cmp-icon-12 {
+      width: 12px;
+      height: 12px;
+      background-size: #{math.round($width * $ratio12)} auto;
+    }
+  }
+  .cmp-icon-before {
+    margin-right: 2px;
+    &:before {
+      content: '';
+      display: inline-block;
+      width: $icon_width;
+      height: $icon_width;
+      margin-right: 4px;
+      text-indent: -9999px;
+      font-size: 0;
+      background-image: $url;
+      background-size: $width auto;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      @include webkit($transform: translate(0, -2px));
+    }
+    &.invert:before {
+      filter: invert(1);
+    }
+
+    &.cmp-icon-32:before {
+      background-image: $url32;
+    }
+    &.cmp-icon-18:before {
+      background-image: $url18;
+    }
+    &.cmp-icon-32:before {
+      width: 18px;
+      height: 18px;
+      background-size: #{math.round($width * $ratio32)} auto;
+    }
+    &.cmp-icon-18:before {
+      width: 18px;
+      height: 18px;
+      background-size: #{math.round($width * $ratio18)} auto;
+    }
+  }
+  .cmp-icon-after {
+    &:after {
+      content: '';
+      display: inline-block;
+      width: $icon_width;
+      height: $icon_width;
+      margin-left: 4px;
+      text-indent: -9999px;
+      font-size: 0;
+      background-image: $url;
+      background-size: $width auto;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      @include webkit($transform: translate(0, -2px));
+    }
+    &.invert:after {
+      filter: invert(1);
+    }
+
+    &.cmp-icon-32:after {
+      background-image: $url32;
+    }
+    &.cmp-icon-18:after {
+      background-image: $url18;
+    }
+    &.cmp-icon-16:after {
+      background-image:$url16;
+    }
+
+    &.cmp-icon-32:after {
+      width: 32px;
+      height: 32px;
+      background-size: #{math.round($width * $ratio32)} auto;
+    }
+    &.cmp-icon-18:after {
+      width: 18px;
+      height: 18px;
+      background-size: #{math.round($width * $ratio18)} auto;
+    }
+    &.cmp-icon-16:after {
+      width: 16px;
+      height: 16px;
+      background-size: #{math.round($width * $ratio16)} auto;
+    }
+  }
+
+  @each $k in $icon-list {
+    $i: index($icon-list, $k) - 1;
+    $x: ($i % 10) * $offset;
+    $y: math.floor($i / 10) * $offset;
+    $name: 'i-' + $k;
+
+    .cmp-icon.#{$name} {
+      background-position: #{$x} #{$y};
+    }
+    .cmp-icon.cmp-icon-32.#{$name} {
+      background-position: #{math.round($x * $ratio32)}
+        #{math.round($y * $ratio32)};
+    }
+    .cmp-icon.cmp-icon-18.#{$name} {
+      background-position: #{math.round($x * $ratio18)}
+        #{math.round($y * $ratio18)};
+    }
+
+    .cmp-icon-before.#{$name}:before {
+      background-position: #{$x} #{$y};
+    }
+    .cmp-icon-before.cmp-icon-32.#{$name}:before {
+      background-position: #{math.round($x * $ratio32)}
+        #{math.round($y * $ratio32)};
+    }
+    .cmp-icon-before.cmp-icon-18.#{$name}:before {
+      background-position: #{math.round($x * $ratio18)}
+        #{math.round($y * $ratio18)};
+    }
+
+    .cmp-icon-after.#{$name}:after {
+      background-position: #{$x} #{$y};
+    }
+    .cmp-icon-after.cmp-icon-32.#{$name}:after {
+      background-position: #{math.round($x * $ratio32)}
+        #{math.round($y * $ratio32)};
+    }
+    .cmp-icon-after.cmp-icon-18.#{$name}:after {
+      background-position: #{math.round($x * $ratio18)}
+        #{math.round($y * $ratio18)};
+    }
+  }
+}
+.cmp-icon.cmp-icon-none,
+.cmp-icon-before.cmp-icon-none:before,
+.cmp-icon-after.cmp-icon-none:after {
+  background-color: #f5f5f5;
+}
+.ui-wrap.theme--dark {
+  .cmp-icon,
+  .cmp-icon-before:before,
+  .cmp-icon-after:after {
+    filter: invert(1);
+  }
+  .gnb-drawer{
+    .cmp-icon,
+    .cmp-icon-before:before,
+    .cmp-icon-after:after {
+      filter: invert(0);
+    }
+  }
+}
+
+@mixin cmpIcon($icon, $size:24){
+  @if($size != 24 and $size != 18 and $size != 32 and $size != 12 and $size != 16){
+    $size : 24;
+  }
+  $url: url(/images/common/common-icon.svg);
+  @if($size == 32){
+    $url : url(/images/common/common-icon-32.svg);
+  }@else if($size == 18){
+    $url : url(/images/common/common-icon-18.svg);
+  }@else if($size == 16){
+    $url : url(/images/common/common-icon-16.svg);
+  }@else if($size == 12){
+    $url : url(/images/common/common-icon-12.svg);
+  }
+  $width: 500px;
+  $offset: -50px;
+
+  display: inline-block;
+  width: #{$size + 'px'};
+  height: #{$size + 'px'};
+  background-image: $url;
+  background-size: $width auto;
+  background-repeat: no-repeat;
+
+  $idx: index($icon-list, $icon);
+  @if($idx == null){
+    $idx: 1;
+  }
+  $i: $idx - 1;
+  $x: ($i % 10) * $offset;
+  $y: math.floor($i / 10) * $offset;
+  background-position: #{$x} #{$y};
+}
+
+/* 공통에 없는 별도 추가 아이콘 */
+@mixin svgIcon($icon, $size:0, $disp:inline-block){
+  display:$disp;
+  @if($size != 0){
+    width:#{$size + 'px'};
+    height:#{$size + 'px'};
+  }
+
+  @if($icon == topButton){
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M19.3613 10.4999L12.0007 3.13922L4.63998 10.4999L5.70064 11.5605L12.0007 5.26054L18.3007 11.5605L19.3613 10.4999Z' fill='black'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.751 5L12.751 20L11.251 20L11.251 5L12.751 5Z' fill='black'/%3E%3C/svg%3E%0A");
+  }
+  @if($icon == timelineButton){
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.2671 3.11987C8.52157 3.11987 5.3149 5.39314 3.97275 8.61861L2.58786 8.04235C4.15708 4.27119 7.90113 1.61987 12.2671 1.61987C18.0412 1.61987 22.7338 6.26014 22.7338 11.9985C22.7338 17.7369 18.0412 22.3772 12.2671 22.3772C7.17253 22.3772 2.92261 18.7668 1.99023 13.9759L3.46261 13.6893C4.25863 17.7796 7.89461 20.8772 12.2671 20.8772C17.2257 20.8772 21.2338 16.8957 21.2338 11.9985C21.2338 7.10141 17.2257 3.11987 12.2671 3.11987Z' fill='black'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11.0986 7H12.5986V12.5042L16.3382 14.9528L15.5165 16.2077L11.0986 13.315V7Z' fill='black'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.65075 7.44713L6.61234 6.49421L7.07178 7.92212L2.68229 9.33448L1.26993 4.94498L2.69783 4.48554L3.65075 7.44713Z' fill='black'/%3E%3C/svg%3E%0A");
+  }
+  @if($icon == timelineSearch){
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M6.73456 10.6636C8.90612 10.6636 10.6665 8.90319 10.6665 6.73163C10.6665 4.56007 8.90612 2.79967 6.73456 2.79967C4.563 2.79967 2.8026 4.56007 2.8026 6.73163C2.8026 8.90319 4.563 10.6636 6.73456 10.6636ZM6.73456 12.1303C9.71614 12.1303 12.1332 9.71321 12.1332 6.73163C12.1332 3.75005 9.71614 1.33301 6.73456 1.33301C3.75298 1.33301 1.33594 3.75005 1.33594 6.73163C1.33594 9.71321 3.75298 12.1303 6.73456 12.1303Z' fill='black'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M14.1517 15.1852L9.70704 10.7407L10.7441 9.70363L15.1887 14.1481L14.1517 15.1852Z' fill='black'/%3E%3C/svg%3E%0A");
+  }
+  @if($icon == download){
+    background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='1.5' y1='15.25' x2='16.5' y2='15.25' stroke='black' stroke-width='1.5'/%3E%3Cpath d='M6 9L9 12L12 9' stroke='black' stroke-width='1.5'/%3E%3Cpath d='M9 12L9 2' stroke='black' stroke-width='1.5'/%3E%3C/svg%3E%0A");
+  }
+  @if($icon == prdPlayIcon){
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 19V2H22V19M22.5 22H1.5' stroke='black' stroke-width='1.5'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.5 12L9.5 6.5L9.5 17.5L15.5 12ZM13.8721 12L10.6 9.00056L10.6 14.9994L13.8721 12Z' fill='black'/%3E%3C/svg%3E%0A");
+  }
+}
+@mixin paddingSpace() {
+  $tops: 10, 20, 24, 30, 60, 70, 80;
+  $bottoms: 10, 20, 24, 28, 30, 60, 70, 80;
+  $horizontals: 0, 10, 20, 26, 34, 60;
+
+  @each $item in $tops {
+    .v-application .pt-#{$item} {
+      padding-top: #{$item}px !important;
+    }
+  }
+  @each $item in $bottoms {
+    .v-application .pb-#{$item} {
+      padding-bottom: #{$item}px !important;
+    }
+  }
+  @each $item in $horizontals {
+    .v-application .pl-#{$item} {
+      padding-left: #{$item}px !important;
+    }
+    .v-application .pr-#{$item} {
+      padding-right: #{$item}px !important;
+    }
+    .v-application .pw-#{$item} {
+      padding-left: #{$item}px !important;
+      padding-right: #{$item}px !important;
+    }
+    .v-application .py-#{$item} {
+      padding-top: #{$item}px !important;
+      padding-bottom: #{$item}px !important;
+    }
+  }
+}
+@mixin marginSpace() {
+  $tops: 6, 10, 12, 13, 14, 16, 18, 20, 24, 25, 26, 28, 30, 32, 34, 36, 35, 40, 44, 50, 52, 60, 80, 100, 120, 130, 140;
+  $bottoms: 6, 10, 13, 14, 16, 18, 20, 24, 30, 34, 36, 40, 44, 50, 60, 80, 100, 120, 130, 140;
+  $horizontals: 0, 2, 20, 23, 30, 34, 40;
+  @each $item in $tops {
+    @if ($item < 0) {
+      .v-application .mt-n#{math.abs($item)} {
+        margin-top: #{$item}px !important;
+      }
+    } @else {
+      .v-application .mt-#{$item} {
+        margin-top: #{$item}px !important;
+      }
+    }
+  }
+  @each $item in $bottoms {
+    @if ($item < 0) {
+      .v-application .mb-n#{math.abs($item)} {
+        margin-bottom: #{$item}px !important;
+      }
+    } @else {
+      .v-application .mb-#{$item} {
+        margin-bottom: #{$item}px !important;
+      }
+    }
+  }
+  @each $item in $horizontals {
+    .v-application .ml-#{$item} {
+      margin-left: #{$item}px !important;
+    }
+    .v-application .mr-#{$item} {
+      margin-right: #{$item}px !important;
+    }
+    .v-application .mw-#{$item} {
+      margin-left: #{$item}px !important;
+      margin-right: #{$item}px !important;
+    }
+    .v-application .my-#{$item} {
+      margin-top: #{$item}px !important;
+      margin-bottom: #{$item}px !important;
+    }
+  }
+}
+@mixin widthClass() {
+  $width: 121, 160, 214, 360 , 449, 940;
+  @each $item in $width {
+    .v-application .width-#{math.abs($item)} {width: #{$item}px !important;min-width:unset !important;}
+  }
+}
+@mixin ellipse(){
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@mixin textOverflow {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+@mixin contentHidden {
+  overflow: hidden !important;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  clip: rect(0, 0, 0, 0) !important;
+}
+$font-style:(
+  9 : (font-size:0.9rem, line-height:1.1rem),
+  10 : (font-size:1.0rem, line-height:1.6rem),
+  11 : (font-size:1.1rem, line-height:1.7rem),
+  12 : (font-size:1.2rem, line-height:1.8rem),
+  13 : (font-size:1.3rem, line-height:2.1rem),
+  14 : (font-size:1.4rem, line-height:2.2rem),
+  16 : (font-size:1.6rem, line-height:2.4rem),
+  18 : (font-size:1.8rem, line-height:2.6rem),
+  20 : (font-size:2.0rem, line-height:2.8rem),
+  22 : (font-size:2.2rem, line-height:3.0rem),
+  24 : (font-size:2.4rem, line-height:3.2rem),
+  28 : (font-size:2.8rem, line-height:3.2rem),
+  30 : (font-size:3.0rem, line-height:3.6rem),
+  34 : (font-size:3.4rem, line-height:4.2rem),
+  36 : (font-size:3.6rem, line-height:4.5rem),
+  38 : (font-size:3.8rem, line-height:4.6rem),
+  40 : (font-size:4.0rem, line-height:4.8rem),
+  48 : (font-size:4.8rem, line-height:5.6rem),
+  80 : (font-size:8rem, line-height:8.8rem)
+);
+@mixin fontStyle($size, $args...){
+  $map : map.get($font-style, $size);
+
+  @each $k, $v in meta.keywords($args){
+    $map : map.set($map, $k, $v);
+  }
+
+  @each $k, $v in $map{
+      #{$k} : #{$v};
+  }
+}
+@mixin scrollbarStyle(){
+  &::-webkit-scrollbar{width: 10px;}
+  &::-webkit-scrollbar-track{background-color:transparent;}
+  &::-webkit-scrollbar-thumb{background-color:#000;background-clip:padding-box;border-left:4px solid transparent;border-right:4px solid transparent;}
+  &::-webkit-scrollbar-button{width:0;height:0;}
+  &.hide-scrollbar::-webkit-scrollbar-thumb{background-color:transparent;}
+}
+@mixin wordKeep(){
+  display:inline-block;-webkit-white-space: nowrap;white-space: nowrap;
+}
+@mixin gradientText($type){
+  @if($type == type1){
+    background: linear-gradient(286.87deg, #6E89FE 8.29%, #A870E6 37.86%, #DE548C 86.59%);
+    letter-spacing:-0.2px;
+  }
+  @if($type == type2){
+    background: linear-gradient(280.39deg, #6E89FE 1.28%, #A870E6 38.8%, #DE548C 100.64%);
+    letter-spacing:-0.6px;
+  }
+  @if($type == type3){
+    background: linear-gradient(276.98deg, #6E89FE -2.19%, #A870E6 38.19%, #DE548C 104.72%);
+  }
+  @if($type == type4){
+    background: linear-gradient(277.59deg, #6E89FE -0.95%, #A870E6 39.08%, #DE548C 105.04%);
+    letter-spacing:-0.6px;
+  }
+  @if($type == type5){
+    background: linear-gradient(280.31deg, #6E89FE 2.03%, #A870E6 39.3%, #DE548C 100.72%);
+  }
+  font-weight:700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}

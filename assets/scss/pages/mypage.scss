@@ -1,0 +1,361 @@
+@import '@/assets/scss/mixin.scss';
+
+/* 나의 사이즈 */
+.contents-mysize{
+    .info-box{
+      .tit{margin-bottom:12px; @include fontStyle(20,$font-weight: 400);}
+      .txt{margin-bottom:30px;@include fontStyle(16);}
+    }
+    table {border-bottom: 1px solid $color-primary;
+      thead{display: none;}
+      tr{
+        &:first-child{td{padding-top: 15px;}}
+        &:last-child{td{padding-bottom: 15px;}}
+        td{border-top:0;padding:5px 0; @include fontStyle(14,$font-weight: 400);}
+      }
+    }
+}
+
+/*한섬케어세탁 & 수선*/
+.hansomecare-application {
+  .cmp-sub-tit{
+    &.sub-block {
+      display: block;
+    }
+    .mt-6 {
+      margin-top:6px;
+    }
+    ~ .table-type1{margin-top:24px;}
+    .tit{
+      span.c-red{vertical-align: top;}
+    }
+  } 
+  .cmp-page-tit {
+    position: relative;
+    .btn-right {
+      position: absolute;
+      right:0;
+      bottom:8px;
+    }
+    &.main-tit{
+      padding-bottom:38px;
+    }
+  }
+  .table-type1.last-border{
+    td.nodata-pw0{padding:0;
+      .cmp-noData{position: relative;margin:0;
+        &::after{display: block;position: absolute;bottom:-2px;left: 0;right: 0;content: ""; width:100%;height: 2px;background: #fff;}
+      }
+    }
+  }
+  .section-box {
+    border-bottom:1px solid var(--border-color-light-grey);
+    padding-bottom:24px;
+    &:not(:first-child) {
+      padding-top:24px
+    }
+    &.pt-40{padding-top:40px;}
+    &.box-no-line {
+      border-bottom:none;
+      padding-top:60px;
+      .item-list {
+        // border-bottom:1px solid var(--border-color-light-grey);
+        padding-bottom:24px 
+      }
+    }
+    .table-type1 {
+      th {
+        @include fontStyle(14);
+        border-bottom: 0;
+        background: #f8f8f8;
+      }
+      td {
+        @include fontStyle(14);
+        padding:13px 0;
+      }
+      .cmp-form-radioGroup {
+        .cmp-form-radio{
+          width:18px;
+          margin:0 auto;
+        }
+      }
+    }
+    .text-list {
+      margin-top:20px;
+      li {
+        display: flex;
+        align-items: center;
+        @include fontStyle(14);
+        &:not(:first-child) {
+          padding-top:10px;
+        }
+        p {
+          span {
+            color:$color-red;
+          }
+        }
+      }
+      .chip {
+        display: inline-block;
+        height: 22px;
+        padding: 0 4px;
+        @include fontStyle(10,$color:$color-white,$line-height:2.2rem);
+        background-color: #000;
+        margin-right:10px;
+      }
+    }
+    .item-list {
+      > li {
+        &:not(:first-child) {
+          border-top:1px solid $color-black;
+          padding-bottom:0;
+          margin-top: 24px;
+        }
+        padding-top:24px;
+      }
+      .item-header {
+        padding-bottom:20px;
+        h4 {
+          @include fontStyle(20,$font-weight:400);
+          span.c-red{vertical-align: top;}
+        }
+      }
+      .item-number {
+        display: flex;
+        align-items: center;
+        .tip-btn.cmp-tooltip-box{width: auto;height: 22px;
+          button{width: auto;height:22px;
+            span.cmp-icon{display: none;}
+            &::after{content: "사유보기";display:block;@include fontStyle(14,$color:var(--text-color-grey),$line-height:16px);border-bottom:1px solid var(--text-color-grey);}
+            &::before{display: none;}
+          }
+        }
+      }
+      .cmp-info {
+        &.info-type3 {
+          margin-top:20px;
+          p {
+            @include fontStyle(14);
+          }
+        }
+      }
+      .item-cont {
+        border-top:1px solid var(--border-color-light-grey);
+        margin-top:24px;
+        padding-top:24px;
+      }
+      .item-file-after {
+        margin-top:24px;
+        .cmp-form-file {
+          margin-right:16px;
+        }
+      }
+      .item-file {
+        // margin-top:24px;
+        .cmp-form-file {
+          margin-right:16px;
+        }
+      }
+    }
+    .refund-box {
+      .cust {
+        border-bottom:0;
+        padding-bottom:0;
+        margin-bottom:16px;
+      }
+    }
+    .store-select-cnt{
+        &:not(:last-child){border-bottom:1px solid #f0f0f0}
+        .store-info-cnt{
+          padding:24px 50px 24px 0;position:relative;
+          .cmp-form-radio{
+              align-items:flex-start;
+              .v-input--selection-controls__input{margin-top:2px;}
+              .v-label{
+                  flex-wrap:wrap;
+                  .txt0{
+                      @include fontStyle(16);
+                      width:100%;
+                      margin-bottom:10px;
+                      strong{font-weight:700}
+                  }
+                  .txt1,
+                  .txt2{@include fontStyle(14);width:100%;}
+              }
+            }
+            .cmp-dotList{margin-top:20px;}
+            .map-btn{position:absolute;right:-6px;top:18PX;width:36px;height:36px;display:flex;align-items:center;justify-content:center;}
+        }
+        .date-map-cnt{
+            padding:24px;background:#f8f8f8;
+            .date-select{
+                .tit{@include fontStyle(16);margin-bottom:10px;}
+                .cmp-line-radio{background:#fff;margin-bottom:20px;}
+                & + .area-map{margin-top:24px}
+            }
+            .area-map{position:relative;width:100%;height:255px;}
+        }
+    }
+    .section-box {
+      border-bottom:none;padding-bottom:0;  
+      + .cmp-sub-tit {border-top:1px solid var(--border-color-light-grey);}
+    }
+  }
+  .checkbox-cont {
+    margin-top:24px;
+  }
+  .payment-info {
+    text-align: center;
+    padding-top:40px;
+  }
+  .cmp-order-state {
+    width: 518px;
+    margin:0 auto;
+    padding-top:20px;
+    .cmp-font {
+      text-align: center;
+    }  
+    .cmp-tooltip-box .tooltip-cnt{z-index:9;}
+  }
+  .order-number-box {
+    padding-top:60px;
+  }
+  .item-review {
+    position: relative;
+    // margin-bottom:24px;
+    padding-bottom:24px;
+    .review {
+      @include fontStyle(16);
+      @include lineClamp(6);
+      &.more {
+        @include lineClamp(30);
+      }
+    }
+    .button {
+      position: absolute;
+      bottom:0;
+      right:0;
+    }
+    .item-file-type {
+      .attach-file-list {
+        margin-bottom:0;
+      }
+    }
+  } 
+  .hc-couponBox {
+    border-top:2px solid $color-primary;
+    border-bottom:1px solid var(--border-color-light-grey);
+    padding: 40px 0;
+    margin-bottom:36px;
+    .contents-coupon-list {
+      width:343px;
+      margin:0 auto;
+      .cmp-info {position:relative;padding:8px 16px;
+        &:not(:first-child) {
+          margin-top:6px;
+        }
+        .cmo-font{display:flex;justify-content:space-between;padding-left:52px;
+          strong {
+            position: absolute;top:8px;left:16px;width:52px;
+            &::after{position: absolute; content: "";display: block;width:1px; height:12px; top:4px; right:12px; background: #000;}
+          }
+        }
+      }
+      .sub-text {
+        margin-top:10px;
+        @include fontStyle(14);
+        a{
+          span{border-bottom: 1px solid $color-darkGrey;}
+        }
+      }
+      .cmp-tooltip-box{
+        &::before{position: absolute; content: "";display: block;width:32px;height: 32px;top:50%; left:50%; transform: translate(-50%,-50%);}
+        .vouchseTooltip{
+          >*{z-index: 3;position: relative;}
+          &::after{position: absolute; content: "";display: block;width:calc(100% + 40px);height:calc(100% + 40px);top:50%; left:50%; transform: translate(-50%,-50%);z-index: 1;}
+        }
+      }
+    }
+  }
+  .vouchseTooltip {
+    .cmp-info {
+      color:$color-black !important;
+    }
+  }
+  .apply-complete {
+    text-align: center;
+    .cmp-font {
+      padding-top:20px
+    }
+  }
+  .store-box {
+    .cmp-icon-before {
+      @include fontStyle(14);
+      &.i-locoff {
+        margin-left:10px;
+        &::before {
+          margin-right:0;
+        }
+      }
+      &.i-locon {
+        margin-left:10px;
+        &::before {
+          margin-right:0;
+        }
+      }
+    }
+  }
+  .date-map-cnt {
+    padding: 24px;
+    background: #f8f8f8;
+    margin-top:20px;
+    .area-map {
+      position: relative;
+      width: 100%;
+      height: 255px;
+    }
+  }
+  .cmp-dotList {
+    li{
+      &.nodotType {
+        padding-left:0;
+      }
+    }
+  }
+  .item-file {
+    .attach-file-list {
+       + .cmp-font.fnt-14 {margin-top:10px;}
+    }
+  }
+
+  //  마이수선 테이블
+  .repairTable{
+    tr th, tr td{
+      &:nth-child(3){padding-left: 40px;}
+      &:nth-child(4){padding-right: 20px;}
+    }
+  }
+
+  .cmp-form-calendarBox.btn-type{width:295px;margin: 0 auto;overflow: hidden; height: 0; margin-top: 10px; margin-bottom: -10px;
+    .calendar-box{margin-right: 0;height: 0;border: 0;
+      fieldset {border:0;}
+    }
+  }
+}
+
+/* 수선조회 */
+.hansomecare-repairlinquiry{
+  .formBox{border-top: 1px solid $color-primary;}
+  .cmp-form-input{max-width: 449px;}
+  .info-border-box.size2{
+    padding:20px 0;
+    .box .line dt.tit{min-width: 150px; padding-right: 30px;}
+  }
+  .search-layout{
+    >div{width: calc(50% - 21px);
+      .cmp-form-input{position: relative;
+        .v-text-field__details{position: absolute; bottom: -26px; left: 0;}
+      }
+    }
+  }
+}

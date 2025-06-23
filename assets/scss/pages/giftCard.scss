@@ -1,0 +1,399 @@
+@import '@/assets/scss/mixin.scss';
+
+// 추후 공통에 생기면 교체
+.v-btn.v-size--small {
+  width:96px;border-color:#e6e6e6;
+  .v-btn__content {@include fontStyle(14);}
+} 
+/* 우측 결제창 */
+.message-payment {position:relative;}
+.gift-payment {position:sticky;top:calc(var(--header-body) + 5px)}
+/* 테이블 내 카드 */
+.card-content {
+  display:flex;align-items:center;
+  .img {width:105px;max-width:105px;margin-right:20px;}
+  .thumb{position:relative;width:105px;max-width:105px;margin-right:20px;overflow: hidden;border-radius:4px;
+    .card-logo{position: absolute; transform: translateY(0%);bottom: 6.3px; right: 6.3px; top: unset; width: 29.46px;}
+  }
+  .text {
+    > p {margin:4px 0 0;@include fontStyle(14);}
+  }
+}
+/* 받는사람 */
+.card-receiver {
+  h5 {@include fontStyle(20, $font-weight:400);}
+  p {margin:10px 0 0;@include fontStyle(14);}
+}
+
+.content-giftcard {
+  .gift-payment {
+    width:300px;min-width:300px;padding:34px 20px;border:1px solid #f0f0f0;
+    .dl-wrap {
+      margin:0 0 33px;padding:0 0 34px;border-bottom:1px solid #f0f0f0;
+      dl {
+        display:flex;align-items:center;justify-content:space-between;@include fontStyle(16);
+        &~dl {margin:20px 0 0;}
+        dd {text-align:right;}
+        .guide-text {margin:8px 0 0;@include fontStyle(13, $color:#707070);}
+      }
+    }
+    .total {
+      margin:0 0 34px;text-align:right;
+      dt {@include fontStyle(16);}
+      dd {
+        @include fontStyle(20);
+        strong {@include fontStyle(24);}
+      }
+    }
+    .btn .v-btn {width:100%;min-width:auto !important;@include fontStyle(16);}
+  }
+  .message-payment {
+    display:flex;justify-content:space-between;align-items:flex-start;
+    .gift-message {
+      width:600px;min-width:600px;
+    }
+  }
+  .check-wrap {
+    display:flex;margin:24px 0 12px;align-items:center;justify-content:space-between;
+    .text {@include fontStyle(14)} 
+  }
+}
+
+/* e-Gift Card(0501) */
+.gc-main {
+  .content-section~.content-section {border-top:1px solid #f0f0f0;}
+  .top-box {
+    display:flex;background:#f8f8f8 url(/images/egiftcard/bg.png) no-repeat 100% 50%;
+    .box-title {
+      width:500px;padding:80px 50px 92px;
+      p {@include fontStyle(16)}
+      strong {display:block;margin:10px 0 0;@include fontStyle(24, $font-weight:400)}
+    }
+  }
+  .card-list {
+    display:flex;margin-top:-23px;justify-content: flex-start;flex-wrap: wrap;
+    > li {position:relative;width:335px;margin:63px 30px 0;
+      &:nth-child(2n){margin-right: 105px;}
+      &:nth-child(2n-1){margin-left: 105px;}
+      .cmp-labels {position:absolute;right:18px;top:17px;}
+      &.soldout {
+        pointer-events:none;
+        &:before {position:absolute;left:50%;top:50%;z-index:5;margin-top:-18px;transform:translate(-50%, -50%);@include fontStyle(14, $color:#999, $font-weight:700);content:"SOLD OUT";}
+        .card-inner {opacity:0.25;}
+        .cmp-labels {
+          color:#fff !important;background-color:#999 !important;border-color:#999 !important;
+          .label {color:#fff !important;background-color:#999 !important;border-color:#999 !important;}
+        }
+      }
+    }
+    .list-info {
+      display:flex;padding:10px 0 0;align-items:center;justify-content:space-between;
+      .info-title {@include fontStyle(16, $font-weight:400);@include ellipse()}
+      .info-price {@include fontStyle(16);margin-left:4px;
+        strong {margin-right:2px;@include fontStyle(18);}
+      }
+    }
+    .thumb {position:relative;width:335px;height:210px;overflow: hidden;border-radius:10px;border:1px solid #f0f0f0;
+      .v-image{transform: translateY(-50%);top: 50%;
+        &.card-logo{position: absolute; transform: translateY(0%);bottom: 18px; right: 20px; top: unset; width: 94px;}
+      }
+    }
+  }
+  .article-title {margin:34px 0 24px;@include fontStyle(18, $font-weight:400);}
+  .section-cardlist {padding-bottom:70px;}
+  .section-howto {
+    padding:60px 0 34px;
+    .giftcard-howto {
+      .gift-step-list {
+        margin:0 0 20px;padding:0 0 24px;border-bottom:1px solid #000;font-size:0;
+        > li {
+          position:relative;display:inline-block;vertical-align:top;box-sizing:border-box;width:calc(100% / 4);text-align:center;@include fontStyle(16);
+          > p {margin:10px 0 0;}
+          &:not(:last-child)::after {content:'';position:absolute;right:0;top:50%;width:24px;height:24px;background:url(/images/egiftcard/gift-step-next.png) no-repeat 0 0;background-size:100% 100%;transform:translate(50%, -50%);}
+        }
+      } 
+      .info-text {@include fontStyle(14)}
+    }    
+  }
+}
+
+/* 0503, 0515 */
+.card-area {
+  .card-image {
+    width:335px;height:210px;margin:0 auto;overflow: hidden;position: relative;border-radius:10px;border:1px solid #f0f0f0;
+  }
+  .card-message {
+    padding: 24px 24px 20px;background-color:#fff;
+    .message-title {
+      padding:0 0 8px;border-bottom:1px solid #f0f0f0;text-align:center;
+      h4 {@include fontStyle(18, $font-weight:400);}
+      p {margin:2px 0 0;@include fontStyle(16);}
+    }
+  }
+}
+
+/* e-Gift Card 선물하기(0503) */
+.gc-gift {
+  .gift-payment, .card-area {min-height:611px;}
+  .receiver-list-wrap {margin:60px 0 0;}
+  .golink {
+    position:relative;width:100%;margin:24px 0 0;
+    i {position:absolute;right:0;top:2px;}
+  }
+  .user-list {
+    > li {margin:0 0 20px;}
+    .btn-del {
+      text-align:right;
+      span {display:inline-block;margin:10px 0 0;@include fontStyle(13, $line-height:16px);}
+    }
+  }
+  .card-area {
+    padding:30px 40px 44px;text-align:center;
+    .card-image {
+      .v-image {transform: translateY(-50%);top: 50%;
+        &.card-logo{position: absolute; transform: translateY(0%);bottom: 18px; right: 20px; top: unset; width: 94px;}
+      }
+    }
+    .card-message {margin-top:60px;
+      .message-input {
+        padding:16px 0 0;
+        .v-input__control .v-input__slot {
+          height:auto;min-height:auto;background-color:transparent;
+          fieldset {border:0;}
+          textarea {margin:16px 0;padding:0 !important;@include fontStyle(16, $color:#000)}
+          .v-label {padding:0 !important;color:#767676;}
+        }
+      }
+    }
+  }
+  .gift-payment .dl-wrap dl.quantity {
+    align-items:flex-start;
+    dt {margin:10px 0 0;}
+  }
+}
+
+/* e-Gift Card 결제하기(0504) */
+.gc-payment {
+  .card-area{
+    .card-image {position:relative;width:335px;height:210px;overflow: hidden;border-radius:10px;margin:0;
+      .card-logo{position: absolute; transform: translateY(0%);bottom: 18px; right: 20px; top: unset; width: 94px;}
+    }
+  }
+  .swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {opacity:1;}
+  .message-payment {
+    .sec1 {
+      padding:56px 0 24px;border-top:2px solid #000;border-bottom:1px solid #f0f0f0;
+      .card-area {
+        display:flex;align-items:flex-start;
+        .card-message {
+          padding:0 0 0 20px;flex:1;
+          .message-title {border-bottom:0;text-align:left;}
+          .message-title h4 {@include fontStyle(18, $font-weight:400)}
+          .message-title p {
+            margin:8px 0 0;@include fontStyle(16);
+            strong {margin-right:3px;}
+          }
+        }
+      }
+      .card-text {margin:20px 0 0;padding:24px;background-color:#f8f8f8;@include fontStyle(14);word-break:break-all;white-space: pre-wrap;}
+    }
+    .sec2 {
+      .sec-title {margin:0 0 24px;padding:60px 0 20px;border-bottom:1px solid #000;@include fontStyle(24, $font-weight:400);}
+      .card-swiper { // H.Point Pay 결제 swiper
+        overflow:hidden;position:relative;margin:0 0 40px;padding:0 32px 0;
+        .swiper-container {overflow:visible;}
+        .swiper-slide {opacity:0;}
+        .swiper-slide:not(.swiper-slide-next, .swiper-slide-active) {pointer-events:none;}
+        .swiper-slide-next, .swiper-slide-active {opacity:1;}
+        .card-item {
+          padding:16px 20px 20px 20px;border:1px solid #e5e5e5;height: 112px;
+          h5 {
+            display:flex;@include fontStyle(18, $font-weight:400);align-items:center;
+            .v-image {width:23px;max-width:23px;margin-right:4px}
+          }
+          .logo-cnt{
+            display:flex;align-items:center;justify-content:flex-start;min-height:26px;
+            img{width:auto;height:23px;}
+            span{@include fontStyle(18, $font-weight:400);margin-left:4px;}
+          }
+          > P {margin:4px 0 0;@include fontStyle(14);}
+          .halbu {
+            display:flex;margin:20px 0 0;align-items:center;
+            strong {margin-right:11px;@include fontStyle(12);}
+            .cmp-form-select {flex:1;}
+          }
+        }
+        .card-add{
+          box-sizing:border-box;height:150px;width:266px;border:1px solid #e5e5e5;position:relative;
+          .bar{
+              position:relative;width:15px;height:15px;display:block;margin:0 auto 5px auto;
+              &::before,&::after{content:"";position:absolute;background-color:#000;}
+              &::before{width:15px;height:1px;left:0;top:7px;}
+              &::after{width:1px;height:15px;left:7px;top:0;}
+          }
+          .txt{
+              @include fontStyle(16);
+              strong{color:#573AE2;font-weight:400;}
+          }
+      }
+        .swiper-buttons {
+          .swiper-button {
+            width:20px;height:20px;transform:translateY(-50%);
+            &:after {width:100%;height:100%;font-size:20px;background:none;}
+          }
+          .swiper-button-prev {left:0;}
+          .swiper-button-next {right:0;}
+        }
+        .swiper-slide {width:261px;}
+      }
+      .select-box {
+        display:flex;padding:40px 30px;border:1px solid #e5e5e5;align-items:center;
+        span {width:136px;@include fontStyle(20);}
+        .cmp-form-select {
+          flex:1;
+          &~.cmp-form-select {margin-left:4px;}
+        }
+      }
+    }
+  }   
+  .gift-payment {
+    .check-wrap {margin-bottom:18px;}
+  } 
+  .card-benefit {
+    margin:24px 0 0;border-top:1px solid #f0f0f0;
+    .banner-swiper {width:860px}
+    .golink {margin:34px 0;}
+  }
+  .selector.active {border-color:#000 !important;box-shadow:5px 7px 10px 0px rgba(0,0,0,0.1);}
+}
+
+/* e-Gift Card 선물완료(0506) */
+.order-complete {
+  .contents-r-layout {
+    .giftcard-letter-box {
+      padding-top:20px;
+      .text {margin:24px 0 0;@include fontStyle(24, $font-weight:400);text-align:center;}
+      .img-cnt {
+        position:relative;box-sizing:border-box;padding-top:31px;margin:0 auto;width:302px;height:280px;overflow:hidden;background:url(/images/egiftcard/letter-bg.png) no-repeat center 0;text-align:center;
+        .img {margin-top:10px;}
+        .l-bg,
+        .r-bg,
+        .b-bg {position:absolute;bottom:0;width:100%;background-size:100% 100%;background-repeat:no-repeat;}
+        .l-bg {left:0;height:180px;background-image:url(/images/egiftcard/letter-l-bg.png);}
+        .r-bg {right:0;height:180px;background-image:url(/images/egiftcard/letter-r-bg.png);}
+        .b-bg {z-index:2;left:0;height:103px;background-image:url(/images/egiftcard/letter-b-bg.png);}
+      }
+    }
+    .cmp-dotList {
+      padding:20px 0 0;border-top:1px solid #f0f0f0;
+      span {font-size:inherit !important;line-height:inherit !important}
+    }
+  }
+}
+
+/* e-Gift Card 상세내역(0512) */
+.gc-useagedetail {
+  .grey-box {
+    display:flex;margin:40px 0 0;padding:24px;align-items:center;
+    dl {
+      display:flex;position:relative;width:50%;align-items:center;justify-content:center;@include fontStyle(18);
+      &~dl::before {position:absolute;left:0;top:50%;width:1px;height:24px;background-color:#e5e5e5;content:'';transform:translateY(-50%);}
+      dd {margin-left:40px;}
+    }
+  }
+  .card-info {
+    display:flex;align-items:flex-start;line-height:1;
+    .v-image {width:335px;max-width:335px;border-radius:10px;border:1px solid #f0f0f0;}
+    .details {padding:0 0 0 30px;}
+  }
+  .cmp-acc.acc-type2 {border-top:2px solid #000;padding-top:24px;}
+  .cmp-acc.acc-type2 .v-expansion-panel:last-child {border-bottom:0;}
+  .cmp-acc.acc-type2 .v-expansion-panel-header {padding-bottom:0;padding-top:0;}
+  .cmp-acc .v-expansion-panel-content__wrap {
+    padding:0;background-color:transparent;
+    .panel-content {margin:20px 0 0;padding:24px;background-color:#f8f8f8;}
+  }
+}
+
+/* e-Gift Card 선물내역-목록(0513) */
+.my-giftlist {
+ // .top-tab {margin:0 0 30px;}
+  .table-wrap {
+    margin:30px 0 40px;
+    .table-type1{
+      tbody{
+        tr.user{
+          td{padding-bottom: 8px;border-bottom:0; }
+          & +tr{
+            td{padding-top:0;}
+          }
+        }
+      }
+    }
+  }
+  .order-number-box {padding:0 0 10px;}
+  .list-paging {margin-bottom:40px;}
+  .btm-notice {margin-top:0}
+}
+
+/* e-Gift Card 선물내역-상세(0514) */
+.my-giftdetail {
+  .card-receiver {
+    p {margin:0;@include fontStyle(16);}
+    .receiver {display:flex;min-height:36px;margin:10px 0 0;align-items:center;justify-content:space-between;}
+  }
+  .table-wrap{
+    .cmp-dotList{
+      > li:not(:last-child){margin-bottom: 8px;}
+    }
+  }
+}
+
+/* e-Gift Card 사용내역(0516) */
+.my-giftcardpossible {
+  .center-between {display:flex;align-items:center;justify-content:space-between;}
+  .cmp-noData .inner .info-text {@include fontStyle(16);}
+  .cmp-acc .v-expansion-panel-content__wrap {border-bottom:1px solid #f0f0f0;}
+  .btns .v-btn {
+    display:block;margin:0 auto;
+    ~.v-btn {margin-top:4px;}
+  }
+  .emoney-box {
+    margin:0 0 30px; padding:24px 40px;color:#fff;background-color:#000;
+    .upper {
+      .emoney-label {@include fontStyle(18)}
+      .link {
+        @include fontStyle(14);
+        i {filter:invert(1);}
+      }
+    }
+    .bottom {
+      margin:50px 0 0;
+      .remain {
+        @include fontStyle(24);
+        strong {@include fontStyle(40)}
+      }
+      .dl-wrap {
+        @include fontStyle(16);
+        &.add-text{
+          width: 35.234%;
+          dt {width:auto;min-width:190px;}
+          dl~dl {margin:4px 0 0;}
+        }
+        dt {width:190px;min-width:190px;}
+        dl~dl {margin:4px 0 0;}
+      }
+    }
+  }
+  .card-content{
+    .img{
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    
+    .gc-label {
+      padding: 2px 4px;
+      @include fontStyle(10,$font-weight:700,$line-height:14px);
+    }
+  }
+}
