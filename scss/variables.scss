@@ -1,0 +1,209 @@
+// vuetify 변수를 사용 가능
+//@import '~vuetify/src/styles/styles.sass';
+$window-max-width:1800px;
+$window-min-width:1320px;
+$window-max-width-full:1920px;
+$window-min-width-full:1420px;
+
+$color-pack: false;
+$body-font-family: 'Pretendard', -apple-system, BlinkMacSystemFont,
+  '애플 SD 산돌고딕 Neo', 'Apple SD Gothic Neo', Roboto, 'Noto Sans KR',
+  sans-serif !important;
+$pw-font-family:'pass', sans-serif !important;
+$border-radius-root: 0px;
+$font-size-root: 62.5% !default;
+$font-size: 1.6rem !default;
+$line-height-root: 2.4rem !default;
+$spacer: 1px !default;
+$grid-gutter: $spacer * 2 - 1 !default;
+$container-padding-x: $grid-gutter / 1 !default;
+
+// Button
+$btn-letter-spacing: 0;
+$btn-font-weight: 400;
+$btn-sizes: (
+  'small': 36,
+  'default': 42,
+  'large': 60,
+  'x-large': 60,
+);
+$btn-font-sizes: (
+  'small': 1.4rem,
+  'default': 1.6rem,
+  'large': 1.6rem,
+  'x-large': 1.6rem,
+);
+$btn-font-weight: 400 !default;
+$btn-hover-opacity: 0.025 !default;
+$btn-text-transform: none !default;
+$fab-sizes: (
+  'small': 44,
+  'default': 56,
+  'large': 64,
+  'x-large': 72,
+);
+$btn-toggle-btn-height: 38px;
+$btn-toggle-btn-opacity: 1 !default;
+// 칩
+$chip-line-height: 1.1;
+$chip-padding: 0 4px !default;
+$icon-sizes: (
+  'x-small': (
+    'font-size': 9,
+    'height': 10,
+  ),
+  'small': (
+    'font-size': 10,
+    'height': 16,
+  ),
+  'default': (
+    'font-size': 12,
+    'height': 20,
+  ),
+  'large': (
+    'font-size': 14,
+    'height': 26,
+  ),
+  'x-large': (
+    'font-size': 16,
+    'height': 32,
+  ),
+);
+$text-field-border-radius: 0 !default;
+$text-field-padding: 2px 0 !default;
+$text-field-label-top: 0;
+$text-field-label-active-transform: translateY(0px) scale(0) !default;
+$text-field-outlined-fieldset-top: 0;
+// 높이
+$text-field-filled-full-width-outlined-slot-min-height: 50px !default; //로그인
+$text-field-filled-full-width-outlined-single-line-slot-min-height: 36px !default; //일반
+$text-field-filled-full-width-outlined-dense-slot-min-height: 46px !default; //
+// 리스트
+$list-padding: 0 !default;
+$list-item-padding: 0 !default;
+$list-item-content-padding: 0;
+$tabs-item-letter-spacing: 0;
+// 텝
+$tabs-item-padding: 0 4px !default;
+/* 상품 카드 */
+$card-actions-padding: 0 !default;
+$card-border-radius: 0 !default;
+$card-elevation: 0 !default;
+$card-text-font-size: 1.4rem;
+$card-text-line-height: 1.8rem;
+$card-title-font-size: 1.8rem; 
+$card-subtitle-padding: 0;
+$card-title-adjacent-sibling-subtitle-margin-top: 0;
+$radio-margin-right: 8px !default;
+$list-padding: 0 !default;
+$list-item-action-margin: 0 !default;
+$list-item-title-font-size: 1.6rem;
+$list-item-dense-title-font-size: 1.6rem;
+$list-item-dense-title-font-weight: initial;
+$breadcrumbs-even-child-padding: 0 4px !default;
+$pagination-item-height: 30px !default;
+$pagination-item-min-width: 30px !default;
+$pagination-item-font-size: 0.75rem !default;
+$tab-font-size: 1.6rem;
+$tabs-bar-height: 48px !default;
+$subheader-item-single-height: 100% !default;
+$subheader-left-padding: 4px !default;
+$subheader-right-padding: 4px !default;
+// 테이블
+$data-table-mobile-row-min-height: 40px !default;
+$data-table-regular-header-height: 40px !default;
+$data-table-regular-row-height: 40px !default;
+$data-table-expanded-content-box-shadow: inset 0px 0px 0px 0px
+    rgba(50, 50, 50, 0.75),
+  inset 0px 0px 0px 0px rgba(50, 50, 50, 0.75) !default;
+$data-table-regular-header-font-size: 1.4rem !default;
+$data-table-regular-row-font-size: 1.3rem !default;
+$date-picker-header-padding: 4px 40px !default;
+$expansion-panel-header-min-height: 40px !default;
+$expansion-panel-active-header-min-height: 40px !default;
+$expansion-panel-header-padding: 10px !default;
+$expansion-panel-content-padding: 4px !default;
+$stepper-elevation: 0 !default;
+$stepper-header-elevation: 0 !default;
+$stepper-header-height: auto !default;
+$stepper-step-padding: 10px !default;
+$time-picker-indicator-size: 30px !default;
+$time-picker-ampm-title-font-size: 13px !default;
+$time-picker-clock-padding: 40px !default;
+$time-picker-ampm-padding: 40px !default;
+$time-picker-title-btn-height: 40px !default;
+// 팝업
+$dialog-border-radius: 0 !default;
+$dialog-margin: 20px !default;
+// 아코디언
+$expansion-panel-border-radius: 0 !default;
+
+// 사용자 정의 변수
+// 여기에 매인컬러, 서브컬러 등의 변수를 설정하면 SCSS 어디에서도 사용할 수 있습니다.
+//////////////////////////////////////////////
+$material-light: (
+  'cards': #e0e0e0,
+  'text': (
+    'primary': rgba(0, 0, 0, 0.76),
+    'secondary': grey,
+  ),
+);
+/* UI */
+$ui-spacing: 20px; // 컨텐츠 전체 상/좌/우 여백
+$percent-100: 100%;
+/* UNIT-사이즈 */
+$icon-size: 1.4rem;
+/* UNIT-[공통]배경/폰트 컬러 */
+$color-white: #fff;
+$color-blue: #2950b1;
+$color-light-blue: #5230F6;
+$color-indigo :#5676c5;
+$color-red: #df2101;
+$color-darkGrey: #707070;
+$color-lightGrey: #e5e5e5;
+$color-black: #000;
+$color-grey-9 :#999999;
+$color-grey-c : #cccccc;
+$color-grey-76: #767676;
+$color-brown : #9c664c;
+
+$color-primary: #000;
+$color-brand: #000;
+$color-point: #df2101;
+$color-secondary: #2950b1;
+$color-accent: #ed4444;
+$color-error: #df2101;
+$color-disabled: #e5e5e5;
+
+:root {
+  --text-color-grey:#707070;
+  --text-color-grey-9:#999;
+
+  --point-color-peach:#e2614b;
+  --point-color-orange:#EB5B38;
+  --point-color-discount:#EF3313;
+
+  --border-color-light-grey:#f0f0f0;
+  --border-color-grey:#e5e5e5;
+  --border-color-grey-c:#ccc;
+
+  --bg-color-grey-c:#ccc;
+
+  --header-height: 56px;
+  --header-body: 64px;
+  --footer-height: 100px;
+  --main-swipe-navi-height: 40px;
+  --top-button-bottom: 40px;
+  --top-button-size: 48px;
+  --top-button-gap: 12px;
+  --content-padding-bottom: 60px;
+
+  --header-zidx:15;
+  --header-dimmed-zidx:4;
+  --actionbar-zidx:4;
+  --fixed-button-zidx:10;
+  --navigation-drawer-zidx:20;
+  --toast-zindex:300;
+
+  --transition-speed: 300ms;
+}
