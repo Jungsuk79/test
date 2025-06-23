@@ -1,0 +1,347 @@
+{
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  },
+  "HandsomeCareLaundryCare": {
+    "description": "Auto imported from components/handsomeCare/LaundryCare.vue"
+  },
+  "HandsomeCareRepairCare": {
+    "description": "Auto imported from components/handsomeCare/RepairCare.vue"
+  },
+  "GiftCardMessage": {
+    "description": "Auto imported from components/giftCard/CardMessage.vue"
+  },
+  "CommonActionBar": {
+    "description": "Auto imported from components/common/ActionBar.vue"
+  },
+  "CommonAppBanner": {
+    "description": "Auto imported from components/common/AppBanner.vue"
+  },
+  "CommonBreadcrumbs": {
+    "description": "Auto imported from components/common/Breadcrumbs.vue"
+  },
+  "CommonCalendarBox": {
+    "description": "Auto imported from components/common/CalendarBox.vue"
+  },
+  "CommonChatbot": {
+    "description": "Auto imported from components/common/Chatbot.vue"
+  },
+  "CommonBanner": {
+    "description": "Auto imported from components/common/CommonBanner.vue"
+  },
+  "CommonContentsLeftMenu": {
+    "description": "Auto imported from components/common/ContentsLeftMenu.vue"
+  },
+  "CommonCountingBox": {
+    "description": "Auto imported from components/common/CountingBox.vue"
+  },
+  "CommonFilterLayer": {
+    "description": "Auto imported from components/common/FilterLayer.vue"
+  },
+  "CommonFooter": {
+    "description": "Auto imported from components/common/Footer.vue"
+  },
+  "CommonGnb": {
+    "description": "Auto imported from components/common/Gnb.vue"
+  },
+  "CommonGnbCategory": {
+    "description": "Auto imported from components/common/GnbCategory.vue"
+  },
+  "CommonHeader": {
+    "description": "Auto imported from components/common/Header.vue"
+  },
+  "CommonHeaderBackup": {
+    "description": "Auto imported from components/common/HeaderBackup.vue"
+  },
+  "CommonHeaderCategory": {
+    "description": "Auto imported from components/common/HeaderCategory.vue"
+  },
+  "CommonHeaderCategoryBrand": {
+    "description": "Auto imported from components/common/HeaderCategoryBrand.vue"
+  },
+  "CommonNavigationBar": {
+    "description": "Auto imported from components/common/NavigationBar.vue"
+  },
+  "CommonNoData": {
+    "description": "Auto imported from components/common/NoData.vue"
+  },
+  "CommonProductCountingBox": {
+    "description": "Auto imported from components/common/ProductCountingBox.vue"
+  },
+  "CommonQuickFilterLayer": {
+    "description": "Auto imported from components/common/QuickFilterLayer.vue"
+  },
+  "CommonSearchLayer": {
+    "description": "Auto imported from components/common/SearchLayer.vue"
+  },
+  "CommonSelectBox": {
+    "description": "Auto imported from components/common/SelectBox.vue"
+  },
+  "CommonSelectSortBox": {
+    "description": "Auto imported from components/common/SelectSortBox.vue"
+  },
+  "CommonShareBox": {
+    "description": "Auto imported from components/common/ShareBox.vue"
+  },
+  "CommonSortLayer": {
+    "description": "Auto imported from components/common/SortLayer.vue"
+  },
+  "CommonSubMenu": {
+    "description": "Auto imported from components/common/SubMenu.vue"
+  },
+  "CommonTooltipBox": {
+    "description": "Auto imported from components/common/TooltipBox.vue"
+  },
+  "CommonTopButton": {
+    "description": "Auto imported from components/common/TopButton.vue"
+  },
+  "CommonVideoPlayer": {
+    "description": "Auto imported from components/common/VideoPlayer.vue"
+  },
+  "BrandEditshopLink": {
+    "description": "Auto imported from components/brand/BrandEditshopLink.vue"
+  },
+  "BrandList": {
+    "description": "Auto imported from components/brand/BrandList.vue"
+  },
+  "BrandMovie": {
+    "description": "Auto imported from components/brand/BrandMovie.vue"
+  },
+  "BrandNews": {
+    "description": "Auto imported from components/brand/BrandNews.vue"
+  },
+  "BrandNewSwiper": {
+    "description": "Auto imported from components/brand/BrandNewSwiper.vue"
+  },
+  "BrandPoSlider": {
+    "description": "Auto imported from components/brand/BrandPoSlider.vue"
+  },
+  "BrandSlider": {
+    "description": "Auto imported from components/brand/BrandSlider.vue"
+  },
+  "BrandTopSwiper": {
+    "description": "Auto imported from components/brand/BrandTopSwiper.vue"
+  },
+  "BrandTopVisual": {
+    "description": "Auto imported from components/brand/BrandTopVisual.vue"
+  },
+  "BrandSystemContent": {
+    "description": "Auto imported from components/brand/SystemContent.vue"
+  },
+  "BrandSystemKeyword": {
+    "description": "Auto imported from components/brand/SystemKeyword.vue"
+  },
+  "BrandSystemLink": {
+    "description": "Auto imported from components/brand/SystemLink.vue"
+  },
+  "BrandSystemProdList": {
+    "description": "Auto imported from components/brand/SystemProdList.vue"
+  },
+  "BrandSystemReview": {
+    "description": "Auto imported from components/brand/SystemReview.vue"
+  },
+  "BrandSystemSpecialShop": {
+    "description": "Auto imported from components/brand/SystemSpecialShop.vue"
+  },
+  "BrandSystemVideo": {
+    "description": "Auto imported from components/brand/SystemVideo.vue"
+  },
+  "BrandTimeBestReview": {
+    "description": "Auto imported from components/brand/TimeBestReview.vue"
+  },
+  "BrandTimeBestSeller": {
+    "description": "Auto imported from components/brand/TimeBestSeller.vue"
+  },
+  "BrandTimeContent": {
+    "description": "Auto imported from components/brand/TimeContent.vue"
+  },
+  "BrandTimeKeyword": {
+    "description": "Auto imported from components/brand/TimeKeyword.vue"
+  },
+  "BrandTimeLink": {
+    "description": "Auto imported from components/brand/TimeLink.vue"
+  },
+  "BrandTimeMagazine": {
+    "description": "Auto imported from components/brand/TimeMagazine.vue"
+  },
+  "BrandTimeMenu": {
+    "description": "Auto imported from components/brand/TimeMenu.vue"
+  },
+  "BrandTimeMood": {
+    "description": "Auto imported from components/brand/TimeMood.vue"
+  },
+  "BrandTimeMovie": {
+    "description": "Auto imported from components/brand/TimeMovie.vue"
+  },
+  "BrandTimeNewProd": {
+    "description": "Auto imported from components/brand/TimeNewProd.vue"
+  },
+  "BrandTimeProd": {
+    "description": "Auto imported from components/brand/TimeProd.vue"
+  },
+  "BrandTimeSpecial": {
+    "description": "Auto imported from components/brand/TimeSpecial.vue"
+  },
+  "Member": {
+    "description": "Auto imported from components/member/Index.vue"
+  },
+  "Molecules": {
+    "description": "Auto imported from components/molecules/index.vue"
+  },
+  "Main": {
+    "description": "Auto imported from components/main/Index.vue"
+  },
+  "MainBanner": {
+    "description": "Auto imported from components/main/MainBanner.vue"
+  },
+  "MainBestCateProds": {
+    "description": "Auto imported from components/main/MainBestCateProds.vue"
+  },
+  "MainBestSelling": {
+    "description": "Auto imported from components/main/MainBestSelling.vue"
+  },
+  "MainBrandNew": {
+    "description": "Auto imported from components/main/MainBrandNew.vue"
+  },
+  "MainBrandProdRecom": {
+    "description": "Auto imported from components/main/MainBrandProdRecom.vue"
+  },
+  "MainCelebPick": {
+    "description": "Auto imported from components/main/MainCelebPick.vue"
+  },
+  "MainCuration": {
+    "description": "Auto imported from components/main/MainCuration.vue"
+  },
+  "MainHotKeyword": {
+    "description": "Auto imported from components/main/MainHotKeyword.vue"
+  },
+  "MainHotProdRecom": {
+    "description": "Auto imported from components/main/MainHotProdRecom.vue"
+  },
+  "MainLookbook": {
+    "description": "Auto imported from components/main/MainLookbook.vue"
+  },
+  "MainNewArrival": {
+    "description": "Auto imported from components/main/MainNewArrival.vue"
+  },
+  "MainNewContents": {
+    "description": "Auto imported from components/main/MainNewContents.vue"
+  },
+  "MainRecommand": {
+    "description": "Auto imported from components/main/MainRecommand.vue"
+  },
+  "MainReview": {
+    "description": "Auto imported from components/main/MainReview.vue"
+  },
+  "MainTheMagazine": {
+    "description": "Auto imported from components/main/MainTheMagazine.vue"
+  },
+  "MainUnion": {
+    "description": "Auto imported from components/main/MainUnion.vue"
+  },
+  "MainVipselect": {
+    "description": "Auto imported from components/main/MainVipselect.vue"
+  },
+  "MainVisual": {
+    "description": "Auto imported from components/main/MainVisual.vue"
+  },
+  "MainVisualTest": {
+    "description": "Auto imported from components/main/MainVisualTest.vue"
+  },
+  "MainVisualTest2": {
+    "description": "Auto imported from components/main/MainVisualTest2.vue"
+  },
+  "MainVisualTest3": {
+    "description": "Auto imported from components/main/MainVisualTest3.vue"
+  },
+  "MypageCodibookItem": {
+    "description": "Auto imported from components/mypage/CodibookItem.vue"
+  },
+  "MypageCodibookLayer": {
+    "description": "Auto imported from components/mypage/CodibookLayer.vue"
+  },
+  "MypageCodibookLayout": {
+    "description": "Auto imported from components/mypage/CodibookLayout.vue"
+  },
+  "MypageThePlusMap": {
+    "description": "Auto imported from components/mypage/ThePlusMap.vue"
+  },
+  "MypageThePlusMapFinish": {
+    "description": "Auto imported from components/mypage/ThePlusMapFinish.vue"
+  },
+  "MypageThePlusMapPopup": {
+    "description": "Auto imported from components/mypage/ThePlusMapPopup.vue"
+  },
+  "MypageThePlusMapReward": {
+    "description": "Auto imported from components/mypage/ThePlusMapReward.vue"
+  },
+  "OrderCouponSelect": {
+    "description": "Auto imported from components/order/CouponSelect.vue"
+  },
+  "OrderNotiBox": {
+    "description": "Auto imported from components/order/notiBox.vue"
+  },
+  "PlanshopMagDetails": {
+    "description": "Auto imported from components/planshop/MagDetails.vue"
+  },
+  "PlanshopMagHeader": {
+    "description": "Auto imported from components/planshop/MagHeader.vue"
+  },
+  "PlanshopMagProds": {
+    "description": "Auto imported from components/planshop/MagProds.vue"
+  },
+  "PlanshopMagRecent": {
+    "description": "Auto imported from components/planshop/MagRecent.vue"
+  },
+  "PlanshopMagStyleTitle": {
+    "description": "Auto imported from components/planshop/MagStyleTitle.vue"
+  },
+  "PlanshopMagTitle": {
+    "description": "Auto imported from components/planshop/MagTitle.vue"
+  },
+  "Product": {
+    "description": "Auto imported from components/product/Index.vue"
+  },
+  "ProductOeraReview": {
+    "description": "Auto imported from components/product/OeraReview.vue"
+  },
+  "ProductOptionSelect": {
+    "description": "Auto imported from components/product/OptionSelect.vue"
+  },
+  "ProductList": {
+    "description": "Auto imported from components/product/ProductList.vue"
+  },
+  "ProductListPaging": {
+    "description": "Auto imported from components/product/ProductListPaging.vue"
+  },
+  "ProductListScroll": {
+    "description": "Auto imported from components/product/ProductListScroll.vue"
+  },
+  "ProductReview": {
+    "description": "Auto imported from components/product/ProductReview.vue"
+  },
+  "ProductReviewMedia": {
+    "description": "Auto imported from components/product/ProductReviewMedia.vue"
+  },
+  "ProductRowUnit": {
+    "description": "Auto imported from components/product/ProductRowUnit.vue"
+  },
+  "ProductUnit": {
+    "description": "Auto imported from components/product/ProductUnit.vue"
+  },
+  "ProductUnitMini": {
+    "description": "Auto imported from components/product/ProductUnitMini.vue"
+  },
+  "ProductUnitMiniMyHeart": {
+    "description": "Auto imported from components/product/ProductUnitMiniMyHeart.vue"
+  },
+  "ProductUnitMiniVideo": {
+    "description": "Auto imported from components/product/ProductUnitMiniVideo.vue"
+  }
+}
