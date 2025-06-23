@@ -1,0 +1,858 @@
+{
+  "list": [
+    {
+      "desc": "일반 로그인통합/한섬/간편",
+      "id": "ME_0101",
+      "url": "/ME/login",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        "20221012 수정"
+      ]
+    },
+    {
+      "desc": "OPT 로그인(POPUP)",
+      "id": "ME_0102",
+      "url": "/ME/0102",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "비밀번호 변경(POPUP)",
+      "id": "ME_0137",
+      "url": "/ME/0137",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "휴면 제한 해제(POPUP)",
+      "id": "ME_0139",
+      "url": "/ME/0139",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "비회원 주문조회(POPUP)",
+      "id": "ME_0902",
+      "url": "/ME/0902",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "아이디 찾기",
+      "id": "ME_0104,ME_0105",
+      "url": "/ME/findID",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "비밀번호 찾기",
+      "id": "ME_0107,ME_0108",
+      "url": "/ME/findPassword",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "간편회원 휴대폰 인증(POPUP)",
+      "id": "ME_0131",
+      "url": "/ME/0131",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        "20221012 클래스추가 및 수정"
+      ]
+    },
+    {
+      "desc": "간편회원 통합 안내(POPUP)",
+      "id": "ME_0132",
+      "url": "/ME/0132",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        "20221012 수정"
+      ]
+    },
+    {
+      "desc": "H.Point 통합 전환 안내(POPUP)",
+      "id": "ME_0133",
+      "url": "/ME/0133",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "H.Point 통합회원 가입 안내(POPUP)",
+      "id": "ME_0134",
+      "url": "/ME/0134",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "임직원 전환 안내",
+      "id": "ME_0215",
+      "url": "/ME/officersCertifyInfo",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "임직원 로그인(POPUP)",
+      "id": "ME_0216",
+      "url": "/ME/0216",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "임직원 인증",
+      "id": "ME_0217",
+      "url": "/ME/officersCertify",
+      "status": "complete",
+      "complete": "2022.06.16",
+      "confirm" :{
+        "plan":"2022.06.17",
+        "design":"2022.06.17"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "400 오류",
+      "id": "CP_0113",
+      "url": "/CP/badRequest",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "500 오류",
+      "id": "CP_0114",
+      "url": "/CP/internalServerError",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "서비스 점검",
+      "id": "CP_0115",
+      "url": "/CP/serviceCheck",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "서비스 점검중 오류",
+      "id": "CP_0116",
+      "url": "/CP/serviceCheckError",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "서비스이용약관-더한섬이용약관",
+      "id": "CP_0201",
+      "url": "/CP/serviceTheHandsome",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "서비스이용약관-한섬통합멤버십이용약관",
+      "id": "CP_0202",
+      "url": "/CP/serviceHandsomeMember",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "서비스이용약관-한섬e-Gift Card이용약관",
+      "id": "CP_0203",
+      "url": "/CP/serviceEGiftCard",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "서비스이용약관-한섬 케어 플러스 이용약관",
+      "id": "CP_0204",
+      "url": "/CP/serviceCarePlus",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "개인정보처리방침-더한섬닷컴",
+      "id": "CP_0205",
+      "url": "/CP/privacyPolicyTheHandsome",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "개인정보처리방침-㈜한섬",
+      "id": "CP_0206",
+      "url": "/CP/privacyPolicyHandsome",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "개인정보처리방침-한섬통합멤버십개인정보처리방침",
+      "id": "CP_0207",
+      "url": "/CP/privacyPolicyMember",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "이전 서비스 약관(POPUP)",
+      "id": "CP_0201",
+      "url": "/CP/0201",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "이전 개인정보처리방침(POPUP)",
+      "id": "CP_0205",
+      "url": "/CP/0205",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm" :{
+        "plan":"2022.06.21",
+        "design":"2022.06.22"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "배송/교환/반품(POPUP)",
+      "id": "PM_0114",
+      "url": "/PM/0114",
+      "status": "complete",
+      "complete": "2022.08.01",
+      "confirm" :{
+        "plan":"2022.08.03",
+        "design":"2022.08.09"
+      },
+      "comment": [
+        "2022.08.01 퍼블누락 작업"
+      ]
+    },
+    {
+      "desc": "리뷰작성 혜택(POPUP)",
+      "id": "PM_0141",
+      "url": "/PM/0141",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.08.02",
+        "design":"2022.07.18"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "쿠폰(POPUP)",
+      "id": "PM_0147",
+      "url": "/PM/0147",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"검수요청(08/05)",
+        "design":"2022.07.18"
+      },
+      "comment": [
+        "2022.08.09 : P 변경 에정"
+      ]
+    },
+    {
+      "desc": "오에라 체험단(POPUP)",
+      "id": "PM_0144",
+      "url": "/PM/0144",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.08.03",
+        "design":"2022.07.18"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "매장재고확인(POPUP) - 상품",
+      "id": "PM_0130",
+      "url": "/PM/0130",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.08.03",
+        "design":"2022.08.09"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "매장재고확인(POPUP) - 매장",
+      "id": "PM_0131",
+      "url": "/PM/0131",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.08.03",
+        "design":"2022.08.09"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "사이즈 조건표(POPUP)",
+      "id": "PM_0136",
+      "url": "/PM/0136",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.08.02",
+        "design":"2022.07.11"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "핏가이드(POPUP)",
+      "id": "PM_0126",
+      "url": "/PM/0126",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.08.03",
+        "design":"2022.07.18"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "최대혜택가(POPUP)",
+      "id": "PM_0140",
+      "url": "/PM/0140",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.08.02",
+        "design":"2022.07.11"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "상품 Q&A 작성(POPUP)",
+      "id": "PM_0120",
+      "url": "/PM/0120",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.08.05",
+        "design":"2022.07.11"
+      },
+      "comment": [
+        "20220915 textarea 수정(위치표시 : '220915 qna')"
+      ]
+    },
+    {
+      "desc": "증정&사은품 안내(POPUP)",
+      "id": "PM_0148",
+      "url": "/PM/0148",
+      "status": "pass",
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment": [
+        "OR_0113 동일팝업"
+      ]
+    },
+    {
+      "desc": "리뷰 신고/차단(POPUP)",
+      "id": "PM_127A",
+      "url": "/PM/127A",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.08.05",
+        "design":"2022.07.11"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "비밀번호 재확인",
+      "id": "ME_0401",
+      "url": "/ME/personalInfoPassword",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.06.29",
+        "design":"2022.06.30"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "개인정보 수정",
+      "id": "ME_0402",
+      "url": "/ME/personalInfo",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.06.29",
+        "design":"2022.06.30"
+      },
+      "comment": [
+        "20220930 수정"
+      ]
+    },
+    {
+      "desc": "개인정보 제3자 제공 동의(POPUP)",
+      "id": "ME_0439",
+      "url": "/ME/0439",
+      "status": "complete",
+      "complete": "2022.09.06",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "비밀번호 변경",
+      "id": "ME_0403",
+      "url": "/ME/personalInfoCheck",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.06.29",
+        "design":"2022.06.30"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "회원탈퇴 안내",
+      "id": "ME_0404",
+      "url": "/ME/withdrawal",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.06.29",
+        "design":"2022.06.30"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "회원탈퇴 유형 선택",
+      "id": "ME_0405",
+      "url": "/ME/withdrawalType",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.06.29",
+        "design":"2022.06.30"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "회원탈퇴 사유 선택",
+      "id": "ME_0420",
+      "url": "/ME/withdrawalReason",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm" :{
+        "plan":"2022.06.29",
+        "design":"2022.06.30"
+      },
+      "comment": [
+        "20220930 수정"
+      ]
+    },
+    {
+      "desc": "한섬마일리지",
+      "id": "ME_0413",
+      "url": "/ME/handsomeMileage",
+      "status": "complete",
+      "complete": "2022.06.30",
+      "confirm" :{
+        "plan":"2022.06.30",
+        "design":"2022.07.07"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "H-Point",
+      "id": "ME_0418",
+      "url": "/ME/hpointDetail",
+      "status": "complete",
+      "complete": "2022.06.30",
+      "confirm" :{
+        "plan":"2022.06.30",
+        "design":"2022.07.07"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "e-Money",
+      "id": "ME_0417",
+      "url": "/ME/emoney",
+      "status": "complete",
+      "complete": "2022.06.30",
+      "confirm" :{
+        "plan":"2022.06.30",
+        "design":"2022.07.07"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "한섬 VVIP",
+      "id": "ME_0424",
+      "url": "/ME/handsomeVVIPList",
+      "status": "complete",
+      "complete": "2022.06.30",
+      "confirm" :{
+        "plan":"2022.06.30",
+        "design":"2022.07.07"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "쿠폰 리스트",
+      "id": "ME_0419",
+      "url": "/ME/couponList",
+      "status": "complete",
+      "complete": "2022.07.14",
+      "confirm" :{
+        "plan":"2022.07.15",
+        "design":"2022.07.21"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "한섬멤버십통합",
+      "id": "ME_0431",
+      "url": "/ME/handsomeMembership",
+      "status": "complete",
+      "complete": "2022.07.4",
+      "confirm" :{
+        "plan":"2022.07.05",
+        "design":"2022.07.07"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "나의 회원등급 혜택(온라인 등급,한섬 VVIP)",
+      "id": "ME_0411",
+      "url": "/ME/myMemberLevel",
+      "status": "complete",
+      "complete": "2022.07.04",
+      "confirm" :{
+        "plan":"2022.07.05",
+        "design":"2022.07.07"
+      },
+      "comment": [
+        "2022.07.27 혜택수정","20221012 혜택수정"
+      ]
+    },
+    {
+      "desc": "온라인 등급, 한섬VVIP 안내사항(POPUP)",
+      "id": "ME_0422",
+      "url": "/ME/0422",
+      "status": "complete",
+      "complete": "22022.07.04",
+      "confirm" :{
+        "plan":"2022.07.05",
+        "design":"2022.07.07"
+      },
+      "comment": [
+        "20221012 안내사항 수정"
+      ]
+    },
+    {
+      "desc": "케어플러스 세탁",
+      "id": "CS_0114",
+      "url": "/CS/serviceCare",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm" :{
+        "plan":"2022.07.21",
+        "design":"2022.07.18"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "케어플러스 수선",
+      "id": "CS_0115",
+      "url": "/CS/serviceRepairCare",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm" :{
+        "plan":"2022.07.21",
+        "design":"2022.07.18"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "배송지 관리",
+      "id": "OR_0201",
+      "url": "/OR/shippingAddressManage",
+      "status": "complete",
+      "complete": "2022.07.14",
+      "confirm" :{
+        "plan":"2022.07.15",
+        "design":"2022.07.21"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "환불계좌 관리 확인",
+      "id": "OR_0339",
+      "url": "/OR/refundAccount",
+      "status": "complete",
+      "complete": "2022.07.14",
+      "confirm" :{
+        "plan":"2022.07.15",
+        "design":"2022.07.21"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "환불계좌 관리 등록",
+      "id": "OR_0340",
+      "url": "/OR/refundAccountRegister",
+      "status": "complete",
+      "complete": "2022.07.14",
+      "confirm" :{
+        "plan":"2022.07.15",
+        "design":"2022.07.21"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "재입고 알림",
+      "id": "PM_0128",
+      "url": "/PM/restockList",
+      "status": "complete",
+      "complete": "2022.07.14",
+      "confirm" :{
+        "plan":"2022.07.15",
+        "design":"2022.07.21"
+      },
+      "comment":[
+        ""
+      ]
+    },
+    {
+      "desc": "1:1문의/상품Q&A/상담만족도 조사(POPUP)",
+      "id": "CS_0547_01",
+      "url": "/CS/0547_01",
+      "status": "complete",
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment":[
+        ""
+      ]
+    }
+  ]
+}

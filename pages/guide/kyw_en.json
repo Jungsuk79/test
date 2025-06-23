@@ -1,0 +1,18 @@
+{
+  "list": [
+    {
+      "desc": "상품상세",
+      "id": "GP_PM_0101",
+      "url": "/en/PM/productDetail",
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment":[
+        ""
+      ]
+    }
+  ]
+}

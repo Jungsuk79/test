@@ -1,0 +1,135 @@
+{
+  "list": [
+    {
+      "desc": "쇼핑백",
+      "id": "GP_OR_0101",
+      "url": "/en/OR/shoppingBag", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "이런상품 어떄요 팝업",
+      "id": "GP_OR_0110",
+      "url": "/en/OR/GP_0110", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "최적가 적용 로딩 팝업",
+      "id": "GP_OR_0116",
+      "url": "/en/OR/GP_0116", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+
+
+
+
+
+
+
+
+      "desc": "주문서",
+      "id": "GP_OR_0241",
+      "url": "/en/OR/order", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "할인정보 팝업",
+      "id": "GP_OR_0252",
+      "url": "/en/OR/GP_0252", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "주문완료",
+      "id": "GP_OR_0265",
+      "url": "/en/OR/orderComplete", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "쇼핑백 옵션 변경",
+      "id": "GP_OR_0305_2",
+      "url": "/en/OR/GP_0305_2", 
+      "status": "complete",
+      "complete": "2022.12.12",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+
+
+
+
+      "desc": "캠페인 메인",
+      "id": "GP_DP_0206",
+      "url": "/en/DP/campaignMain", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "캠페인 메인 상세",
+      "id": "GP_DP_0207",
+      "url": "/en/DP/campaignMainDetail", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "재입고 신청",
+      "id": "GP_PM_0134",
+      "url": "/en/PM/GP_0134", 
+      "status": "complete",
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "list": [
+    {
+      "desc": "로그인",
+      "id": "GP_ME_0101",
+      "url": "/en/ME/login",
+      "status": "complete",
+      "complete": "2022.09.13",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment":[
+        ""
+      ]
+    },
+    {
+      "desc": "아이디 찾기",
+      "id": "GP_ME_0105,GP_ME_0109,GP_ME_01111",
+      "url": "/en/ME/findID",
+      "status": "complete",
+      "complete": "2022.09.13",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment":[
+        ""
+      ]
+    },
+    {
+      "desc": "비밀번호 찾기",
+      "id": "GP_ME_0108",
+      "url": "/en/ME/findPassword",
+      "status": "complete",
+      "complete": "2022.09.13",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment":[
+        ""
+      ]
+    },
+    {
+      "desc": "이메일 인증",
+      "id": "GP_ME_0001",
+      "url": "/en/ME/memberConfirmEmail",
+      "status": "complete",
+      "complete": "2022.09.13",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment":[
+        ""
+      ]
+    },
+    {
+      "desc": "회원정보 입력",
+      "id": "GP_ME_0002",
+      "url": "/en/ME/memberSignup",
+      "status": "complete",
+      "complete": "2022.09.13",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment":[
+        ""
+      ]
+    },
+    {
+      "desc": "회원가입 완료",
+      "id": "GP_ME_0003",
+      "url": "/en/ME/memberSignupCompletion",
+      "status": "complete",
+      "complete": "2022.09.13",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment":[
+        ""
+      ]
+    }
+  ]
+}

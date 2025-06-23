@@ -1,0 +1,713 @@
+{
+  "list": [
+    {
+      "desc": "쇼핑백 리스트",
+      "id": "OR_0101, OR_0102, OR_0103, OR_0105",
+      "url": "/OR/shoppingBag",
+      "status": "complete",
+      "complete": "2022.06.15",
+      "confirm":{
+        "plan":"2022.06.17",
+        "design":"2022.06.20"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "쇼핑백 옵션 변경",
+      "id": "OR_0305_2",
+      "url": "/OR/0305_2",
+      "status": "complete",
+      "complete": "2022.12.12",
+      "confirm":{
+        "plan":"",
+        "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "주문/결제_쇼핑백_확인해보셨어요?(팝업)",
+      "id": "OR_0106",
+      "url": "/OR/0106",
+      "status": "complete",
+      "complete": "2022.06.15",
+      "confirm":{
+        "plan":"2022.06.17",
+        "design":"2022.06.20"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "주문/결제_쇼핑백_증정&사은품 안내(팝업)",
+      "id": "OR_0113",
+      "url": "/OR/0113",
+      "status": "complete",
+      "complete": "2022.06.15",
+      "confirm":{
+        "plan":"2022.06.17",
+        "design":"2022.06.20"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "주문/결제_쇼핑백_이런 상품 어때요?",
+      "id": "OR_0110",
+      "url": "/OR/0110",
+      "status": "complete",
+      "complete": "2022.06.15",
+      "confirm":{
+        "plan":"2022.06.17",
+        "design":"2022.06.20"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "주문/결제_쇼핑백_카드행사혜택안내 무이자할부",
+      "id": "OR_0111",
+      "url": "/OR/0111",
+      "status": "complete",
+      "complete": "2022.06.15",
+      "confirm":{
+        "plan":"2022.06.17",
+        "design":"2022.06.20"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "주문/결제_쇼핑백_최대할인혜택 로딩",
+      "id": "OR_0116",
+      "url": "/OR/0116",
+      "status": "complete",
+      "complete": "2022.06.15",
+      "confirm":{
+        "plan":"2022.06.17",
+        "design":"2022.06.20"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "매장위치보기 팝업",
+      "id": "OR_0338",
+      "url": "/OR/0338",
+      "status": "complete",
+      "complete": "2022.06.15",
+      "confirm":{
+        "plan":"2022.06.17",
+        "design":"2022.06.20"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "매장선택 팝업",
+      "id": "PM_0133",
+      "url": "/PM/0133",
+      "status": "complete",
+      "complete": "2022.06.15",
+      "confirm":{
+        "plan":"2022.06.17",
+        "design":"2022.06.20"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "재입고알림 팝업",
+      "id": "PM_0134",
+      "url": "/PM/0134",
+      "status": "complete",
+      "complete": "2022.06.15",
+      "confirm":{
+        "plan":"2022.06.17",
+        "design":"2022.06.20"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+
+
+
+
+
+
+
+
+
+
+
+      "desc": "주문서",
+      "id": "OR_0241, OR_0242 OR_0243 OR_0244 OR_0245, OR_0262",
+      "url": "/OR/order",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm":{
+        "plan":"2022.06.22",
+        "design":"2022.06.23"
+      },
+      "comment": [
+        "20220819 신용카드 선택 클래스 수정 (수정위치 : '220819 yjh' 표시)"
+      ]
+    },
+    {
+      "desc": "H.Point Pay 팝업",
+      "id": "OR_0246, OR_0247",
+      "url": "/OR/0246",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm":{
+        "plan":"2022.06.22",
+        "design":"2022.06.23"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "배송요청사항",
+      "id": "OR_0250, OR_0251, OR_0264",
+      "url": "/OR/0250",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm":{
+        "plan":"2022.06.22",
+        "design":"2022.06.23"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "할인정보 단건, 다건",
+      "id": "OR_0252, OR_0253",
+      "url": "/OR/0252",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm":{
+        "plan":"2022.06.22",
+        "design":"2022.06.23"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "사은품 신청하기",
+      "id": "OR_0255",
+      "url": "/OR/0255",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm":{
+        "plan":"2022.06.22",
+        "design":"2022.06.23"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "주문서 - 선물하기",
+      "id": "OR_0259",
+      "url": "/OR/orderGift",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm":{
+        "plan":"2022.06.22",
+        "design":"2022.06.23"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "비회원주문서 - 로그인 회원가입 안내 팝업",
+      "id": "OR_0260",
+      "url": "/OR/0260",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm":{
+        "plan":"2022.06.22",
+        "design":"2022.06.23"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "비회원주문서 - 약관동의",
+      "id": "OR_0261",
+      "url": "/OR/orderAgreeTerms",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm":{
+        "plan":"2022.06.22",
+        "design":"2022.06.23"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "결제 처리 중 화면",
+      "id": "OR_0000",
+      "url": "/OR/orderProgress",
+      "status": "complete",
+      "complete": "",
+      "confirm":{
+        "plan":"",
+        "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "주문완료",
+      "id": "OR_0265, OR_0266, OR_0268",
+      "url": "/OR/orderComplete",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm":{
+        "plan":"2022.06.22",
+        "design":"2022.06.23"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "주문완료 - 선물하기",
+      "id": "OR_0267",
+      "url": "/OR/orderGiftComplete",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm":{
+        "plan":"2022.06.22",
+        "design":"2022.06.23"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+
+
+
+
+
+
+
+      "desc": "검색전, 검색중, 검색결과",
+      "id": "DP_0111, DP_0112, DP_0113",
+      "url": "/DP/searchResult",
+      "status": "complete",
+      "complete": "2022.06.27",
+      "confirm":{
+        "plan":"2022.07.18",
+        "design":"2022.08.05"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "스타일필터 검색 결과",
+      "id": "DP_0117",
+      "url": "/DP/searchStyleFilter",
+      "status": "complete",
+      "complete": "2022.06.27",
+      "confirm":{
+        "plan":"2022.07.18",
+        "design":"2022.08.05"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+
+
+
+
+
+
+      "desc": "스타일 추천 팝업",
+      "id": "PM_0151",
+      "url": "/PM/0151",
+      "status": "complete",
+      "complete": "2022.06.28",
+      "confirm":{
+        "plan":"2022.08.02",
+        "design":"2022.07.18"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "코디한 상품 팝업",
+      "id": "PM_0151",
+      "url": "/PM/0151_2",
+      "status": "complete",
+      "complete": "2022.06.28",
+      "confirm":{
+        "plan":"2022.08.02",
+        "design":"2022.07.25"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+
+
+
+
+
+
+
+
+
+
+
+      "desc": "시스템 메인",
+      "id": "DP_0203",
+      "url": "/DP/systemMain",
+      "status": "complete",
+      "complete": "2022.07.07",
+      "confirm":{
+        "plan":"2022.07.12",
+        "design":"2022.07.19"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+    "desc": "브랜드 메인",
+      "id": "DP_0201",
+      "url": "/DP/brandMain",
+      "status": "complete",
+      "complete": "2022.07.07",
+      "confirm":{
+        "plan":"2022.07.12",
+        "design":"2022.07.19"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "브랜드 About",
+      "id": "DP_0204",
+      "url": "/DP/brandAbout",
+      "status": "complete",
+      "complete": "2022.07.08",
+      "confirm":{
+        "plan":"2022.07.12",
+        "design":"2022.07.11"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "브랜드 샵",
+      "id": "DP_0208",
+      "url": "/DP/shopList",
+      "status": "complete",
+      "complete": "2022.07.15",
+      "confirm":{
+        "plan":"2022.07.19",
+        "design":"2022.07.19"
+      },
+      "comment": [
+        "20220810 필터 상품리스트 수정(수정위치 : '220810 yjh 수정' 표시)"
+      ]
+    },
+    {
+      "desc": "브랜드 SPECIAL SHOP",
+      "id": "DP_0205",
+      "url": "/DP/specialshop",
+      "status": "complete",
+      "complete": "2022.07.15",
+      "confirm":{
+        "plan":"2022.07.19",
+        "design":"2022.07.19"
+      },
+      "comment": [
+        "20220810 필터 상품리스트 수정(수정위치 : '220810 yjh 수정' 표시)"
+      ]
+    },
+    {
+      "desc": "브랜드 룩북 리스트",
+      "id": "DP_0231",
+      "url": "/DP/lookbookList",
+      "status": "complete",
+      "complete": "2022.07.08",
+      "confirm":{
+        "plan":"2022.07.12",
+        "design":"2022.07.19"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "브랜드 룩북 상세",
+      "id": "DP_0232",
+      "url": "/DP/lookbookDetail",
+      "status": "complete",
+      "complete": "2022.07.08",
+      "confirm":{
+        "plan":"2022.07.12",
+        "design":"2022.07.19"
+      },
+      "comment": [
+        "20220810 룩북상세 비디오 케이스 추가 (수정위치 : '220810 yjh 룩북상세' 표시)","20221017 룩북상세 표시"
+      ]
+    },
+    {
+      "desc": "브랜드 캠페인 리스트",
+      "id": "DP_0206",
+      "url": "/DP/campaignList",
+      "status": "complete",
+      "complete": "2022.07.15",
+      "confirm":{
+        "plan":"2022.07.19",
+        "design":"2022.07.19"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "브랜드 캠페인 상세",
+      "id": "DP_0207",
+      "url": "/DP/campaignDetail",
+      "status": "complete",
+      "complete": "2022.07.15",
+      "confirm":{
+        "plan":"2022.07.19",
+        "design":"2022.07.19"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "desc": "편집샵 메인",
+      "id": "DP_0251",
+      "url": "/DP/editShopMain",
+      "status": "complete",
+      "complete": "2022.08.31",
+      "confirm":{
+        "plan":"2022.09.06",
+        "design":"2022.09.02"
+      },
+      "comment": [
+        "20220802 컨텐츠 완료/검수요청 (해더 컨펌 지연으로 컨텐츠 먼저 검수요청)",
+        "20220810 디자인 검수 완료(컨텐츠)",
+        "20220831 해더 완료/검수요청"
+      ]
+    },
+    {
+      "desc": "편집샵 상위 브랜드",
+      "id": "DP_0252",
+      "url": "/DP/editShopSubMain",
+      "status": "complete",
+      "complete": "2022.08.31",
+      "confirm":{
+        "plan":"2022.09.06",
+        "design":"2022.09.02"
+      },
+      "comment": [
+        "20220802 컨텐츠 완료/검수요청 (해더 컨펌 지연으로 컨텐츠 먼저 검수요청)",
+        "20220810 디자인 검수 완료(컨텐츠)",
+        "20220831 해더 완료/검수요청"
+      ]
+    },
+    {
+      "desc": "편집샵 상위 브랜드2",
+      "id": "DP_0252",
+      "url": "/DP/editShopSubMain2",
+      "status": "complete",
+      "complete": "2022.08.31",
+      "confirm":{
+        "plan":"2022.09.06",
+        "design":"2022.09.02"
+      },
+      "comment": [
+        "20220802 컨텐츠 완료/검수요청 (해더 컨펌 지연으로 컨텐츠 먼저 검수요청)",
+        "20220810 디자인 검수 완료(컨텐츠)",
+        "20220831 해더 완료/검수요청"
+      ]
+    },
+    {
+      "desc": "편집샵 하위 브랜드",
+      "id": "DP_0261",
+      "url": "/DP/editShopSub",
+      "status": "complete",
+      "complete": "2022.08.31",
+      "confirm":{
+        "plan":"2022.09.06",
+        "design":"2022.09.02"
+      },
+      "comment": [
+        "20220802 컨텐츠 완료/검수요청 (해더 컨펌 지연으로 컨텐츠 먼저 검수요청)",
+        "20220810 디자인 검수 완료(컨텐츠)",
+        "20220831 해더 완료/검수요청"
+      ]
+    },
+    {
+      "desc": "아울렛 메인",
+      "id": "DP_0262",
+      "url": "/DP/outletMain",
+      "status": "complete",
+      "complete": "2022.08.31",
+      "confirm":{
+        "plan":"2022.09.06",
+        "design":"2022.09.02"
+      },
+      "comment": [
+        "20220802 컨텐츠 완료/검수요청 (해더 컨펌 지연으로 컨텐츠 먼저 검수요청)",
+        "20220810 디자인 검수 완료(컨텐츠)",
+        "20220831 해더 완료/검수요청"
+      ]
+    },
+    {
+      "desc": "아울렛 브랜드",
+      "id": "DP_0263",
+      "url": "/DP/outletSub",
+      "status": "complete",
+      "complete": "2022.08.31",
+      "confirm":{
+        "plan":"2022.09.06",
+        "design":"2022.09.02"
+      },
+      "comment": [
+        "20220802 컨텐츠 완료/검수요청 (해더 컨펌 지연으로 컨텐츠 먼저 검수요청)",
+        "20220810 디자인 검수 완료(컨텐츠)",
+        "20220831 해더 완료/검수요청"
+      ]
+    },
+    {
+      "desc": "해외 브랜드",
+      "id": "DP_0264",
+      "url": "/DP/overseasBrand",
+      "status": "complete",
+      "complete": "2022.08.31",
+      "confirm":{
+        "plan":"2022.09.06",
+        "design":"2022.09.02"
+      },
+      "comment": [
+        "20220802 컨텐츠 완료/검수요청 (해더 컨펌 지연으로 컨텐츠 먼저 검수요청)",
+        "20220810 디자인 검수 완료(컨텐츠)",
+        "20220831 해더 완료/검수요청"
+      ]
+    },
+    {
+      "desc": "룩북 메인",
+      "id": "DP_0231",
+      "url": "/DP/lookbookMain",
+      "status": "complete",
+      "complete": "2022.09.01",
+      "confirm":{
+        "plan":"2022.09.02",
+        "design":"2022.09.02"
+      },
+      "comment": [
+        
+      ]
+    },
+    {
+      "desc": "룩북 메인 상세",
+      "id": "DP_0232",
+      "url": "/DP/lookbookMainDetail",
+      "status": "complete",
+      "complete": "2022.09.01",
+      "confirm":{
+        "plan":"2022.09.02",
+        "design":"2022.09.02"
+      },
+      "comment": [
+        "20221017 룩북상세 표시"
+      ]
+    },
+    {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      "desc": "더플러스+ 멤버십 안내",
+      "id": "TP_0101",
+      "url": "/TP/thePlusGuide",
+      "status": "",
+      "complete": "",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 멤버십 gate",
+      "id": "TP_0201,TP_0203 ~ TP_0209",
+      "url": "/TP/thePlusGate",
+      "status": "complete",
+      "complete": "2023.01.04",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        ""
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+    "list": [
+        {
+            "desc": "배송/교환/반품(POPUP)",
+              "id": "GP_PM_0114",
+              "url": "/en/PM/GP_0114",
+              "status": "complete",
+              "complete": "2022.09.15",
+              "confirm":{
+                  "plan":"",
+                  "design":""
+              },
+              "comment": [
+              ]
+        },
+        {
+            "desc": "상품 Q&A (POPUP)",
+              "id": "GP_PM_0118",
+              "url": "/en/PM/GP_0118",
+              "status": "complete",
+              "complete": "2022.09.15",
+              "confirm":{
+                  "plan":"",
+                  "design":""
+              },
+              "comment": [
+              ]
+        },
+        {
+            "desc": "상품 Q&A 작성(POPUP)",
+              "id": "GP_PM_0120",
+              "url": "/en/PM/GP_0120",
+              "status": "complete",
+              "complete": "2022.09.15",
+              "confirm":{
+                  "plan":"",
+                  "design":""
+              },
+              "comment": [
+              ]
+        },
+        {
+            "desc": "최대혜택가(POPUP)",
+              "id": "GP_PM_0140",
+              "url": "/en/PM/GP_0140",
+              "status": "complete",
+              "complete": "2022.09.15",
+              "confirm":{
+                  "plan":"",
+                  "design":""
+              },
+              "comment": [
+              ]
+        },
+        {
+            "desc": "쿠폰(POPUP)",
+              "id": "GP_PM_0147",
+              "url": "/en/PM/GP_0147",
+              "status": "complete",
+              "complete": "2022.09.15",
+              "confirm":{
+                  "plan":"",
+                  "design":""
+              },
+              "comment": [
+              ]
+        },
+        {
+            "desc": "포토/동영상 리뷰(POPUP)",
+              "id": "GP_PM_0142",
+              "url": "/en/PM/GP_0142",
+              "status": "complete",
+              "complete": "2022.09.15",
+              "confirm":{
+                  "plan":"",
+                  "design":""
+              },
+              "comment": [
+              ]
+        },
+        {
+            "desc": "포토/동영상 모아보기(POPUP)",
+              "id": "GP_PM_0143",
+              "url": "/en/PM/GP_0143",
+              "status": "complete",
+              "complete": "2022.09.14",
+              "confirm":{
+                  "plan":"",
+                  "design":""
+              },
+              "comment": [
+              ]
+        },
+        {
+            "desc": "스타일 추천(POPUP)",
+              "id": "GP_PM_0151",
+              "url": "/en/PM/GP_0151",
+              "status": "complete",
+              "complete": "2022.09.14",
+              "confirm":{
+                  "plan":"",
+                  "design":""
+              },
+              "comment": [
+              ]
+        }
+    ]
+}

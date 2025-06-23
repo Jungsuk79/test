@@ -1,0 +1,775 @@
+{
+  "list": [
+    {
+      "desc": "고객센터 메인",
+      "id": "CS_0101",
+      "url": "/CS/csCenterMain",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "고객센터 공지사항-리스트",
+      "id": "CS_0102, CS_0104",
+      "url": "/CS/csCenterNotice",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "고객센터 공지사항-상세",
+      "id": "CS_0103",
+      "url": "/CS/csCenterNoticeDetail",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "FAQ (자주하는 질문)",
+      "id": "CS_0105",
+      "url": "/CS/csCenterFAQ",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "고객의 소리-안내팝업(POPUP)",
+      "id": "CS_0107",
+      "url": "/CS/0107",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "오프라인 매장 문의 - 동의",
+      "id": "CS_0108",
+      "url": "/CS/offlineStore",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "오프라인 매장 문의 - 등록",
+      "id": "CS_0109",
+      "url": "/CS/offlineStoreInput",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "오프라인 매장 문의 - 재문의 등록",
+      "id": "CS_0109",
+      "url": "/CS/offlineStoreInputWrite",
+      "status": "complete",
+      "complete": "2022.12.09",
+      "confirm": {
+        "plan": "",
+        "design": ""
+      },
+      "comment": [
+        "20221209 추가페이지"
+      ]
+    },
+    {
+      "desc": "1:1 문의 - 리스트",
+      "id": "CS_0110",
+      "url": "/CS/oneToOneList",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "1:1 문의 - 상세",
+      "id": "CS_0111",
+      "url": "/CS/oneToOneDetail",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "1:1 문의 - 등록/수정",
+      "id": "CS_0112",
+      "url": "/CS/oneToOneModify",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "오프라인 매장 문의 - 목록",
+      "id": "CS_0117",
+      "url": "/CS/offlineStoreList",
+      "status": "complete",
+      "complete": "2022.07.06",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "오프라인 매장 문의 - 상세",
+      "id": "CS_0118",
+      "url": "/CS/offlineStoreDetail",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.07.15"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "한섬 회원 혜택-온라인 멤버십 혜택",
+      "id": "CS_0123",
+      "url": "/CS/onlineMemberBenefit",
+      "status": "complete",
+      "complete": "2022.07.07",
+      "confirm": {
+        "plan": "2022.07.11",
+        "design": "2022.08.31"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "한섬 회원 혜택-한섬 VVIP 혜택",
+      "id": "CS_0127",
+      "url": "/CS/onlineMemberBenefitVVIP",
+      "status": "complete",
+      "complete": "2022.07.07",
+      "confirm": {
+        "plan": "2022.07.11",
+        "design": "2022.08.31"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "한섬 회원 혜택-한섬 마일리지",
+      "id": "CS_0128",
+      "url": "/CS/shoppingGuideMileage",
+      "status": "complete",
+      "complete": "2022.07.07",
+      "confirm": {
+        "plan": "2022.07.11",
+        "design": "2022.08.31"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "한섬 회원 혜택-쿠폰",
+      "id": "CS_0129",
+      "url": "/CS/shoppingGuideCoupon",
+      "status": "complete",
+      "complete": "2022.07.07",
+      "confirm": {
+        "plan": "2022.07.11",
+        "design": "2022.08.31"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "한섬 회원 혜택-주문/결제",
+      "id": "CS_0130",
+      "url": "/CS/shoppingGuideOrder",
+      "status": "complete",
+      "complete": "2022.07.07",
+      "confirm": {
+        "plan": "2022.07.11",
+        "design": "2022.08.31"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "한섬 회원 혜택-교환/반품/환불",
+      "id": "CS_0134",
+      "url": "/CS/shoppingGuideExchange",
+      "status": "complete",
+      "complete": "2022.07.07",
+      "confirm": {
+        "plan": "2022.07.11",
+        "design": "2022.08.31"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "딜리버리 서비스",
+      "id": "CS_0137, 0138",
+      "url": "/CS/shoppingDelivery",
+      "status": "complete",
+      "complete": "2022.07.07",
+      "confirm": {
+        "plan": "2022.07.11",
+        "design": "2022.08.31"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "매장안내 - 브랜드tab",
+      "id": "CS_0139",
+      "url": "/CS/storeInformation",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.09.05"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "한섬 회원 혜택-배송",
+      "id": "CS_0140",
+      "url": "/CS/shoppingGuideDelivery",
+      "status": "complete",
+      "complete": "2022.07.07",
+      "confirm": {
+        "plan": "2022.07.11",
+        "design": "2022.08.31"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "취향의 발견",
+      "id": "CS_0141",
+      "url": "/CS/serviceDiscovery",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.07.21",
+        "design": "2022.08.26"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "나의 옷장",
+      "id": "CS_0142",
+      "url": "/CS/serviceCloset",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.07.21",
+        "design": "2022.08.26"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "선물하기",
+      "id": "CS_0143",
+      "url": "/CS/servicePresent",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.07.21",
+        "design": "2022.08.26"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "나의 사이즈",
+      "id": "CS_0144",
+      "url": "/CS/serviceSize",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.07.21",
+        "design": "2022.08.26"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "상품선택 - 나의주문상품tab(POPUP)",
+      "id": "CS_0547",
+      "url": "/CS/0547",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.09.05"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "상품선택 - 위시리스트tab(POPUP)",
+      "id": "CS_0548",
+      "url": "/CS/0547",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.09.05"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "상품선택 - 상품검색tab(POPUP)",
+      "id": "CS_0549",
+      "url": "/CS/0547",
+      "status": "complete",
+      "complete": "2022.06.29",
+      "confirm": {
+        "plan": "2022.07.07",
+        "design": "2022.09.05"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "e-Gift Card 상품권목록",
+      "id": "GC_0501",
+      "url": "/GC/giftCardList",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.06.22",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "e-Gift Card 구매 카드사별 인증 안내(POPUP)",
+      "id": "GC_0502",
+      "url": "/GC/0502",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.07.12",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "e-Gift Card 선물하기",
+      "id": "GC_0503",
+      "url": "/GC/giftCardPresent",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.06.22",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "e-Gift Card 결제하기",
+      "id": "GC_0504",
+      "url": "/GC/giftCardPayment",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.07.12",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "e-Gift Card 상품권 결제주문 완료",
+      "id": "GC_0506",
+      "url": "/GC/giftCardOrderComplete",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.07.12",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "e-Gift Card구매정보(POPUP)",
+      "id": "GC_0506",
+      "url": "/GC/0506",
+      "status": "complete",
+      "complete": "",
+      "confirm": {
+        "plan": "",
+        "design": ""
+      },
+      "comment": [
+        "20221024 구매정보 팝업 추가",
+        "20240307 환불조건 및 방법 문구 추가"
+      ]
+    },
+    {
+      "desc": "e-Gift Card 잔액 환불 신청",
+      "id": "GC_0510",
+      "url": "/GC/0510",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.07.12",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        "20221018 e-Gift : 텍스트수정"
+      ]
+    },
+    {
+      "desc": "마이페이지 e-Gift Card 잔액 환불 신청 내역(POPUP)",
+      "id": "GC_0511",
+      "url": "/GC/0511",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.06.22",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        "20221018 e-Gift : 텍스트수정"
+      ]
+    },
+    {
+      "desc": "마이페이지_나의 e-Gift Card__사용내역_상세",
+      "id": "GC_0512",
+      "url": "/GC/eGiftCardUsageDetail",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.07.12",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        "20221018 e-Gift : 텍스트수정"
+      ]
+    },
+    {
+      "desc": "e-Gift Card 선물내역",
+      "id": "GC_0513",
+      "url": "/GC/myeGiftCardList",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.07.12",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "e-Gift Card 선물내역 - 상세",
+      "id": "GC_0514",
+      "url": "/GC/myeGiftCardDetail",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.07.12",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "e-Gift Card 등록",
+      "id": "GC_0515",
+      "url": "/GC/0515",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.07.12",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "e-Gift Card 등록완료",
+      "id": "GC_0515",
+      "url": "/GC/0515_1",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.07.12",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "e-Gift Card 사용내역",
+      "id": "GC_0516",
+      "url": "/GC/myeGiftCardPossible",
+      "status": "complete",
+      "complete": "2022.06.21",
+      "confirm": {
+        "plan": "2022.06.22",
+        "design": "2022.08.03"
+      },
+      "comment": [
+        "20221018 e-Gift : 텍스트수정"
+      ]
+    },
+    {
+      "desc": "진행중 이벤트",
+      "id": "MK_0101",
+      "url": "/MK/event",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.05"
+      },
+      "comment": [
+        "20221012 탭 영역 제거"
+      ]
+    },
+    {
+      "desc": "단순클릭형 이벤트",
+      "id": "MK_0103",
+      "url": "/MK/eventEntry",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.09"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "구매 스탬프형 상세",
+      "id": "MK_0104",
+      "url": "/MK/eventStamp",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.09"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "구매 스탬프형 상세- 스탬프 이력",
+      "id": "MK_0105",
+      "url": "/MK/0105",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.05"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "댓글형 상세",
+      "id": "MK_0106, MK_0107",
+      "url": "/MK/eventComment",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.09"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "룰렛형 상세 4칸",
+      "id": "MK_0108",
+      "url": "/MK/eventRoulette",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.09"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "룰렛형 상세 6칸",
+      "id": "MK_0108",
+      "url": "/MK/eventRoulette2",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.09"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "출석체크형 상세",
+      "id": "MK_0109",
+      "url": "/MK/eventAttend",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.09"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "쿠폰형 상세",
+      "id": "MK_0110",
+      "url": "/MK/eventDetailCoupon",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.09"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "설문형 목록",
+      "id": "MK_0112",
+      "url": "/MK/eventSurveyList",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.05"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "고객리뷰 안내(POPUP)",
+      "id": "MK_0113",
+      "url": "/MK/0113",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.05"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "설문형 상세",
+      "id": "MK_0114",
+      "url": "/MK/eventSurveyDetail",
+      "status": "complete",
+      "complete": "2022.07.13",
+      "confirm": {
+        "plan": "2022.08.03",
+        "design": "2022.08.09"
+      },
+      "comment": [
+        ""
+      ]
+    }
+  ]
+}

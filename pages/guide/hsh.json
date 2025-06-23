@@ -1,0 +1,138 @@
+{
+    "list": [
+      {
+        "desc": "메인",
+        "id": "DP_0101",
+        "url": "/DP/main",
+        "status": "complete",
+        "complete": "2022.06.30",
+        "confirm":{
+          "plan":"2022.07.01",
+          "design":"2022.07.11"
+        },
+        "comment": [
+          ""
+        ]
+      },
+
+
+      {
+        "desc": "필터 레이어",
+        "id": "DP_0500",
+        "url": "/DP/filterLayer",
+        "status": "complete",
+        "complete": "2022.06.23",
+        "confirm":{
+          "plan":"2022.06.28",
+          "design":"2022.08.09"
+        },
+        "comment": [
+          "20220810 필터 상품리스트 수정(수정위치 : '220810 yjh 수정' 표시)"
+        ]
+      },
+
+
+      {
+        "desc": "카테고리",
+        "id": "DP_0211",
+        "url": "/DP/category",
+        "status": "complete",
+        "complete": "2022.06.23",
+        "confirm":{
+          "plan":"2022.06.28",
+          "design":"2022.08.09"
+        },
+        "comment": [
+          "20220810 필터 상품리스트 수정(수정위치 : '220810 yjh 수정' 표시)"
+        ]
+      },
+
+
+      {
+        "name": "timeMain",
+        "id": "DP_0202",
+        "url": "/DP/timeMain",
+        "status": "complete",
+        "complete": "2022.07.08",
+        "confirm":{
+          "plan":"2022.07.12",
+          "design":"2022.07.18"
+        },
+        "comment": [
+          "20220906 TimeBestReview 유닛 신규 추가",
+          "20230710 신규 유닛 추가, 전체적인 사이즈 수정 및 해더 수정 - TimeBestSeller,TimeCategory,TimeContent,TimeMenuBar,TimeNewProd"
+        ]
+      },
+
+
+
+
+      {
+        "desc": "나의 옷장(옷장)",
+        "id": "CL_0110",
+        "url": "/CL/myCloset",
+        "status": "complete",
+        "complete": "2022.07.19",
+        "confirm":{
+          "plan":"2022.08.03",
+          "design":"2022.08.09"
+        }
+      },
+      {
+        "desc": "나의 옷장(코디북)",
+        "id": "CL_0111",
+        "url": "/CL/codiBook",
+        "status": "complete",
+        "complete": "2022.07.19",
+        "confirm":{
+          "plan":"2022.08.03",
+          "design":"2022.08.09"
+        }
+      },
+      {
+        "desc": "코디 레이아웃 선택",
+        "id": "CL_0120",
+        "url": "/CL/codiLayout",
+        "status": "complete",
+        "complete": "2022.07.19",
+        "confirm":{
+          "plan":"2022.08.03",
+          "design":"2022.08.09"
+        }
+      },
+      {
+        "desc": "코디하기",
+        "id": "CL_0121",
+        "url": "/CL/codiEdit",
+        "status": "complete",
+        "complete": "2022.07.19",
+        "confirm":{
+          "plan":"2022.08.03",
+          "design":"2022.08.09"
+        }
+      },
+      {
+        "desc": "코디하기 (상품 선택하기)",
+        "id": "CL_0122 ~ CL_0125",
+        "url": "/CL/codiEdit",
+        "status": "complete",
+        "complete": "2022.07.19",
+        "confirm":{
+          "plan":"2022.08.03",
+          "design":"2022.08.09"
+        }
+      },
+      {
+        "desc": "코디하기 완료",
+        "id": "CL_0113",
+        "url": "/CL/codiComplete",
+        "status": "complete",
+        "complete": "2022.07.19",
+        "confirm":{
+          "plan":"2022.08.03",
+          "design":"2022.08.09"
+        }
+      }
+    ]
+  }
+  

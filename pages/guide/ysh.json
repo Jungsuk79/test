@@ -1,0 +1,1456 @@
+{
+  "list": [
+    {
+      "desc": "주문 취소",
+      "id": "OR_0315,OR_0322,OR_0323",
+      "url": "/OR/orderCancel",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "취소 내역",
+      "id": "OR_0324",
+      "url": "/OR/orderCancelHistory",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.08",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "주문 조회",
+      "id": "OR_0303,OR_0341,OR_0334",
+      "url": "/OR/orderShippingList",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.08",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "주문 조회",
+      "id": "OR_0316",
+      "url": "/OR/nonmemberOrderHistory",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "기획 변경 예정"
+      ]
+    },
+    {
+      "desc": "주문조회 상세",
+      "id": "OR_0304",
+      "url": "/OR/orderInquiryDetail",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.08",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 기획,디자인 수정으로 내용이 길어져 분리함, 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "주문조회 상세 - 취소,교환,반품",
+      "id": "OR_0304",
+      "url": "/OR/orderInquiryDetailEct",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.08",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 기획,디자인 수정으로 내용이 길어져 분리함, 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "주문조회 상세 - 재결제",
+      "id": "OR_0304",
+      "url": "/OR/orderInquiryDetailRepay",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.08",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 기획,디자인 수정으로 내용이 길어져 분리함, 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "주문조회 상세 - 매장수령",
+      "id": "OR_0304",
+      "url": "/OR/orderInquiryDetailStorePickup",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.08",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 기획,디자인 수정으로 내용이 길어져 분리함, 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "반품신청",
+      "id": "OR_0307,OR_0325 ~ OR_0328",
+      "url": "/OR/orderReturn",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.06.30"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "반품내역",
+      "id": "OR_0329",
+      "url": "/OR/orderReturnhistory",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.08",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "옵션변경(POPUP)",
+      "id": "OR_0305",
+      "url": "/OR/0305",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "나의 배송지 목록(팝업)",
+      "id": "OR_0320",
+      "url": "/OR/0320",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.08",
+      "design":"2022.06.30"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "배송지 등록 (팝업)",
+      "id": "OR_0321, OR_0249, OR_0263",
+      "url": "/OR/0321",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.08",
+      "design":"2022.06.30"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "배송조회(POPUP)",
+      "id": "OR_0314",
+      "url": "/OR/0314",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.08",
+      "design":"2022.06.30"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "교환신청",
+      "id": "OR_0330 ~ OR_0332",
+      "url": "/OR/orderExchange",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "교환내역",
+      "id": "OR_0309",
+      "url": "/OR/orderExchangeList",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.09",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "교환내역 - 2개 이상",
+      "id": "OR_0309",
+      "url": "/OR/orderExchangeListMore",
+      "status": "complete",
+      "complete": " 2022.06.22",
+      "confirm":{
+      "plan":"2022.08.08",
+      "design":"2022.06.30"
+      },
+      "comment": [
+        "아코디언 케이스 기획변경 고려대상",
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "마이하트 위시리스트",
+      "id": "ME_0301",
+      "url": "/ME/myHeartWishList",
+      "status": "complete",
+      "complete": " 2022.06.28",
+      "confirm":{
+      "plan":" 2022.06.29",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "마이하트 컨텐츠",
+      "id": "ME_0302",
+      "url": "/ME/myHeartContents",
+      "status": "complete",
+      "complete": " 2022.06.28",
+      "confirm":{
+      "plan":" 2022.06.29",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "마이하트 브랜드",
+      "id": "ME_0306",
+      "url": "/ME/myHeartBrand",
+      "status": "complete",
+      "complete": " 2022.06.28",
+      "confirm":{
+      "plan":" 2022.06.29",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "마이하트 취향",
+      "id": "ME_0307",
+      "url": "/ME/myHeartTaste",
+      "status": "complete",
+      "complete": " 2022.06.28",
+      "confirm":{
+      "plan":" 2022.06.29",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "나의 사이즈- 결과완료화면",
+      "id": "ME_0442",
+      "url": "/ME/mySize",
+      "status": "complete",
+      "complete": " 2022.06.28",
+      "confirm":{
+      "plan":" 2022.06.29",
+      "design":"2022.06.30"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "받은 선물함/보낸 선물함 목록",
+      "id": "OR_0311,OR_0337",
+      "url": "/OR/giftBoxList",
+      "status": "complete",
+      "complete": " 2022.07.06",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "받은선물- 비로그인 시 안내 팝업(POPUP)",
+      "id": "OR_0336",
+      "url": "/OR/0336",
+      "status": "complete",
+      "complete": " 2022.07.06",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.07.14"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "받은 선물함",
+      "id": "OR_0310",
+      "url": "/OR/giftBoxHistory",
+      "status": "complete",
+      "complete": " 2022.07.06",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.07.14"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "보낸 선물함",
+      "id": "OR_0335",
+      "url": "/OR/giftBoxDetail",
+      "status": "complete",
+      "complete": " 2022.07.06",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "받은 선물함 상세",
+      "id": "OR_0313",
+      "url": "/OR/giftBoxHistoryDetail",
+      "status": "complete",
+      "complete": " 2022.07.06",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.07.14"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "리뷰 - 작성 가능 리뷰",
+      "id": "PM_0145",
+      "url": "/PM/myReviewListPossible",
+      "status": "complete",
+      "complete": " 2022.07.14",
+      "confirm":{
+      "plan":"2022.07.18",
+      "design":"2022.08.04"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "리뷰 - 작성한 리뷰",
+      "id": "PM_0150",
+      "url": "/PM/myReviewList",
+      "status": "complete",
+      "complete": " 2022.07.14",
+      "confirm":{
+      "plan":"2022.07.18",
+      "design":"2022.08.04"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "리뷰 상세",
+      "id": "PM_0151",
+      "url": "/PM/myReviewDetail",
+      "status": "complete",
+      "complete": " 2022.07.14",
+      "confirm":{
+      "plan":"2022.07.18",
+      "design":"2022.08.04"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "리뷰 사진 크게보기(POPUP)",
+      "id": "PM_0154",
+      "url": "/PM/0154",
+      "status": "complete",
+      "complete": " 2022.07.14",
+      "confirm":{
+      "plan":"2022.07.18",
+      "design":"2022.08.04"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "리뷰 동영상 크게보기(POPUP)",
+      "id": "PM_0155",
+      "url": "/PM/0155",
+      "status": "complete",
+      "complete": " 2022.07.14",
+      "confirm":{
+      "plan":"2022.07.18",
+      "design":"2022.08.04"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "포토/동영상 리뷰(POPUP)",
+      "id": "PM_0142, PM_142A",
+      "url": "/PM/0142",
+      "status": "complete",
+      "complete": " 2022.07.14",
+      "confirm":{
+      "plan":"2022.07.18",
+      "design":"2022.08.04"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "포토/동영상 모아보기(POPUP)",
+      "id": "PM_0143",
+      "url": "/PM/0143",
+      "status": "complete",
+      "complete": " 2022.07.14",
+      "confirm":{
+      "plan":"2022.07.18",
+      "design":"2022.08.04"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "등록/수정(POPUP)",
+      "id": "PM_0117",
+      "url": "/PM/0117",
+      "status": "complete",
+      "complete": " 2022.07.14",
+      "confirm":{
+      "plan":"2022.07.18",
+      "design":"2022.08.04"
+      },
+      "comment": [
+        "20221007 상품평작성 케이스추가"
+      ]
+    },
+    {
+      "desc": "메인",
+      "id": "ME_0201",
+      "url": "/ME/myPageMain",
+      "status": "complete",
+      "complete": " 2022.07.06",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "추천인 ID 등록(POPUP)",
+      "id": "ME_0202",
+      "url": "/ME/0202",
+      "status": "complete",
+      "complete": " 2022.07.06",
+      "confirm":{
+      "plan":"2022.08.05",
+      "design":"2022.08.10"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "재결제",
+      "id": "OR_0318",
+      "url": "/OR/repayment",
+      "status": "complete",
+      "complete": "2022.07.19",
+      "confirm":{
+      "plan":"2022.07.20",
+      "design":"2022.08.05"
+      },
+      "comment": [
+        "20221004 주석 [퍼블수정] 22.09.30 주문조회 수정"
+      ]
+    },
+    {
+      "desc": "Q&A 리스트",
+      "id": "PM_0146",
+      "url": "/PM/myQAList",
+      "status": "complete",
+      "complete": "2022.07.19",
+      "confirm":{
+      "plan":"2022.07.20",
+      "design":"2022.08.05"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "이벤트 참여내역",
+      "id": "MK_0115",
+      "url": "/MK/myEventList",
+      "status": "complete",
+      "complete": "2022.07.26",
+      "confirm":{
+      "plan":"2022.08.03",
+      "design":"2022.08.08"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "주문 취소 e-Gift Card",
+      "id": "OR_0344",
+      "url": "/OR/orderCancelGift",
+      "status": "pass",
+      "complete": "",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "없는 페이지. 삭제"
+      ]
+    },
+    {
+      "desc": "사은품 자동 응모",
+      "id": "MK_0116",
+      "url": "/MK/myGiftApply",
+      "status": "complete",
+      "complete": "2022.07.26",
+      "confirm":{
+      "plan":"2022.08.03",
+      "design":"2022.08.08"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "사은품 안내 팝업(POPUP)",
+      "id": "MK_0117",
+      "url": "/MK/0117",
+      "status": "complete",
+      "complete": "2022.07.26",
+      "confirm":{
+      "plan":"2022.08.03",
+      "design":"2022.08.08"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+멤버십 가입 동의",
+      "id": "TP_0102",
+      "url": "/TP/thePlusJoin",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.06"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+멤버십 가입 신청서",
+      "id": "TP_0104,TP_0105",
+      "url": "/TP/thePlusApplication",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.06"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 멤버십 가입 완료",
+      "id": "TP_0111",
+      "url": "/TP/thePlusJoinComplete",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 멤버십 재가입 완료",
+      "id": "TP_0112",
+      "url": "/TP/thePlusJoinReComplete",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "선호 브랜드 선택하기(POPUP)",
+      "id": "TP_0106",
+      "url": "/TP/0106",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 이용약관(POPUP)",
+      "id": "TP_0107",
+      "url": "/TP/0107",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "선호 브랜드 선택하기(POPUP)",
+      "id": "TP_0103",
+      "url": "/TP/0103",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.06"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 리워드 내역",
+      "id": "TP_0240,TP_0243",
+      "url": "/TP/thePlusReward",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 리워드 상품 배송조회",
+      "id": "TP_0241",
+      "url": "/TP/thePlusDelivery",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.30",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "배송조회(POPUP)",
+      "id": "TP_0244",
+      "url": "/TP/0244",
+      "status": "pass",
+      "complete": "",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "OR_0314 동일(작업X)"
+      ]
+    },
+    {
+      "desc": "더플러스+ 설정",
+      "id": "TP_0400",
+      "url": "/TP/thePlusMemberSet",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.06"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 소식",
+      "id": "TP_0500",
+      "url": "/TP/thePlusNews",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.06"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 이벤트(진행중/지난 이벤트)",
+      "id": "TP_0501,TP_0502",
+      "url": "/TP/thePlusEvent",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.30",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 이벤트 상세",
+      "id": "TP_0503",
+      "url": "/TP/thePlusEventDetail",
+      "status": "pass",
+      "complete": "",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "MK_0103 동일(작업X)"
+      ]
+    },
+    {
+      "desc": "더플러스+ 공지사항",
+      "id": "TP_0504",
+      "url": "/TP/thePlusNotice",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 공지사항 상세",
+      "id": "TP_0505",
+      "url": "/TP/thePlusNoticeDetail",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 멤버십 정기 결제 관리",
+      "id": "TP_0401,TP_0402,TP_0403",
+      "url": "/TP/thePlusPay",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.06"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 멤버십 결제 카드 변경완료(POPUP)",
+      "id": "TP_0405",
+      "url": "/TP/0405",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 멤버십 결제 완료(POPUP)",
+      "id": "TP_0406",
+      "url": "/TP/0406",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 멤버십 결제 내역(POPUP)",
+      "id": "TP_0407",
+      "url": "/TP/0407",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.06"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 멤버십 해지(POPUP)",
+      "id": "TP_0450",
+      "url": "/TP/0450",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 멤버십 해지하기(POPUP)",
+      "id": "TP_0451",
+      "url": "/TP/0451",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.06"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 멤버십 해지사유(POPUP)",
+      "id": "TP_0452,TP_0453",
+      "url": "/TP/0452",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "멤버십 해지하기 - 해지 가능 회원 case(POPUP)",
+      "id": "TP_0454",
+      "url": "/TP/0454",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "멤버십 해지하기 - 해지 불가능 회원 case(POPUP)",
+      "id": "TP_0455",
+      "url": "/TP/0455",
+      "status": "complete",
+      "complete": "2022.08.25",
+      "confirm":{
+      "plan":"2022.08.26",
+      "design":"2022.09.01"
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스⁺ 플러스맵 이용권 (popup)",
+      "id": "TP_0202",
+      "url": "/TP/0202",
+      "status": "complete",
+      "complete": "2022.09.08",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 리워드 획득 - 2개동시획득 typ1(POPUP)",
+      "id": "TP_0220",
+      "url": "/TP/0220",
+      "status": "complete",
+      "complete": "2022.09.08",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 리워드 획득 - 2개동시획득 typ2(POPUP)",
+      "id": "TP_0221",
+      "url": "/TP/0221",
+      "status": "complete",
+      "complete": "2022.09.08",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 리워드 획득 - 쿠폰(POPUP)",
+      "id": "TP_0222",
+      "url": "/TP/0222",
+      "status": "complete",
+      "complete": "2022.09.08",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "더플러스+ 리워드 획득 - 마일리지(POPUP)",
+      "id": "TP_0223",
+      "url": "/TP/0223",
+      "status": "complete",
+      "complete": "2022.09.08",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "공지팝업(popup)",
+      "id": "DP_0102",
+      "url": "/DP/0102",
+      "status": "complete",
+      "complete": "2022.09.08",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "2023.11.10 팝업 수정"
+      ]
+    },
+    {
+     "desc": "handsomeCareApplyDetail",
+       "id": "HC_0519",
+       "url": "/HC/handsomeCareApplyDetail",
+       "status": "complete",
+       "complete": "2022.07.08",
+       "confirm":{
+           "plan":"2022.07.12",
+           "design":"2022.07.18"
+       },
+       "comment": [
+           ""
+       ]
+    },
+    {
+     "desc": "handsomeCareApplyDetailComplete",
+       "id": "HC_0519",
+       "url": "/HC/handsomeCareApplyDetailComplete",
+       "status": "complete",
+       "complete": "2022.07.08",
+       "confirm":{
+           "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "handsomeCareApplyDetailPayment",
+       "id": "HC_0520",
+       "url": "/HC/handsomeCareApplyDetailPayment",
+       "status": "pass",
+       "complete": "",
+       "confirm":{
+           "plan":"",
+           "design":""
+       },
+       "comment": [
+           "유료결제기능 제한으로 삭제"
+       ]
+    },
+    {
+     "desc": "handsomeCareApplyDetailKeep",
+       "id": "HC_0520",
+       "url": "/HC/handsomeCareApplyDetailKeep",
+       "status": "complete",
+       "complete": "",
+       "confirm":{
+           "plan":"",
+           "design":""
+       },
+       "comment": [
+           ""
+       ]
+    },
+    {
+     "desc": "handsomeCareApplyDetailProceeding",
+       "id": "HC_0520",
+       "url": "/HC/handsomeCareApplyDetailProceeding",
+       "status": "complete",
+       "complete": "2022.07.08",
+       "confirm":{
+           "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "handsomeCareApplyDetailDilev",
+       "id": "HC_0520",
+       "url": "/HC/handsomeCareApplyDetailDilev",
+       "status": "complete",
+       "complete": "2022.07.08",
+       "confirm":{
+           "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "handsomeCareApplyDetailCencel",
+       "id": "HC_0520",
+       "url": "/HC/handsomeCareApplyDetailCencel",
+       "status": "complete",
+       "complete": "2022.07.08",
+       "confirm":{
+           "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "handsomeCareApplyDetailRefund",
+       "id": "HC_0520",
+       "url": "/HC/handsomeCareApplyDetailRefund",
+       "status": "pass",
+       "complete": "",
+       "confirm":{
+           "plan":"",
+           "design":""
+       },
+       "comment": [
+           "유료결제기능 제한으로 삭제"
+       ]
+    },
+    {
+     "desc": "handsomeCareApplyDetailStorePickup",
+       "id": "HC_0520",
+       "url": "/HC/handsomeCareApplyDetailStorePickup",
+       "status": "complete",
+       "complete": "2022.07.08",
+       "confirm":{
+           "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "handsomeCareApplyDetailimpossible",
+       "id": "HC_0520",
+       "url": "/HC/handsomeCareApplyDetailimpossible",
+       "status": "complete",
+       "complete": "2022.07.08",
+       "confirm":{
+           "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "",
+       "id": "HC_0529",
+       "url": "/HC/0529",
+       "status": "complete",
+       "complete": "",
+       "confirm":{
+           "plan":"",
+           "design":""
+       },
+       "comment": [
+           ""
+       ]
+    },
+    {
+     "desc": "",
+       "id": "PM_0152A",
+       "url": "/PM/0152A",
+       "status": "complete",
+       "complete": "",
+       "confirm":{
+           "plan":"",
+           "design":""
+       },
+       "comment": [
+           ""
+       ]
+    },
+    {
+     "desc": "수선 상세보기 - 접수",
+       "id": "HR_0511",
+       "url": "/HR/handsomeRepairDetail",
+       "status": "complete",
+       "complete": "2022.09.01",
+       "confirm":{
+         "plan":"2022.09.05",
+           "design":"2022.09.05"
+       },
+       "comment": [
+           ""
+       ]
+    },
+    {
+     "desc": "수선 상세보기 - 수선진행중",
+       "id": "HR_0511",
+       "url": "/HR/handsomeRepairDetailProceeding",
+       "status": "complete",
+       "complete": "2022.09.01",
+       "confirm":{
+         "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "수선 상세보기 - 결제하기",
+       "id": "HR_0512",
+       "url": "/HR/handsomeRepairDetailPayment",
+       "status": "complete",
+       "complete": "2022.09.01",
+       "confirm":{
+         "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "수선 상세보기 - 배송",
+       "id": "HR_0512",
+       "url": "/HR/handsomeRepairDetailComplete",
+       "status": "complete",
+       "complete": "2022.09.01",
+       "confirm":{
+         "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "수선 상세보기 - 수선취소",
+       "id": "HR_0512",
+       "url": "/HR/handsomeRepairDetailCancel",
+       "status": "complete",
+       "complete": "2022.09.01",
+       "confirm":{
+         "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "수선 상세보기 - 환불접수",
+       "id": "HR_0512",
+       "url": "/HR/handsomeRepairDetailRefund",
+       "status": "complete",
+       "complete": "2022.09.01",
+       "confirm":{
+         "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "수선 상세보기 - 환불완료",
+       "id": "HR_0512",
+       "url": "/HR/handsomeRepairDetailRefundComplete",
+       "status": "complete",
+       "complete": "2022.09.01",
+       "confirm":{
+         "plan":"",
+           "design":""
+       },
+       "comment": [
+           "확인을 위해 페이지 생성"
+       ]
+    },
+    {
+     "desc": "이미지 확대보기(POPUP)",
+       "id": "PM_0103",
+       "url": "/PM/0103",
+       "status": "complete",
+       "complete": "",
+       "confirm":{
+         "plan":"",
+           "design":""
+       },
+       "comment": [
+           ""
+       ]
+    },
+    {
+     "desc": "스타일라이브",
+       "id": "CS_0113",
+       "url": "/CS/serviceStyleLive",
+       "status": "complete",
+       "complete": "",
+       "confirm":{
+         "plan":"",
+           "design":""
+       },
+       "comment": [
+           ""
+       ]
+    },
+    {
+      "desc": "H.Point Pay 가입안내",
+      "id": "OR_0258",
+      "url": "/OR/0258", 
+      "status": "",
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "H.Point Pay 가입 전자금융거래 기본약관",
+      "id": "PY_0118",
+      "url": "/OR/0258", 
+      "status": "",
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "더플러스⁺ 가입동의 내에 유의사항(POPUP)",
+      "id": "TP_0106_1",
+      "url": "/TP/0106_1", 
+      "status": "",
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "더플러스⁺ 가입동의 내에 이용약관(POPUP)",
+      "id": "TP_0107_1",
+      "url": "/TP/0107_1", 
+      "status": "",
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "템플릿 E형",
+      "id": "DP_0246",
+      "url": "/DP/theMagazineTempE", 
+      "status": "complete",
+      "complete": "23.10.12",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "구분자 탬플릿 A",
+      "id": "MK_0114_1",
+      "url": "/MK/eventDetailTemplateA", 
+      "status": "complete",
+      "complete": "23.11.23",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "구분자 탬플릿 B",
+      "id": "MK_0114_2",
+      "url": "/MK/eventDetailTemplateB", 
+      "status": "complete",
+      "complete": "23.11.23",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "구분자 탬플릿 A2",
+      "id": "MK_0114_1",
+      "url": "/MK/eventDetailTemplateA2", 
+      "status": "complete",
+      "complete": "24.01.08",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "구분자 탬플릿 B2",
+      "id": "MK_0114_2",
+      "url": "/MK/eventDetailTemplateB2", 
+      "status": "complete",
+      "complete": "24.01.08",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "래플 이벤트 타입",
+      "id": "MK_0121",
+      "url": "/MK/eventRaffle", 
+      "status": "complete",
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "top100",
+      "id": "DP_",
+      "url": "/DP/top100", 
+      "status": "complete",
+      "complete": "2024.10.18",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    }
+  ]
+}

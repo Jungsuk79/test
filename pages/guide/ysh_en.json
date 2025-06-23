@@ -1,0 +1,158 @@
+{
+  "list": [
+    {
+      "desc": "메인",
+      "id": "GP_ME_0201",
+      "url": "/en/ME/myPageMain",
+      "status": "complete",
+      "complete": "",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "주문 조회",
+      "id": "GP_OR_0303",
+      "url": "/en/OR/orderShippingList",
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "20221027 수정"
+      ]
+    },
+    {
+      "desc": "주문조회 상세",
+      "id": "GP_OR_0304",
+      "url": "/en/OR/orderInquiryDetail",
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "20221027 수정"
+      ]
+    },
+    {
+      "desc": "옵션변경(POPUP)",
+      "id": "GP_OR_0305",
+      "url": "/en/OR/GP_0305",
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "20221027 수정"
+      ]
+    },
+    {
+      "desc": "나의 배송지 목록(팝업)",
+      "id": "GP_OR_0320",
+      "url": "/en/OR/GP_0320",
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "배송지 등록 (팝업)",
+      "id": "GP_OR_0321",
+      "url": "/en/OR/GP_0321",
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "20221027 수정"
+      ]
+    },
+    {
+      "desc": "배송조회(POPUP)",
+      "id": "GP_OR_0314",
+      "url": "/en/OR/GP_0314",
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        ""
+      ]
+    },
+    {
+      "desc": "주문 취소",
+      "id": "GP_OR_0315,GP_OR_0323",
+      "url": "/en/OR/orderCancel",
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "20221027 수정"
+      ]
+    },
+    {
+      "desc": "주문 내역",
+      "id": "GP_OR_0324",
+      "url": "/en/OR/orderCancelHistory",
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "20221027 수정"
+      ]
+    },
+    {
+      "desc": "반품신청",
+      "id": "GP_OR_0307,GP_OR_0325 ~ GP_OR_0328",
+      "url": "/en/OR/orderReturn",
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "20221027 수정"
+      ]
+    },
+    {
+      "desc": "반품내역",
+      "id": "GP_OR_0329",
+      "url": "/en/OR/orderReturnhistory",
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm":{
+      "plan":"",
+      "design":""
+      },
+      "comment": [
+        "20221027 수정"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "list": [
+    {
+      "desc": "즐겨찾는 검색어(popup)",
+      "id": "DP_0118",
+      "url": "/DP/0118",
+      "status": "complete",
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment":[
+        ""
+      ]
+    },
+    {
+      "desc": "장기 미이용 고객 인증",
+      "id": "ME_0101_A",
+      "url": "/ME/certificationGuide", 
+      "status": "complete",
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "상품 상세 [무형상품]",
+      "id": "PM_0101_A",
+      "url": "/PM/productDetail_itgb", 
+      "status": "complete",
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      },
+      "comment": [
+        "20241025: 구매 4일전 안내팝업 추가",
+        "20241029: 구매전 안내사항 팝업 수정"
+      ]
+    },
+    {
+      "desc": "주문/결제_주문서_주문완료",
+      "id": "OR_0265_A, OR_0266, OR_0268",
+      "url": "/OR/orderComplete_itgb", 
+      "status": "complete",
+      "comment": [
+        "20241025: [무형상품] 누락 문구 추가",
+        "20241028: [무형상품] 문구 띄어쓰기"
+      ],
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "주문/결제_주문서 [무형상품]",
+      "id": "OR_0241_A, OR_0242 OR_0243 OR_0244 OR_0245, OR_0262",
+      "url": "/OR/order_itgb", 
+      "status": "complete",
+      "comment": [
+        "20240822: [무형상품] 개인정보 처리방침 체크박스 제거",
+        "20241025: [무형상품] 누락 문구 추가",
+        "20241028: [무형상품] 문구 띄어쓰기"
+      ],
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "주문조회 상세",
+      "id": "OR_0304_A",
+      "url": "/OR/orderInquiryDetail_itgb", 
+      "status": "complete",
+      "comment": [
+      ],
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "주문조회 상세 - 취소,교환,반품",
+      "id": "OR_0304_A",
+      "url": "/OR/orderInquiryDetailEct_itgb", 
+      "status": "complete",
+      "comment": [
+      ],
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "주문진행 안내(POPUP)",
+      "id": "OR_0271",
+      "url": "/OR/0271", 
+      "status": "complete",
+      "comment": [
+      ],
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "취소 내역",
+      "id": "OR_0324_A",
+      "url": "/OR/orderCancelHistory_itgb", 
+      "status": "complete",
+      "comment": [
+      ],
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "즐겨찾는 검색어",
+      "id": "PM_0129",
+      "url": "/PM/searchFavorite", 
+      "status": "complete",
+      "comment": [
+      ],
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "개인정보처리방침(POPUP)",
+      "id": "CP_0204",
+      "url": "/CP/0204", 
+      "status": "complete",
+      "comment": [
+      ],
+      "complete": "",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "list": [
+    {
+      "desc": "고객센터 메인",
+      "id": "GP_CS_0101",
+      "url": "/en/CS/csCenterMain", 
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "고객센터 공지 사항-리스트",
+      "id": "GP_CS_0102,GP_CS_0104",
+      "url": "/en/CS/csCenterNotice", 
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "고객센터 공지 사항-상세",
+      "id": "GP_CS_0103",
+      "url": "/en/CS/csCenterDetail", 
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "고객센터 FAQ (자주하는 질문)",
+      "id": "GP_CS_0105",
+      "url": "/en/CS/csCenterFAQ", 
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "고객센터 1:1 문의 리스트",
+      "id": "GP_CS_0110",
+      "url": "/en/CS/oneToOneList", 
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "고객센터 1:1 문의 상세",
+      "id": "GP_CS_0111",
+      "url": "/en/CS/oneToOneDetail", 
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "고객센터 1:1 문의 상세",
+      "id": "GP_CS_0112",
+      "url": "/en/CS/oneToOneModify", 
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "쇼핑 가이드 쿠폰",
+      "id": "GP_CS_0129",
+      "url": "/en/CS/shoppingGuideCoupon", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "쇼핑 가이드 주문",
+      "id": "GP_CS_0141",
+      "url": "/en/CS/shoppingGuideOrder", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "쇼핑 가이드 상품",
+      "id": "GP_CS_0142",
+      "url": "/en/CS/shoppingGuideProduct", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "쇼핑 가이드 배송",
+      "id": "GP_CS_0143",
+      "url": "/en/CS/shoppingGuideDelivery", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "쇼핑 가이드 Refund/Return",
+      "id": "GP_CS_0144",
+      "url": "/en/CS/shoppingGuideRefund", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "쇼핑 가이드 Duty/Tax",
+      "id": "GP_CS_0145",
+      "url": "/en/CS/shoppingGuideDuty", 
+      "status": "complete",
+      "complete": "2022.09.14",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    },
+    {
+      "desc": "1:1 문의 상품검색(POPUP)",
+      "id": "GP_CS_0547",
+      "url": "/en/CS/GP_0547", 
+      "status": "complete",
+      "complete": "2022.09.15",
+      "confirm" :{
+        "plan":"",
+        "design":""
+      }
+    }
+  ]
+}

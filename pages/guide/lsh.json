@@ -1,0 +1,473 @@
+{
+    "list": [
+      {
+        "desc": "타임라인(popup)",
+          "id": "DP_1101",
+          "url": "/DP/timeline",
+          "status": "complete",
+          "complete": "2022.06.23",
+          "confirm":{
+              "plan":"2022.08.03",
+              "design":"2022.08.03"
+          },
+          "comment": [
+          ]
+       },
+       {
+        "desc": "기획전 목록",
+          "id": "DP_0221 ~ DP_0222",
+          "url": "/DP/planshop",
+          "status": "complete",
+          "complete": "2022.07.12",
+          "confirm":{
+              "plan":"2022.07.13",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "기획전 상세 A",
+          "id": "DP_0223",
+          "url": "/DP/planshopDetailA",
+          "status": "complete",
+          "complete": "2022.07.12",
+          "confirm":{
+              "plan":"2022.07.13",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "기획전 상세 B",
+          "id": "DP_0224",
+          "url": "/DP/planshopDetailB",
+          "status": "complete",
+          "complete": "2022.07.12",
+          "confirm":{
+              "plan":"2022.07.13",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "기획전 상세 C",
+          "id": "DP_0225",
+          "url": "/DP/planshopDetailC",
+          "status": "complete",
+          "complete": "2022.07.12",
+          "confirm":{
+              "plan":"2022.07.13",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "기획전 상세 D",
+          "id": "DP_0226",
+          "url": "/DP/planshopDetailD",
+          "status": "complete",
+          "complete": "2022.07.12",
+          "confirm":{
+              "plan":"2022.07.13",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "THE 매거진",
+          "id": "DP_0241",
+          "url": "/DP/theMagazineMain",
+          "status": "complete",
+          "complete": "2022.07.01",
+          "confirm":{
+              "plan":"2022.07.07",
+              "design":"2022.07.07"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "커버스토리",
+          "id": "DP_1241~ DP_1246",
+          "url": "/DP/theMagazineCover",
+          "status": "complete",
+          "complete": "2022.07.01",
+          "confirm":{
+              "plan":"2022.07.07",
+              "design":"2022.07.07"
+          },
+          "comment": [
+              "23.10.11 더매거진 템플릿/카테고리 수정"
+          ]
+       },{
+        "desc": "뉴스",
+        "id": "DP_0247",
+        "url": "/DP/theMagazineNews",
+        "status": "complete",
+        "complete": "2022.07.01",
+        "confirm" :{
+            "plan":"2022.07.07",
+            "design":"2022.07.07"
+          },
+        "comment": [""]
+    },
+       {
+        "desc": "템플릿 A형",
+          "id": "DP_0242",
+          "url": "/DP/theMagazineTempA",
+          "status": "complete",
+          "complete": "2022.07.01",
+          "confirm":{
+              "plan":"2022.07.07",
+              "design":"2022.07.07"
+          },
+          "comment": [
+            "23.10.11 더매거진 템플릿/카테고리 수정"
+          ]
+       },
+       {
+        "desc": "템플릿 B형",
+          "id": "DP_0243",
+          "url": "/DP/theMagazineTempB",
+          "status": "complete",
+          "complete": "2022.07.01",
+          "confirm":{
+              "plan":"2022.07.07",
+              "design":"2022.07.07"
+          },
+          "comment": [
+            "23.10.11 더매거진 템플릿/카테고리 수정"
+          ]
+       },
+       {
+        "desc": "템플릿 C형",
+          "id": "DP_0244",
+          "url": "/DP/theMagazineTempC",
+          "status": "complete",
+          "complete": "2022.07.01",
+          "confirm":{
+              "plan":"2022.07.07",
+              "design":"2022.07.07"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "템플릿 D형",
+          "id": "DP_0245",
+          "url": "/DP/theMagazineTempD",
+          "status": "complete",
+          "complete": "2022.07.01",
+          "confirm":{
+              "plan":"2022.07.07",
+              "design":"2022.07.07"
+          },
+          "comment": [
+            "23.10.11 더매거진 템플릿/카테고리 수정"
+          ]
+       },
+       {
+        "desc": "실측사이즈(POPUP)",
+          "id": "DP_0244 ~ DP_0245",
+          "url": "/DP/0244",
+          "status": "complete",
+          "complete": "",
+          "confirm":{
+              "plan":"",
+              "design":""
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "세탁 안내",
+          "id": "HC_0501",
+          "url": "/HC/handsomeCare",
+          "status": "complete",
+          "complete": "2022.07.08",
+          "confirm":{
+              "plan":"2022.07.12",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "마이 한섬케어 세탁",
+          "id": "HC_0502 ~ HC_0505",
+          "url": "/HC/myHandsomeCare",
+          "status": "complete",
+          "complete": "2022.07.08",
+          "confirm":{
+              "plan":"2022.07.15",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "세탁 서비스 운영정책 안내(POPUP)",
+          "id": "HC_0506",
+          "url": "/HC/0506",
+          "status": "complete",
+          "complete": "2022.07.08",
+          "confirm":{
+              "plan":"2022.07.12",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "세탁 신청하기",
+          "id": "HC_0507 ~ HC_0509",
+          "url": "/HC/handsomeCareApplyInfo",
+          "status": "complete",
+          "complete": "2022.07.08",
+          "confirm":{
+              "plan":"2022.07.12",
+              "design":"2022.07.18"
+          },
+          "comment": [
+            "2022.07.26 체크박스수정 [퍼블수정]주석"
+          ]
+       },
+       {
+        "desc": "세탁 신청완료",
+          "id": "HC_0513 ~ HC_0515",
+          "url": "/HC/handsomeCareApplyComplete",
+          "status": "complete",
+          "complete": "2022.09.01",
+          "confirm":{
+              "plan":"검수요청(09/01)",
+              "design":"2022.09.05"
+          },
+          "comment": [
+            ""
+          ]
+       },
+       {
+        "desc": "세탁비 상세보기(POPUP)",
+          "id": "HC_0522",
+          "url": "/HC/0522",
+          "status": "pass",
+          "complete": "",
+          "confirm":{
+              "plan":"2022.07.11",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              "유료결제기능 제한으로 삭제"
+          ]
+       },
+       {
+        "desc": "세탁상품 추가(POPUP)",
+          "id": "HC_0523 ~ HC_0524",
+          "url": "/HC/0523",
+          "status": "complete",
+          "complete": "2022.07.08",
+          "confirm":{
+              "plan":"2022.07.12",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              "20220902 CTA고정"
+          ]
+       },
+       {
+        "desc": "세탁 이용자 동의(POPUP)",
+          "id": "HC_0525",
+          "url": "/HC/0525",
+          "status": "complete",
+          "complete": "2022.09.01",
+          "confirm":{
+            "plan":"2022.09.05",
+              "design":"2022.09.05"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "세탁 불가 상품안내(POPUP)",
+          "id": "HC_0526",
+          "url": "/HC/0526",
+          "status": "complete",
+          "complete": "2022.09.01",
+          "confirm":{
+            "plan":"2022.09.05",
+              "design":"2022.09.05"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "수선 서비스안내",
+          "id": "HR_0501",
+          "url": "/HR/handsomeRepair",
+          "status": "complete",
+          "complete": "2022.07.08",
+          "confirm":{
+              "plan":"2022.07.15",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "마이 한섬케어수선 - 진행내역/이용내역",
+        "id": "HR_0502 ~ HR_0505",
+        "url": "/HR/myhandsomeRepair",
+        "status": "complete",
+        "complete": "2022.09.01",
+        "confirm" :{
+            "plan":"검수요청(09/01)",
+            "design":"2022.09.05"
+        },
+        "comment": []
+    },
+       {
+        "desc": "수선 진행 및 비용 안내(popup)",
+          "id": "HR_0506",
+          "url": "/HR/0506",
+          "status": "complete",
+          "complete": "2022.09.01",
+          "confirm":{
+            "plan":"검수요청(09/01)",
+              "design":"2022.09.05"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "케어플러스 수선 안내(popup)",
+          "id": "HR_0506_1",
+          "url": "/HR/0506_1",
+          "status": "complete",
+          "complete": "",
+          "confirm":{
+            "plan":"",
+              "design":""
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "수선 품질보증 및 보상안내(popup)",
+          "id": "HR_0507",
+          "url": "/HR/0507",
+          "status": "complete",
+          "complete": "2022.07.08",
+          "confirm":{
+              "plan":"2022.07.11",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              "2022.09.01 클래스명 변경"
+          ]
+       },
+       {
+        "desc": "수선 신청하기",
+          "id": "HR_0508",
+          "url": "/HR/handsomeRepairApplyInfo",
+          "status": "complete",
+          "complete": "2022.09.01",
+          "confirm":{
+            "plan":"검수요청(09/01)",
+              "design":"2022.09.05"
+          },
+          "comment": [
+              "20221115 필수 입력 추가"
+          ]
+       },
+       {
+        "desc": "수선 신청완료",
+          "id": "HR_0510",
+          "url": "/HR/handsomeRepairApplyComplete",
+          "status": "complete",
+          "complete": "2022.09.01",
+          "confirm":{
+            "plan":"검수요청(09/01)",
+              "design":"2022.09.05"
+          },
+          "comment": [
+              ""
+          ]
+       },
+       {
+        "desc": "수선 조회",
+          "id": "HR_0514 ~ HR_0516",
+          "url": "/HR/handsomeRepairlinquiry",
+          "status": "complete",
+          "complete": "2022.07.08",
+          "confirm":{
+              "plan":"2022.07.11",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              "2022.09.01 클래스명 변경 및 제거"
+          ]
+       },
+       {
+        "desc": "수선상품 추가(popup)",
+          "id": "HR_0517",
+          "url": "/HR/0517",
+          "status": "complete",
+          "complete": "2022.07.08",
+          "confirm":{
+              "plan":"2022.07.11",
+              "design":"2022.07.18"
+          },
+          "comment": [
+              "20220902 CTA고정"
+          ]
+       },{
+        "desc": "수선 이용자 동의(POPUP)",
+          "id": "HR_0519",
+          "url": "/HR/0519",
+          "status": "complete",
+          "complete": "2022.09.01",
+          "confirm":{
+            "plan":"2022.09.05",
+             "design":"2022.09.05"
+          },
+          "comment": [
+              ""
+          ]
+       },{
+        "desc": "상품 Q&A(POPUP)",
+          "id": "PM_0118",
+          "url": "/PM/0118",
+          "status": "complete",
+          "complete": "2022.08.19",
+          "confirm":{
+              "plan":"",
+              "design":""
+          },
+          "comment": [
+              "20220915 textarea 수정(위치표시 : '220915 qna')"
+          ]
+       }
+    ]
+  }
+  
