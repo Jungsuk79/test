@@ -1,0 +1,69 @@
+{
+    "list":[
+        {
+            "label": "여성",
+            "list":[
+                {
+                    "label": "여성전체",
+                    "link_url": "#none"
+                },{
+                    "label": "아우터",
+                    "link_url": "#none"
+                },{
+                    "label": "탑",
+                    "link_url": "#none"
+                },{
+                    "label": "드레스",
+                    "link_url": "#none"
+                },{
+                    "label": "팬츠",
+                    "link_url": "#none"
+                },{
+                    "label": "스커트",
+                    "link_url": "#none"
+                },{
+                    "label": "SPECIAL SHOP",
+                    "link_url": "#none"
+                }
+            ]
+        },{
+            "label": "남성",
+            "list":[
+                {
+                    "label": "남성전체",
+                    "link_url": "#none"
+                },{
+                    "label": "아우터",
+                    "link_url": "#none"
+                },{
+                    "label": "탑",
+                    "link_url": "#none"
+                },{
+                    "label": "팬츠",
+                    "link_url": "#none"
+                },{
+                    "label": "수트",
+                    "link_url": "#none"
+                },{
+                    "label": "SPECIAL SHOP",
+                    "link_url": "#none"
+                }
+            ]
+        },{
+            "label": "잡화",
+            "link_url": "#none"
+        },{
+            "label": "뷰티",
+            "link_url": "#none"
+        },{
+            "label": "라이프스타일",
+            "link_url": "#none"
+        },{
+            "label": "편집샵",
+            "link_url": "#none"
+        },{
+            "label": "아울렛",
+            "link_url": "#none"
+        }
+    ]
+    }

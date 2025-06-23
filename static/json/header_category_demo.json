@@ -1,0 +1,2783 @@
+{
+    "main" : {
+        "menu1" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "여성",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "SPECIAL SHOP",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "아우터",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "탑",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "드레스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "팬츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스커트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "캡슐 컬렉션*",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "남성",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "SPECIAL SHOP",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "아우터",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "탑",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "팬츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "수트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "캡슐 컬렉션*",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "잡화",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "여성슈즈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "남성슈즈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "여성백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "남성백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "머플러/스카프",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "쥬얼리",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 ACC",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "뷰티",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "향수",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스킨케어",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "메이크업",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "바디케어",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "헤어케어",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "라이프스타일",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "홈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "배스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "키친",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "데스크",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "펫",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "키즈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "의류",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "잡화",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "골프",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "여성웨어",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "남성웨어",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "ACC",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu2" : {
+            "menu_type" : "brand",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "여성 브랜드",
+                        "link_url" : null
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "TIME",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "MINE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "LANVIN COLLECTION",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "SYSTEM",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "SJSJ",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "the CASHMERE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "CLUB MONACO",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "OBZEE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "LÄTT",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "O'2nd",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "oera",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "남성 브랜드",
+                        "link_url" : null
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "TIME OMME",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "SYSTEM HOMME",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "the CASHMERE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "CLUB MONACO",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "편집 브랜드",
+                        "link_url" : null
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "TOM GREYHOUND",
+                            "link_url" : "#n",
+                            "zzim" : false,
+                            "flag" : "PB"
+                        },
+                        {
+                            "menu_name" : "FORUM THE STORE",
+                            "link_url" : "#n",
+                            "zzim" : false,
+                            "flag" : "BEST"
+                        },
+                        {
+                            "menu_name" : "FORUM STUDIO",
+                            "link_url" : "#n",
+                            "zzim" : false,
+                            "flag" : "NEW"
+                        },
+                        {
+                            "menu_name" : "FORUM MEN’S LOUNGE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "MUE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "H:SCENE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "Liquides Perfume Bar",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "해외 브랜드",
+                        "link_url" : null
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "ROCHAS",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "3.1 Phillips Lim",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "LANVIN PARIS",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "BALLY",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "editShopMain" : {
+        "menu1" : {
+            "menu_type" : "specialshop",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "SPECIAL SHOP",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "SYSTEM : PARIS PRESENTATION",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "O’2ND : WE",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "TOMGREYHOUND : THE GREY",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "FOURM THE SOTRE : PALETTE",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "FOURM STUDIO : RE:STUDIO",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "TIME : SIGNATURE SUIT",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "아우터",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "재킷",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "점퍼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "가디건/베스트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "트렌치 코트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "코트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "다운/패딩",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "탑",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "티셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "블라우스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "니트",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "드레스",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "미니 드레스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "미니 드레스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "롱/맥시 드레스",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "팬츠",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "캐주얼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "포멀",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "데님",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "쇼츠",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "스커트",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "미니 스커트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "펜슬 스커트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "플레이어 스커트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "롱/맥시 스커트",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu2" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "아우터",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "재킷",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "점퍼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "가디건/베스트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "코트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "다운/패딩",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "탑",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "티셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "니트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스웨터",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "팬츠",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "루즈/테이퍼드",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "슬림/스트레이트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "조거/트랙",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "데님",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "쇼츠",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu3" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "여성슈즈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "로퍼/블로퍼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스니커즈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "플랫",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "샌들/슬라이드",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "남성슈즈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "스니커즈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "샌들/슬라이드",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "여성백",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "토트백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "숄더/크로스바디백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "클러치 백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 백",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "남성백",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "토트백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "숄더/크로스바디백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "클러치 백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 백",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "머플러/스카프",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "머플러",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스카프",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "주얼리",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "이어링/커프",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "목걸이",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "팔찌",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "반지",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 주얼리",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "기타 ACC",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "모자",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "양말",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "벨트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "지갑",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "헤어ACC",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "테크ACC",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "비치웨어",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu4" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "스킨케어",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "클렌징/스크럽/마스크",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "바디/헤어케어",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "핸드·바디로션/크림/오일",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "핸드·바디워시/스크럽",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "샴푸/컨디셔너",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "트리트먼트/오일/스프레이",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 바디/헤어케어",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "향수",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "향수",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu5" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "홈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "패브릭",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "프래그런스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "데코레이션",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "배스",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "욕실용품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "키친",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "그릇",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "보드/트레이",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "커트러리",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "커피/티",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "패브릭/냅킨",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "데스크",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "키즈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "의류",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "잡화",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "펫",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "패션",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "editShopSubMain" : {
+        "menu1" : {
+            "menu_type" : "specialshop",
+            "menu_list"  : [
+                {
+                    "d1" : {
+                        "menu_name" : "SPECIAL SHOP",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "TOMGREYHOUND : THE GREY",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "아우터",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "재킷",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "점퍼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "가디건/베스트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "트렌치 코트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "코트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "다운/패딩",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "탑",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "티셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "블라우스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "니트",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "드레스",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "미니 드레스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "미니 드레스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "롱/맥시 드레스",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "팬츠",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "캐주얼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "포멀",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "데님",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "쇼츠",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "스커트",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "미니 스커트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "펜슬 스커트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "플레이어 스커트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "롱/맥시 스커트",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu2" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "아우터",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "재킷",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "점퍼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "가디건/베스트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "코트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "다운/패딩",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "탑",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "티셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "니트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스웨터",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "팬츠",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "루즈/테이퍼드",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "조거/트랙",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "데님",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "쇼츠",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu3" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "여성슈즈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "로퍼/블로퍼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스니커즈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "플랫",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "샌들/슬라이드",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "남성슈즈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "스니커즈",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "여성백",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "토트백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "숄더/크로스바디백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "클러치 백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 백",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "머플러/스카프",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "머플러",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스카프",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "주얼리",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "이어링/커프",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "목걸이",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "팔찌",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "반지",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "기타 ACC",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "모자",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "양말",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "벨트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "헤어ACC",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "비치웨어",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu4" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "바디/헤어케어",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "핸드·바디로션/크림/오일",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "핸드·바디워시/스크럽",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "샴푸/컨디셔너",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 바디/헤어케어",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu5" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "홈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "패브릭",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "프래그런스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "배스",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "욕실용품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "키친",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "그릇",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "보드/트레이",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "커트러리",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "커피/티",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "데스크",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "키즈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "잡화",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "펫",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "패션",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "editShopSub" : {
+        "menu1" : {
+            "menu_type" : "submenu",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "아우터",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "탑",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "드레스",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "팬츠",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "스커트",
+                        "link_url" : "#n"
+                    }
+                }
+            ]
+        },
+        "menu2" : {
+            "menu_type" : "submenu",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "탑",
+                        "link_url" : "#n"
+                    }
+                }
+            ]
+        },
+        "menu3" : {
+            "menu_type" : "submenu",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "여성백",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "머플러/스카프",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "기타 ACC",
+                        "link_url" : "#n"
+                    }
+                }
+            ]
+        },
+        "menu4" : {
+            "menu_type" : "submenu",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "배스",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "키즈",
+                        "link_url" : "#n"
+                    }
+                }
+            ]
+        }
+    },
+    "outletMain" : {
+        "menu1" : {
+            "menu_type" : "brand",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "여성 브랜드",
+                        "link_url" : null
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "TIME",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "MINE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "LANVIN COLLECTION",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "SYSTEM",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "SJSJ",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "the CASHMERE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "CLUB MONACO",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "OBZEE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "LÄTT",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "O'2nd",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "oera",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "남성 브랜드",
+                        "link_url" : null
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "TIME OMME",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "SYSTEM HOMME",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "the CASHMERE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "CLUB MONACO",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "편집 브랜드",
+                        "link_url" : null
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "TOM GREYHOUND",
+                            "link_url" : "#n",
+                            "zzim" : false,
+                            "flag" : "PB"
+                        },
+                        {
+                            "menu_name" : "FORUM THE STORE",
+                            "link_url" : "#n",
+                            "zzim" : false,
+                            "flag" : "BEST"
+                        },
+                        {
+                            "menu_name" : "FORUM STUDIO",
+                            "link_url" : "#n",
+                            "zzim" : false,
+                            "flag" : "NEW"
+                        },
+                        {
+                            "menu_name" : "FORUM MEN’S LOUNGE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "MUE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "H:SCENE",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "Liquides Perfume Bar",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "해외 브랜드",
+                        "link_url" : null
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "ROCHAS",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "3.1 Phillips Lim",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "LANVIN PARIS",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        },
+                        {
+                            "menu_name" : "BALLY",
+                            "link_url" : "#n",
+                            "zzim" : false
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu2" : {
+            "menu_type" : "specialshop",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "SPECIAL SHOP",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "SYSTEM : PARIS PRESENTATION",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "O’2ND : WE",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "TOMGREYHOUND : THE GREY",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "FOURM THE SOTRE : PALETTE",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "FOURM STUDIO : RE:STUDIO",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "TIME : SIGNATURE SUIT",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "아우터",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "재킷",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "점퍼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "가디건/베스트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "트렌치 코트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "코트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "다운/패딩",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "탑",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "티셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "블라우스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "니트",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "드레스",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "미니 드레스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "미니 드레스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "롱/맥시 드레스",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "팬츠",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "캐주얼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "포멀",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "데님",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "쇼츠",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "스커트",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "미니 스커트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "펜슬 스커트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "플레이어 스커트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "롱/맥시 스커트",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu3" : {
+            "menu_type" : "specialshop",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "SPECIAL SHOP",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "SYSTEM HOMME : PARIS PRESENTATION",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "SYSTEM HOMME : TYPE 2",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "SYSTEM HOMME : (NEW) SWEATS VER.2",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "TIME HOMME : ONLINE EXCLUSIVE",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "TIME HOMME : THE GENTLE",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "아우터",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "재킷",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "점퍼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "가디건/베스트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "트렌치코트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "코트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "다운/패딩",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "탑",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "티셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "니트",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "팬츠",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "루즈/테이퍼드",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "슬림/스트레이트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "조거/트랙",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "데님",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "쇼츠",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "수트",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "드레스셔츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "수트재킷",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "수트팬츠",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu4" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "전체",
+                        "link_url" : "#n"
+                    },
+                    "d2" : []
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "여성슈즈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "부츠",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "로퍼/블로퍼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스니커즈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "플랫",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "힐/슬링백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "샌들/슬라이드",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 슈즈",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "남성슈즈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "포멀슈즈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스니커즈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "샌들/슬라이드",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 슈즈",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "여성백",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "토트백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "숄더/크로스바디백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "클러치 백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 백",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "남성백",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "토트백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "숄더/크로스바디백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "클러치 백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 백",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "스카프/머플러",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "스카프",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "머플러",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "주얼리",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "이어링/커프",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "목걸이",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "팔찌",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "반지",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 주얼리",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "비치웨어",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "스윔웨어",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "기타 ACC",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "모자",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "양말",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "장갑",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "벨트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "지갑",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "헤어ACC",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "테크ACC",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "비치웨어",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu5" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "스킨케어",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "토너/에멀전/크림",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "세럼/앰플/오일/밤",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "클렌징/스크럽/마스크",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 스킨케어",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "메이크업",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "페이스 메이크업",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "립 메이크업",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "바디/헤어케어",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "핸드·바디로션/크림/오일",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "핸드·바디워시/스크럽",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "샴푸/컨디셔너",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "트리트먼트/오일/스프레이",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 바디/헤어케어",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "향수",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "향수",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu6" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "홈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "패브릭",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "프래그런스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "데코레이션",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "배스",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "스킨케어",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "욕실용품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "키친",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "그릇",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "보드/트레이",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "커트러리",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "커피/티",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "컵/글래스",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "패브릭/냅킨",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "데스크",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "문구",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "책",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "펫",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "패션",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "outletSub" : {
+        "menu1" : {
+            "menu_type" : "submenu",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "부츠",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "로퍼/블로퍼",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "스니커즈",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "플랫",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "힐/슬링백",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "샌들/슬라이드",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "기타 슈즈",
+                        "link_url" : "#n"
+                    }
+                }
+            ]
+        },
+        "menu2" : {
+            "menu_type" : "submenu",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "포멀슈즈",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "스니커즈",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "기타 슈즈",
+                        "link_url" : "#n"
+                    }
+                }
+            ]
+        },
+        "menu3" : {
+            "menu_type" : "submenu",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "토트백",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "숄더/크로스바디백",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "클러치 백",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "기타 백",
+                        "link_url" : "#n"
+                    }
+                }
+            ]
+        },
+        "menu4" : {
+            "menu_type" : "submenu",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "숄더/크로스바디백",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "클러치 백",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "기타 백",
+                        "link_url" : "#n"
+                    }
+                }
+            ]
+        },
+        "menu5" : {
+            "menu_type" : "submenu",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "머플러",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "스카프",
+                        "link_url" : "#n"
+                    }
+                }
+            ]
+        },
+        "menu6" : {
+            "menu_type" : "submenu",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "양말",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "벨트",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "지갑",
+                        "link_url" : "#n"
+                    }
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "기타소품",
+                        "link_url" : "#n"
+                    }
+                }
+            ]
+        }
+    },
+    "overseasBrand" : {
+        "menu1" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "탑",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "티셔츠",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "menu2" : {
+            "menu_type" : "category",
+            "menu_list" : [
+                {
+                    "d1" : {
+                        "menu_name" : "여성슈즈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "로퍼/블로퍼",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스니커즈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "힐/슬링백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "샌들/슬라이드",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "남성슈즈",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "포멀슈즈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "스니커즈",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "샌들/슬라이드",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 슈즈",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "여성백",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "토트백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "숄더/크로스바디백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 백",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "남성백",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "토트백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "숄더/크로스바디백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "클러치 백",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타 백",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "머플러/스카프",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "스카프",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "주얼리",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "팔찌",
+                            "link_url" : "#n"
+                        }
+                    ]
+                },
+                {
+                    "d1" : {
+                        "menu_name" : "기타 ACC",
+                        "link_url" : "#n"
+                    },
+                    "d2" : [
+                        {
+                            "menu_name" : "모자",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "양말",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "벨트",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "지갑",
+                            "link_url" : "#n"
+                        },
+                        {
+                            "menu_name" : "기타소품",
+                            "link_url" : "#n"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

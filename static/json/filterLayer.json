@@ -1,0 +1,512 @@
+{
+    "minPrice" : 3000,
+    "maxPrice" : 5000000,
+    "list" : [
+        {
+        "label":"카테고리",
+        "type":"category",
+        "list":[
+            {
+            "label": "아우터",
+            "item_cd": "11",
+            "list":[
+                {
+                    "label": "재킷",
+                    "item_cd": "1111"
+                },{
+                    "label": "점퍼",
+                    "item_cd": "1122"
+                },{
+                    "label": "가디건/베스트",
+                    "item_cd": "1133"
+                },{
+                    "label": "트렌치 코트",
+                    "item_cd": "1144"
+                },{
+                    "label": "코트",
+                    "item_cd": "1155"
+                },{
+                    "label": "다운/패딩",
+                    "item_cd": "1166"
+                }
+            ]
+            },{
+            "label": "탑",
+            "item_cd": "22"
+            },{
+            "label": "드레스",
+            "item_cd": "33"
+            },{
+            "label": "팬츠",
+            "item_cd": "44"
+            },{
+            "label": "스커트",
+            "item_cd": "55"
+            },{
+            "label": "잡화",
+            "item_cd": "66",
+            "list": [
+                {
+                    "label" : "여성슈즈",
+                    "item_cd": "6611",
+                    "list": [
+                        {
+                            "label": "부츠",
+                            "item_cd": "661111"
+                        },{
+                            "label": "로퍼/플로퍼",
+                            "item_cd": "661122"
+                        },{
+                            "label": "스니커즈",
+                            "item_cd": "661133"
+                        },{
+                            "label": "힐/슬링백",
+                            "item_cd": "661144"
+                        },{
+                            "label": "샌들/슬라이드",
+                            "item_cd": "661155"
+                        }
+                    ]
+                },{
+                    "label" : "남성슈즈",
+                    "item_cd": "6622",
+                    "list": [
+                        {
+                            "label": "부츠",
+                            "item_cd": "662211"
+                        },{
+                            "label": "로퍼/플로퍼",
+                            "item_cd": "662222"
+                        },{
+                            "label": "스니커즈",
+                            "item_cd": "662233"
+                        },{
+                            "label": "샌들/슬라이드",
+                            "item_cd": "662244"
+                        }
+                    ]
+                },{
+                    "label" : "여성백",
+                    "item_cd": "6633"
+                },{
+                    "label" : "남성백",
+                    "item_cd": "6644"
+                },{
+                    "label" : "기타ACC",
+                    "item_cd": "6655"
+                }
+            ]
+            },{
+            "label": "라이프스타일",
+            "item_cd": "77"
+            },{
+            "label": "SPECIAL SHOP",
+            "item_cd": "88"
+            }
+        ]
+        },{
+        "label":"브랜드",
+        "type":"brand",
+        "list":[
+                {
+                    "label": "TIME",
+                    "item_cd": "11"
+                },{
+                    "label": "MINE",
+                    "item_cd": "22"
+                },{
+                    "label": "LANVIN COLLECTION",
+                    "item_cd": "33"
+                },{
+                    "label": "SYSTEM",
+                    "item_cd": "44"
+                },{
+                    "label": "FOURM THE STORE",
+                    "item_cd": "55",
+                    "list": [
+                        {
+                            "label": "FOURM THE STORE",
+                            "item_cd": "TOTEME"
+                        },{
+                            "label": "GANNI",
+                            "item_cd": "5522"
+                        },{
+                            "label": "DUNST",
+                            "item_cd": "5533"
+                        },{
+                            "label": "PUMA",
+                            "item_cd": "5544"
+                        },{
+                            "label": "AGOLDE",
+                            "item_cd": "5555"
+                        },{
+                            "label": "MOTHER DENIM",
+                            "item_cd": "5566"
+                        },{
+                            "label": "SPADECLUBSEOUL",
+                            "item_cd": "5577"
+                        },{
+                            "label": "NOVO APARTMENT",
+                            "item_cd": "5588"
+                        },{
+                            "label": "HOURS",
+                            "item_cd": "5599"
+                        },{
+                            "label": "ALIGHTERI",
+                            "item_cd": "551010"
+                        },{
+                            "label": "S_S,IL",
+                            "item_cd": "551111"
+                        },{
+                            "label": "JAMES PERSE",
+                            "item_cd": "551212"
+                        }
+                    ]
+                },{
+                    "label": "SJSJ",
+                    "item_cd": "66"
+                },{
+                    "label": "the CASHIMERE",
+                    "item_cd": "77"
+                },{
+                    "label": "CLUB MONACO",
+                    "item_cd": "88"
+                },{
+                    "label": "OBZEE",
+                    "item_cd": "99"
+                },{
+                    "label": "LÄTT",
+                    "item_cd": "1010"
+                },{
+                    "label": "O'2nd",
+                    "item_cd": "1111"
+                },{
+                    "label": "oera",
+                    "item_cd": "1212"
+                }
+            ]
+        },{
+        "label":"색상",
+        "type":"color",
+        "list":[
+            {
+                "label": "BEIGE",
+                "style": "#fae7c4",
+                "item_cd": "3513"
+            },{
+                "label": "BLACK",
+                "style": "#000000",
+                "item_cd": "84565"
+            },{
+                "label": "BLUE",
+                "style": "#0f45bc",
+                "item_cd": "46841"
+            },{
+                "label": "BROWN",
+                "style": "#673915",
+                "item_cd": "7855"
+            },{
+                "label": "BURGUNDY",
+                "style": "#741313",
+                "item_cd": "9546"
+            },{
+                "label": "CAMEL",
+                "style": "#876c41",
+                "item_cd": "7412"
+            },{
+                "label": "GOLD",
+                "style": "#ffc733",
+                "item_cd": "7896"
+            },{
+                "label": "GREEN",
+                "style": "#0f6f0e",
+                "item_cd": "8546"
+            },{
+                "label": "GREY",
+                "style": "#444445",
+                "item_cd": "2154"
+            },{
+                "label": "IVORY",
+                "style": "#fff8d9",
+                "item_cd": "1111"
+            },{
+                "label": "KHAKI",
+                "style": "#465626",
+                "item_cd": "5555"
+            },{
+                "label": "LAVENDER",
+                "style": "#9c81bb",
+                "item_cd": "6666"
+            },{
+                "label": "METAL",
+                "style": "#9d9fa2",
+                "item_cd": "7878"
+            },{
+                "label": "MINT",
+                "style": "#95d0ab",
+                "item_cd": "9494"
+            },{
+                "label": "MULTI",
+                "style": "#534741",
+                "item_cd": "3333"
+            },{
+                "label": "NAVY",
+                "style": "#061836",
+                "item_cd": "8888"
+            },{
+                "label": "OLIVE",
+                "style": "#5d682d",
+                "item_cd": "979794"
+            },{
+                "label": "ORANGE",
+                "style": "#ee6423",
+                "item_cd": "1452"
+            },{
+                "label": "PINK",
+                "style": "#ea589b",
+                "item_cd": "7845"
+            },{
+                "label": "PURPLE",
+                "style": "#833b95",
+                "item_cd": "9635"
+            },{
+                "label": "RED",
+                "style": "#ec1e24",
+                "item_cd": "1548"
+            },{
+                "label": "SILVER",
+                "style": "#c0c0c0",
+                "item_cd": "6754"
+            },{
+                "label": "SKY",
+                "style": "#a2d6f3",
+                "item_cd": "31552"
+            },{
+                "label": "VIOLET",
+                "style": "#4c2b7b",
+                "item_cd": "98552"
+            },{
+                "label": "WHITE",
+                "style": "#ffffff",
+                "item_cd": "15452"
+            },{
+                "label": "YELLOW",
+                "style": "#ffea0a",
+                "item_cd": "6658"
+            }
+        ]
+        },{
+        "label":"사이즈",
+        "type":"size",
+        "list":[
+            {
+                "label":"여성 상의",
+                "list": [
+                    {
+                        "label": "XXXS",
+                        "item_cd": "100001"
+                    },{
+                        "label": "XXS",
+                        "item_cd": "100002"
+                    },{
+                        "label": "XS",
+                        "item_cd": "100003"
+                    },{
+                        "label": "S",
+                        "item_cd": "100004"
+                    },{
+                        "label": "M",
+                        "item_cd": "100005"
+                    },{
+                        "label": "L",
+                        "item_cd": "100006"
+                    },{
+                        "label": "XL",
+                        "item_cd": "100007"
+                    },{
+                        "label": "XXL",
+                        "item_cd": "100008"
+                    },{
+                        "label": "XXXL",
+                        "item_cd": "100009"
+                    },{
+                        "label": "XXXXL",
+                        "item_cd": "100010"
+                    },{
+                        "label": "FREE",
+                        "item_cd": "100011"
+                    },{
+                        "label": "ETC",
+                        "item_cd": "100012"
+                    }
+                ]
+            },{
+                "label":"여성 하의",
+                "list": [
+                    {
+                        "label": "XXXS",
+                        "item_cd": "200001"
+                    },{
+                        "label": "XXS",
+                        "item_cd": "200002"
+                    },{
+                        "label": "XS",
+                        "item_cd": "200003"
+                    },{
+                        "label": "S",
+                        "item_cd": "200004"
+                    },{
+                        "label": "M",
+                        "item_cd": "200005"
+                    },{
+                        "label": "L",
+                        "item_cd": "200006"
+                    },{
+                        "label": "XL",
+                        "item_cd": "200007"
+                    },{
+                        "label": "XXL",
+                        "item_cd": "200008"
+                    },{
+                        "label": "XXXL",
+                        "item_cd": "200009"
+                    },{
+                        "label": "XXXXL",
+                        "item_cd": "200010"
+                    },{
+                        "label": "FREE",
+                        "item_cd": "200011"
+                    },{
+                        "label": "ETC",
+                        "item_cd": "200012"
+                    }
+                ]
+            },{
+                "label":"여성 신발",
+                "list": [
+                    {
+                        "label": "230",
+                        "item_cd": "300230"
+                    },{
+                        "label": "240",
+                        "item_cd": "300240"
+                    },{
+                        "label": "250",
+                        "item_cd": "300250"
+                    },{
+                        "label": "260",
+                        "item_cd": "300260"
+                    },{
+                        "label": "270",
+                        "item_cd": "300270"
+                    }
+                ]
+            },{
+                "label":"남성 신발",
+                "list": [
+                    {
+                        "label": "230",
+                        "item_cd": "400230"
+                    },{
+                        "label": "240",
+                        "item_cd": "400240"
+                    },{
+                        "label": "250",
+                        "item_cd": "400250"
+                    },{
+                        "label": "260",
+                        "item_cd": "400260"
+                    },{
+                        "label": "270",
+                        "item_cd": "400270"
+                    },{
+                        "label": "280",
+                        "item_cd": "400280"
+                    },{
+                        "label": "290",
+                        "item_cd": "400290"
+                    },{
+                        "label": "300",
+                        "item_cd": "400300"
+                    }
+                ]
+            }
+            
+        ]
+        },{
+        "label":"소재",
+        "type":"material",
+        "list":[
+            {
+                "label": "트위드",
+                "item_cd": "135454"
+            },{
+                "label": "캐시미어",
+                "item_cd": "44454"
+            },{
+                "label": "울/알파카",
+                "item_cd": "4211545"
+            },{
+                "label": "면",
+                "item_cd": "874146"
+            },{
+                "label": "퍼",
+                "item_cd": "44202"
+            },{
+                "label": "실크/새틴",
+                "item_cd": "878454"
+            },{
+                "label": "벨벳",
+                "item_cd": "878456"
+            },{
+                "label": "코듀로이",
+                "item_cd": "878458"
+            },{
+                "label": "스웨이드",
+                "item_cd": "878459"
+            }
+        ]
+        },{
+        "label":"핏",
+        "type":"material",
+        "list":[
+            {
+                "label": "롱",
+                "item_cd": "135454"
+            },{
+                "label": "미디",
+                "item_cd": "44454"
+            },{
+                "label": "크롭/하프",
+                "item_cd": "4211545"
+            }
+        ]
+        },{
+            "label":"가격",
+            "type":"price",
+            "list":[
+                {
+                    "label": "100,000원 이하",
+                    "min": "1000",
+                    "max": "100000"
+                },{
+                    "label": "100,000원 ~ 300,000원",
+                    "min": "100000",
+                    "max": "300000"
+                },{
+                    "label": "300,000원 ~ 500,000원",
+                    "min": "300000",
+                    "max": "500000"
+                },{
+                    "label": "500,000 ~ 1,000,000원",
+                    "min": "500000",
+                    "max": "1000000"
+                },{
+                    "label": "1,000,000원 이상",
+                    "min": "1000000",
+                    "max": "9999000"
+                }
+            ]
+        }
+    ]
+}

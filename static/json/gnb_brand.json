@@ -1,0 +1,188 @@
+{
+    "category":[
+        {
+            "label" : "여성",
+            "item_cd": "001"
+        },{
+            "label" : "남성",
+            "item_cd": "002"
+        },{
+            "label" : "편집샵",
+            "item_cd": "003"
+        },{
+            "label" : "해외",
+            "item_cd": "004"
+        }
+    ],
+    "list":[
+        {
+            "label": "TIME",
+            "item_cd": "11",
+            "link_url": "#none",
+            "category": ["001"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "TIME HOMME",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["002"],
+            "new": false,
+            "checked": true
+        },{
+            "label": "SYSTEM",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["001"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "SYSTEM HOMME",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["002"],
+            "new": false,
+            "checked": true
+        },{
+            "label": "MINE",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["001"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "the CASHMERE",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["001", "002"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "LANVIN COLLECTION",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["001"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "CLUB MONACO",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["001", "002"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "SJSJ",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["001"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "LÄTT",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["001"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "OBZEE",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["001"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "O'2nd",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["001"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "TOM GREYHOUND",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["003"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "FOURM THE STORE",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["003"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "FOURM STUDIO",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["003"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "FOURM MEN'S LOUNGE",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["003"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "MUE",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["003"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "H : SCENE",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["003"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "BALLY",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["004"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "LANVIN PARIS",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["004"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "3.1 Phillip Lim",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["004"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "ROCHAS",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["004"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "oera",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["001"],
+            "new": false,
+            "checked": false
+        },{
+            "label": "Liquides Perfume Bar",
+            "item_cd": "22",
+            "link_url": "#none",
+            "category": ["003"],
+            "new": true,
+            "checked": false
+        }
+    ]
+    }

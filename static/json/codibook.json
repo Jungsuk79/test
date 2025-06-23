@@ -1,0 +1,65 @@
+{
+"list" : [
+    {
+        "title" : "나의 1번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook1.png",
+        "product_list": [ "123441", "123442", "123443", "123444" ]
+    },{
+        "title" : "나의 2번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook2.png",
+        "product_list": [ "123441", "123442", "123443" ]
+    },{
+        "title" : "나의 3번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook3.png",
+        "product_list": [ "123441", "123442", "123443", "123444", "123445", "123446" ]
+    },{
+        "title" : "나의 4번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook1.png",
+        "product_list": [ "123441", "123442", "123443", "123444" ]
+    },{
+        "title" : "나의 5번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook2.png",
+        "product_list": [ "123441", "123442", "123443" ]
+    },{
+        "title" : "나의 6번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook3.png",
+        "product_list": [ "123441", "123442", "123443", "123444", "123445", "123446" ]
+    },{
+        "title" : "나의 1번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook1.png",
+        "product_list": [ "123441", "123442", "123443", "123444" ]
+    },{
+        "title" : "나의 2번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook2.png",
+        "product_list": [ "123441", "123442", "123443" ]
+    },{
+        "title" : "나의 3번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook3.png",
+        "product_list": [ "123441", "123442", "123443", "123444", "123445", "123446" ]
+    },{
+        "title" : "나의 4번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook1.png",
+        "product_list": [ "123441", "123442", "123443", "123444" ]
+    },{
+        "title" : "나의 5번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook2.png",
+        "product_list": [ "123441", "123442", "123443" ]
+    },{
+        "title" : "나의 6번째 코디셋",
+        "date" : "2022.02.07",
+        "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/codibook3.png",
+        "product_list": [ "123441", "123442", "123443", "123444", "123445", "123446" ]
+    }
+]
+}

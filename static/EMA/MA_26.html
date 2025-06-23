@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<meta http-equiv='pragma' content='no-cache'/>
+<meta http-equiv='Cache-Control' content='No-Cache'/>
+<title>[더한섬닷컴] $고객명$ 고객님의 주문이 취소되었습니다.</title>
+</head>
+
+<body>
+  <div style='max-width: 730px; width: 100%; margin: 0 auto; padding: 0; background-color: #ffffff;'>
+      <table style='width:100%; padding:0; margin:0;' border='0' cellpadding='0' cellspacing='0'>
+          <tbody>
+              <!-- header -->
+              <tr>
+                  <td height='60' style='border:0;padding:0;margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td height='39' style='border-top:2px solid #000000;padding:0;margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td>
+                  <table style='width:100%; margin:0;' border='0' cellpadding='0' cellspacing='0'>
+                      <tbody>
+                      <tr>
+                          <td style='text-align: left; border: 0; padding: 0;'>
+                          <a th:href='${mainUrl}' target='_blank' style='border: 0; padding: 0; margin: 0;'><img src='http://www.thehandsome.com/_ui/desktop/common/images/email/logo.gif' alt='THEHANDSOME.COM' style='display: block; border: 0;'></a>
+                          </td>
+                          <td style='text-align: right; border: 0; padding: 0;'>
+                          <a th:href='${loginUrl}' target='_blank' style='color: #000000; font-size: 13px; line-height: 21px; font-family: Malgun Gothic, sans-serif; font-weight: normal; text-decoration: none; border: 0; padding: 0; margin: 0;'>로그인</a>
+                          <span style='color: #000000; font-size: 11px; line-height: 11px; font-family: Malgun Gothic, sans-serif; font-weight: normal; vertical-align: middle; border: 0; padding: 0; margin: 0;'>│</span>
+                          <a th:href='${csCenterUrl}' target='_blank' style='color: #000000; font-size: 13px; line-height: 21px; font-family: Malgun Gothic, sans-serif; font-weight: normal; text-decoration: none; border: 0; padding: 0; margin: 0;'>고객센터</a>
+                          </td>
+                      </tr>
+                      </tbody>
+                  </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td height='39' style='border-bottom:1px solid #F0F0F0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <!-- // header -->
+              <!-- date -->
+              <tr>
+                <td height='20' style='line-height:20px;border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                <td style='text-align: right; border: 0; padding: 0; margin: 0;'>
+                  <p style='text-align: right; color: #000000; font-size: 12px; line-height: 18px; font-family: Dotum, sans-serif; font-weight: normal; text-decoration: none; border: 0; padding: 0; margin: 0;' th:text="${eCurYm}">2022. 07. 07 임시 텍스트</p><!-- 실제 반영시 텍스트 삭제할것 -->
+                </td>
+              </tr>
+              <tr>
+                <td height='40' style="border:0; padding:0; margin:0;">&nbsp;</td>
+              </tr>
+              <!-- // date -->
+                <tr>
+                  <td style='border: 0; padding: 0; margin: 0;'>
+                      <h1 style='color: #000000; font-size: 32px; line-height: 40px; font-family: Malgun Gothic, sans-serif; font-weight: normal; text-decoration: none; border: 0; padding: 0; margin: 0;'>고객님의 주문<br /><b th:text="${ordNo}"></b>가 취소되었습니다.</h1>
+                  </td>
+              </tr>
+              <tr>
+                <td height='40' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td style='border: 0; padding: 0; margin: 0;'>
+                      <p style='color: #000000; font-size: 16px; line-height: 24px; font-family: Dotum, sans-serif; font-weight: normal; border: 0; padding: 0; margin: 0;'>안녕하세요, <b th:text="${mbrManNm}"></b> 고객님.<br />고객님의 주문 <b th:text="${ordNo}"></b>가 취소되었으며, 결제금액이 환불될 예정입니다.</p>
+                  </td>
+              </tr>
+              <tr>
+                <td height='12' style='line-height: 12px; border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td style='border: 0; padding: 0; margin: 0;'>
+                      <p style='color: #000000; font-size: 16px; line-height: 24px; font-family: Dotum, sans-serif; font-weight: normal; border: 0; padding: 0; margin: 0;'>주문취소 내역은 더한섬닷컴 사이트 내 <a th:href="${ordListUrl}" target='_blank' style='color: #000; text-decoration: none; font-weight: bold;'>마이페이지 > 주문조회</a> 메뉴에서 확인하실 수 있습니다.</p>
+                  </td>
+              </tr>
+              <tr>
+                <td height='12' style='line-height: 12px; border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td style='border: 0; padding: 0; margin: 0;'>
+                      <p style='color: #000000; font-size: 16px; line-height: 24px; font-family: Dotum, sans-serif; font-weight: normal; border: 0; padding: 0; margin: 0;'>오늘도 감사합니다.</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td style='height: 60px; border: 0; padding: 0; margin: 0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td style='border: 0; padding: 0; margin: 0;'>
+                      <p style='color: #000000; font-size: 20px; line-height: 28px; font-family: Dotum, sans-serif; font-weight: normal; border: 0; padding: 0; margin: 0;'>주문 취소 정보</p>
+                  </td>
+              </tr>
+              <tr>
+                <td height='15' style='line-height: 15px; border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td style='border: 0; padding: 0; margin: 0;'>
+                      <table style='width: 100%; padding: 0; margin: 0;' border='0' cellpadding='0' cellspacing='0'>
+                          <tbody>
+                              <tr>
+                                  <td style='width: 50%;text-align: left; border: 0; padding: 0; margin: 0;'>
+                                      <p style='text-align: left; font-size: 14px; line-height: 22px; color: #000000; font-family: Dotum, sans-serif; font-weight: normal; border: 0; padding: 0; margin: 0;'>주문번호 <span style='display: inline-block; padding: 0 0 0 8px' th:text="${ordNo}">${ordNo}</span></p><!-- 실제 반영시 텍스트 삭제할것 -->
+                                  </td>
+                                  <td style='width: 50%;text-align: right; border: 0; padding: 0; margin: 0;'>
+                                      <p style='text-align: right; font-size: 13px; line-height: 21px; color: #000000; font-family: Dotum, sans-serif; font-weight: normal; border: 0; padding: 0; margin: 0;'th:text="${ordCnclDtm}">${ordCnclDtm}</p><!-- 실제 반영시 텍스트 삭제할것 -->
+                                  </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                <td height='8' style='line-height: 8px; border-bottom: 1px solid #000000; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <!-- ~반복~ -->
+              <th:block th:each='goods : ${cnclGoodsList}'>
+              <tr>
+                <td height='20' style='line-height: 20px; border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td style='border: 0; padding: 0; margin: 0;'>
+                      <table style='width: 100%; border: 0; padding: 0; margin: 0; table-layout: fixed;' border='0' cellpadding='0' cellspacing='0'>
+                          <tbody>
+                                  <tr>
+                                      <td width='83' style='padding: 0; border: 0; margin: 0;'>
+                                          <div style='width: 83px; height: 125px;'>
+                                              <a th:href='|${productDetailUrl}/${goods.goodsNo}?itmNo=${goods.itmNo}|' target='_blank' style='text-decoration: none;'>
+                                                  <img th:src='${goods.goodsImgFullPath}' src="images/dummyimg-01.jpg" th:alt="${goods.goodsNm}" style='width: 100%; display: block; border: 0;'>
+                                              </a>
+                                          </div>
+                                      </td>
+                                      <td width='16' style='padding: 0; border: 0; margin: 0;'></td>
+                                      <td width='auto' style='padding: 0; border: 0; margin: 0; vertical-align: top;'>
+                                          <div style='padding: 6px 0 0 0; margin: 0;'>
+                                              <a th:href='|${productDetailUrl}/${goods.goodsNo}?itmNo=${goods.itmNo}|' target='_blank' style='text-decoration: none;'>
+                                                  <p style='font-size: 11px; line-height: 17px; color: #000000; font-family: Dotum, sans-serif; font-weight: bold; padding: 0 0 1px 0; margin: 0; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;' th:text="${goods.brandNm}"><!-- 실제 반영시 텍스트 삭제할것 -->
+                                                    LANVIN COLLECTION
+                                                  </p>
+                                                  <p style='font-size: 12px; line-height: 18px; color: #000000; font-family: Dotum, sans-serif; font-weight: normal; padding: 0 0 4px 0; margin: 0; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;' th:text="${goods.goodsNm}"><!-- 실제 반영시 텍스트 삭제할것 -->
+                                                    더블 브레스티드 크롭 재킷
+                                                  </p>
+                                                  <p style='font-size: 12px; line-height: 18px; color: #000000; font-family: Dotum, sans-serif; font-weight: normal; padding: 0 0 12px 0; margin: 0'>
+                                                      <th:block th:text="|${goods.erpColorCd} |"/>CHARCOAL GRAY<span style='display: inline-block; padding: 0 0 0 4px;' th:text='|${goods.erpSzCd} |'>90</span><span style='display: inline-block; padding: 0 0 0 4px;'th:text="|${goods.ordQty}개|">2개</span><!-- 실제 반영시 텍스트 삭제할것 -->
+                                                  </p>
+                                                  <p style='font-size: 12px; line-height: 18px; color: #000000; font-family: Dotum, sans-serif; font-weight: normal; padding: 0; margin: 0'>
+                                                      <b th:text="${#numbers.formatInteger(goods.salePrc, 0, 'COMMA')}">1,450,000</b>원
+                                                  </p>
+                                              </a>
+                                          </div>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                    <td height='8' colspan='3' style='line-height: 8px; border:0; padding:0; margin:0;'>&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                      <td colspan='3' style='border: 0; padding: 0; margin: 0;'>
+                                          <p style='font-size: 13px; line-height: 21px; text-align: left; color: #000000; font-family: Dotum, sans-serif; font-weight: normal; padding: 8px 16px; background: #F8F8F8; margin: 0'>
+                                              <b style='padding: 0 8px 0 0;'>취소사유 : </b><span th:text="${goods.cancelCausDtlNm}">결제수단 변경(카드변경 등)</span>
+                                          </p>
+                                      </td>
+                                  </tr>
+                          </tbody>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                <td height='20' style='line-height: 20px; border-bottom:1px solid #f0f0f0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              </th:block>
+              <!-- ~반복~ -->
+              <!-- ~반복~ -->
+              <th:block th:each='goods : ${cnclGoodsList}'>
+                <tr>
+                  <td height='20' style='line-height: 20px; border:0; padding:0; margin:0;'>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style='border: 0; padding: 0; margin: 0;'>
+                        <table style='width: 100%; border: 0; padding: 0; margin: 0; table-layout: fixed;' border='0' cellpadding='0' cellspacing='0'>
+                            <tbody>
+                                    <tr>
+                                        <td width='83' style='padding: 0; border: 0; margin: 0;'>
+                                            <div style='width: 83px; height: 125px;'>
+                                                <a th:href='|${productDetailUrl}/${goods.goodsNo}?itmNo=${goods.itmNo}|' target='_blank' style='text-decoration: none;'>
+                                                    <img th:src='${goods.goodsImgFullPath}' src="images/dummyimg-01.jpg" th:alt="${goods.goodsNm}" style='width: 100%; display: block; border: 0;'>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td width='16' style='padding: 0; border: 0; margin: 0;'></td>
+                                        <td width='auto' style='padding: 0; border: 0; margin: 0; vertical-align: top;'>
+                                            <div style='padding: 6px 0 0 0; margin: 0;'>
+                                                <a th:href='|${productDetailUrl}/${goods.goodsNo}?itmNo=${goods.itmNo}|' target='_blank' style='text-decoration: none;'>
+                                                    <p style='font-size: 11px; line-height: 17px; color: #000000; font-family: Dotum, sans-serif; font-weight: bold; padding: 0 0 1px 0; margin: 0; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;' th:text="${goods.brandNm}"><!-- 실제 반영시 텍스트 삭제할것 -->
+                                                      LANVIN COLLECTION
+                                                    </p>
+                                                    <p style='font-size: 12px; line-height: 18px; color: #000000; font-family: Dotum, sans-serif; font-weight: normal; padding: 0 0 4px 0; margin: 0; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;' th:text="${goods.goodsNm}"><!-- 실제 반영시 텍스트 삭제할것 -->
+                                                      더블 브레스티드 크롭 재킷
+                                                    </p>
+                                                    <p style='font-size: 12px; line-height: 18px; color: #000000; font-family: Dotum, sans-serif; font-weight: normal; padding: 0 0 12px 0; margin: 0'>
+                                                        <th:block th:text="|${goods.erpColorCd} |"/>CHARCOAL GRAY<span style='display: inline-block; padding: 0 0 0 4px;' th:text='|${goods.erpSzCd} |'>90</span><span style='display: inline-block; padding: 0 0 0 4px;'th:text="|${goods.ordQty}개|">2개</span><!-- 실제 반영시 텍스트 삭제할것 -->
+                                                    </p>
+                                                    <p style='font-size: 12px; line-height: 18px; color: #000000; font-family: Dotum, sans-serif; font-weight: normal; padding: 0; margin: 0'>
+                                                        <b th:text="${#numbers.formatInteger(goods.salePrc, 0, 'COMMA')}">1,450,000</b>원
+                                                    </p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                      <td height='8' colspan='3' style='line-height: 8px; border:0; padding:0; margin:0;'>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan='3' style='border: 0; padding: 0; margin: 0;'>
+                                            <p style='font-size: 13px; line-height: 21px; text-align: left; color: #000000; font-family: Dotum, sans-serif; font-weight: normal; padding: 8px 16px; background: #F8F8F8; margin: 0'>
+                                                <b style='padding: 0 8px 0 0;'>취소사유 : </b><span th:text="${goods.cancelCausDtlNm}">결제수단 변경(카드변경 등)</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                  <td height='20' style='line-height: 20px; border-bottom:1px solid #f0f0f0; padding:0; margin:0;'>&nbsp;</td>
+                </tr>
+                </th:block>
+                <!-- ~반복~ -->
+                <tr>
+                  <td height='60' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td style='border:0; padding:0; margin:0;'>
+                      <table style='width:100%; border:0; padding:0; margin:0;' border='0' cellpadding='0' cellspacing='0'>
+                          <tbody>
+                          <tr>
+                              <td width='auto' style='font-size:20px;line-height:28px;color: #000000; font-family:Dotum,sans-serif; font-weight:normal;padding:0;margin:0;'>
+                                  환불 예정 금액
+                              </td>
+                              <td width='auto' style='font-size:14px;line-height:22px;color: #DF2101; font-family:Dotum,sans-serif; font-weight:normal;padding:0;margin:0;text-align: right;'>
+                                  환불예정
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td height='16' style='line-height: 16px; border-bottom:1px solid #000000; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height='20' style='line-height: 20px; border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                <td style='border:0; padding:0; margin:0;'>
+                  <table style='width:100%; margin:0;' border='0' cellpadding='0' cellspacing='0'>
+                    <tbody>
+                      <tr>
+                          <td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+                          <td style='padding:0;border:0; margin:0;'>
+                              <p style='color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;'>결제금액</p>
+                          </td>
+                          <td style='padding:0;border:0; margin:0;text-align: right;'>
+                              <p style='color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;text-align: right;' th:text="|${#numbers.formatInteger(payAmt, 0, 'COMMA')}원|">300,000원</p>
+                          </td>
+                          <td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4" height='8' style='line-height: 8px; border:0; padding:0; margin:0;'>&nbsp;</td>
+                      </tr>
+                      <tr>
+                          <td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+                          <td style='padding:0;border:0; margin:0;'>
+                              <p style='color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;'>배송비</p>
+                          </td>
+                          <td style='padding:0;border:0; margin:0;text-align: right;'>
+                              <p style='color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;text-align: right;' th:text="|${#numbers.formatInteger(deliAmt, 0, 'COMMA')}원|">30,000원</p>
+                          </td>
+                          <td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td height='20' style='line-height: 20px; border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td style='padding: 0; margin: 0; background: #F8F8F8;'>
+                      <table style='width: 100%; margin: 0;' border='0' cellpadding='0' cellspacing='0'>
+                          <tbody>
+                              <th:block th:each='pay : ${rtnPayList}'>
+                                  <tr>
+                                      <td colspan="4" height='20' style='line-height:20px; border:0; padding:0; margin:0;'>&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                      <td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+                                      <td style='padding:0;border:0; margin:0;'>
+                                          <p style='color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;'>
+                                              <th:block th:if="${not #strings.isEmpty(pay.cardNm)} or ${not #strings.isEmpty(pay.bankNm)}">
+                                                  <b th:text="|${pay.payWayNm} / |"></b>
+                                                  <th:block th:if="${not #strings.isEmpty(pay.cardNm)}" th:text="${pay.cardNm}" />한섬마일리지
+                                                  <th:block th:if="${not #strings.isEmpty(pay.bankNm)}" th:text="${pay.bankNm}" />
+                                              </th:block>
+                                              <th:block th:unless="${not #strings.isEmpty(pay.cardNm)} or ${not #strings.isEmpty(pay.bankNm)}">
+                                                  <th:block th:text="${pay.payWayNm}" />
+                                              </th:block>
+                                          </p>
+                                      </td>
+                                      <td style='padding:0;border:0; margin:0;text-align: right;'>
+                                          <p style='color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;text-align: right;' th:text="|${#numbers.formatInteger(pay.rtnAmt, 0, 'COMMA')}원|">
+                                            30,000원
+                                          </p>
+                                      </td>
+                                      <td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                      <td colspan="4" height='8' style='line-height:8px; border:0; padding:0; margin:0;'>&nbsp;</td>
+                                  </tr>
+                              </th:block>
+                              <tr>
+                                <td colspan="4" height='11' style='line-height:11px; border:0; padding:0; margin:0;'>&nbsp;</td>
+                              </tr>
+                              <tr>
+                                  <td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+                                  <td style='padding: 0; border: 0; margin: 0;'>
+                                      <p style='color: #000000; font-size: 16px; line-height: 24px; font-family: Dotum, sans-serif; font-weight: normal; padding: 0; border: 0; margin: 0;'>최종 환불 예정 금액</p>
+                                  </td>
+                                  <td style='padding: 0; border: 0; margin: 0; text-align: right;'>
+                                      <p style='display: inline-block; color: #000000; font-size: 18px;line-height:26px; font-family: Dotum, sans-serif; font-weight: normal; margin: 0; padding: 0 2px 0 8px;'>
+                                          <b th:text="|${#numbers.formatInteger(finalRfndAmt, 0, 'COMMA')}원|">330,000원</b>
+                                      </p>
+                                  </td>
+                                  <td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td colspan="4" height='20' style='line-height:20px; border:0; padding:0; margin:0;'>&nbsp;</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <table style='width: 100%; margin: 0;' border='0' cellpadding='0' cellspacing='0'>
+                          <tbody>
+                              <tr>
+                                <td height='20' colspan='2' style='line-height:20px;border:0; padding:0;margin:0;'></td>
+                              </tr>
+                              <th:block th:if="${#lists.isEmpty(refCpnList) && cpnUseYn == 'Y'}">
+                                  <tr>
+                                      <td colspan='2' style='border: 0; padding: 0; margin: 0;'>
+                                          <p style='color: #000000; font-size: 14px; line-height: 22px; font-family: Dotum, sans-serif; font-weight: normal; text-align: left; border: 0; padding: 0; margin: 0;'>
+                                              복원 예정 쿠폰 : 없음
+                                          </p>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                    <td height='8' colspan='2' style='line-height:8px;border:0; padding:0;margin:0;'></td>
+                                  </tr>
+                                  <tr>
+                                      <td width='10' style='border: 0; padding: 0; margin: 0; vertical-align: top;'>
+                                          <p style='color: #000000; font-size: 13px; line-height: 21px; font-family: Dotum, sans-serif; font-weight: normal; vertical-align: top; border: 0; padding: 0; margin: 0;'>ㆍ</p>
+                                      </td>
+                                      <td width='auto' style='border: 0; padding: 0; margin: 0;'>
+                                          <p style='color: #000000; font-size: 13px; line-height: 21px; font-family: Dotum, sans-serif; font-weight: normal; text-align: left; border: 0; padding: 0; margin: 0;'>주문 시 적용하신 쿠폰은 취소/반품 시 복원되지 않는 쿠폰입니다.</p>
+                                      </td>
+                                  </tr>
+                              </th:block>
+                              <th:block th:if="${not #lists.isEmpty(refCpnList)}">
+                                  <tr>
+                                      <td colspan='2' style='border: 0; padding: 0; margin: 0;'>
+                                          <p style='color: #000000; font-size: 14px; line-height: 22px; font-family: Dotum, sans-serif; font-weight: normal; text-align: left; border: 0; padding: 0; margin: 0;'>
+                                              복원 예정 쿠폰 : 
+                                          </p>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                    <td height='8' colspan='2' style='line-height:8px;border:0; padding:0;margin:0;'></td>
+                                  </tr>
+                                  <th:block th:each='cpn : ${refCpnList}'>
+                                      <tr>
+                                          <td width='10' style='border:0; padding:0 0 8px 0;margin:0; vertical-align: top;'>
+                                              <p style='color:#000000; font-size:13px; line-height:21px;font-family:Dotum,sans-serif; font-weight:normal; text-align:left; border:0; padding:0;margin:0;'>-</p>
+                                          </td>
+                                          <td width='auto' style='border:0; padding:0;margin:0;'>
+                                              <p style='color:#000000; font-size:13px; line-height:21px;font-family:Dotum,sans-serif; font-weight:normal; text-align:left; border:0; padding:0;margin:0;' th:text="${cpn.promoNm}"></p>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                        <td height='8' colspan='2' style='line-height:8px;border:0; padding:0;margin:0;'></td>
+                                      </tr>
+                                  </th:block>
+                                  <tr>
+                                      <td width='10' style='border: 0; padding: 0; margin: 0; vertical-align: top;'>
+                                          <p style='color: #000000; font-size: 13px; line-height: 21px; font-family: Dotum, sans-serif; font-weight: normal; vertical-align: top; border: 0; padding: 0; margin: 0;'>ㆍ</p>
+                                      </td>
+                                      <td width='auto' style='border: 0; padding: 0; margin: 0;'>
+                                          <p style='color: #000000; font-size: 13px; line-height: 21px; font-family: Dotum, sans-serif; font-weight: normal; vertical-align: top; border: 0; padding: 0; margin: 0;'>
+                                              복원된 쿠폰은 재사용이 가능합니다.<br/>자세한 사용기간은 <a th:href='${couponListUrl}' target='_blank' style='color: #000;text-decoration: none; font-weight: bold;'>마이페이지 > 쿠폰함</a> 에서 확인해주세요.
+                                          </p>
+                                      </td>
+                                  </tr>
+                              </th:block>
+                          </tbody>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td height='40' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td style='border: 0; padding: 0; margin: 0; text-align: center;'>
+                      <a th:href="${ordCnclDtlUrl}" target='_blank' style='display: inline-block; text-decoration: none; background-color:#000000; border: 0; padding: 0; margin: 0;'>
+                          <span style='display: inline-block; background-color: #000000; color: #ffffff;font-size: 16px; line-height: 24px; font-family: Dotum,sans-serif; font-weight: normal; text-decoration: none; background-color: #000000; border: 0; padding: 13px 98.5px; margin: 0;'>취소 내역 확인하기</span>
+                      </a>
+                  </td>
+              </tr>
+              <!-- footer -->
+              <tr>
+                  <td height='100' style="border:0; padding:0; margin:0;">&nbsp;</td>
+              </tr>
+              <tr>
+                  <td height='20' style='line-height:20px;border-top:1px solid #000000; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td>
+                      <table style='width: 100%; margin: 0;' border='0' cellpadding='0' cellspacing='0'>
+                      <tbody>
+                          <tr>
+                          <td width='10' style='border: 0; padding: 0; margin: 0; vertical-align: top;'>
+                              <p style='color:#707070;font-size:14px; font-family:Dotum,sans-serif; font-weight:normal; vertical-align:top; border:0; padding:0;margin: 0;'>ㆍ</p>
+                          </td>
+                          <td width='auto' style='border: 0; padding: 0; margin: 0;'>
+                              <p style='color:#707070; font-size:11px; line-height:17px;font-family:Dotum,sans-serif; font-weight:normal; text-align:left; border:0; padding:0;margin: 0;'>
+                              본 메일은 정보통신망 이용 촉진 및 정보 보호 등에 관한 법률에 근거하여 수신동의 여부와 관계없이 법적 의무 사항으로 발송 된 메일입니다.
+                              </p>
+                          </td>
+                          </tr>
+                      </tbody>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td height='4' style='line-height:4px;border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td>
+                      <table style='width: 100%; margin: 0;' border='0' cellpadding='0' cellspacing='0'>
+                      <tbody>
+                          <tr>
+                          <td width='10' style='border: 0; padding: 0; margin: 0; vertical-align: top;'>
+                              <p style='color:#707070;font-size:14px; line-height:24px; font-family:Dotum,sans-serif; font-weight:normal; vertical-align:top; border:0; padding:0;margin: 0;'>ㆍ</p>
+                          </td>
+                          <td width='auto' style='border: 0; padding: 0; margin: 0;'>
+                              <p style='color:#707070; font-size:11px; line-height:17px;font-family:Dotum,sans-serif; font-weight:normal; text-align:left; border:0; padding:0;margin: 0;'>
+                              본 메일은 발신 전용 메일이므로 회신 되지 않습니다. 문의사항은 <a href='' target='_blank' style='color:#707070;font-weight:bold;text-decoration:underline'>고객센터</a>를 이용해 주시길 바랍니다.
+                              </p>
+                          </td>
+                          </tr>
+                      </tbody>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td height='20' style='line-height:20px;border-bottom:1px solid #f0f0f0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td height='24' style='line-height:24px; border:0; padding:0; margin:0;'>&nbsp;</td>
+              </tr>
+              <tr>
+                  <td style='width:100%; padding:0; margin:0;'>
+                      <table style='width:100%; border:0; padding:0; margin:0;' border='0' cellpadding='0' cellspacing='0'>
+                      <tbody>
+                          <tr>
+                              <td style='color: #000000; font-size: 12px; line-height: 18px; font-family : Malgun Gothic, sans-serif; font-weight:normal; border: 0; padding: 0;'>
+                                  <span style='padding:0 10px 0 0; margin:0;'>(주)한섬</span>
+                                  <span style='padding:0 10px 0 0; margin:0;'>대표이사 : 김민덕</span>
+                                  <span style='padding:0 10px 0 0; margin:0;'>서울시 강남구 도산대로 523 한섬빌딩</span>
+                                  <span style='padding:0 10px 0 0; margin:0;'>TEL 02-3416-2000</span>
+                                  <span style='padding:0; margin:0;'>FAX 02-516-7028</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td height='10' style='line-height:10px; border:0; padding:0; margin:0;'>&nbsp;</td>
+                          </tr>
+                          <tr>
+                              <td style='color: #000000; font-size: 12px; line-height: 18px; font-family: Malgun Gothic, sans-serif; font-weight: normal; border: 0; padding: 0; margin: 0;'>
+                                  <span style='padding:0 10px 0 0; margin:0;'>사업자등록번호 120-81-26337</span>
+                                  <span style='padding:0 10px 0 0; margin:0;'>통신판매업신고번호 강남 제 00826호</span>
+                                  <span style='padding:0; margin:0;'>개인정보관리책임자 : 이정득</span>
+                                  <span style='color: #e7e4d7; font-size: 12px; line-height: 18px; font-family: Malgun Gothic, sans-serif; font-weight: normal; vertical-align: top; border: 0; padding: 0; margin: 0;'>│</span>
+                                  <a href='https://www.ftc.go.kr/bizCommPop.do?wrkr_no=1208126337&apv_perm_no=' style='color:#000000; font-size:12px; line-height:15px; font-family:Malgun Gothic,sans-serif; text-decoration:underline; padding:0; margin:0;'>사업자정보확인</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td height='14' style='line-height:14px; border:0; padding:0; margin:0;'>&nbsp;</td>
+                          </tr>
+                          <tr>
+                              <td style='color: #707070; font-size: 12px; line-height: 18px; font-family: Malgun Gothic, sans-serif; font-weight: normal; text-align: left; letter-spacing: 1px; border: 0; padding: 0; margin: 0;'>COPYRIGHT @ 2023 HANDSOME. ALL RIGHT RESERVED.</td>
+                          </tr>
+                      </tbody>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td height='30' style='border:0;padding:0;margin:0;'>&nbsp;</td>
+              </tr>
+              <!-- // footer -->
+          </tbody>
+      </table>
+  </div>
+</body>
+</html>

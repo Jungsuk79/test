@@ -1,0 +1,92 @@
+{
+"list":[
+    {
+        "name": "My Heart",
+        "link": "/en/en/ME/myHeartWishList",
+        "active": false
+    },
+    {
+        "name": "My Closet",
+        "link": "/en/en/CL/myCloset",
+        "active": false
+    },
+    {
+        "name": "Order Check",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "Order History",
+                "link":"/en/en/OR/orderShippingList",
+                "active": false
+            }
+        ]
+    },
+    {
+        "name": "Benefit Mgmt.",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "Coupons",
+                "link":"/en/en/ME/couponList",
+                "active":false
+            }
+        ]
+    },
+    {
+        "name": "Activity Mgmt.",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "Product Q&A",
+                "link":"/en/en/PM/myQAList",
+                "active":false
+            },
+            {
+                "name": "1:1 Query",
+                "link":"/en/en/CS/oneToOneList",
+                "active":false
+            },
+            {
+                "name": "Product Review",
+                "link":"/en/en/PM/myReviewListPossible",
+                "active":false
+            },
+            {
+                "name": "Participation Details",
+                "link":"/en/en/MK/myEventList",
+                "active":false
+            },
+            {
+                "name": "Restock Notice",
+                "link":"/en/en/PM/restockList",
+                "active":false
+            }
+        ]
+    },
+    {
+        "name": "Information Mgmt.",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "Edit Personal Info/ Membership Withdrawal",
+                "link":"/en/en/ME/withdrawal",
+                "active":false
+            },
+            {
+                "name": "My Size",
+                "link":"/en/en/ME/mySize",
+                "active":false
+            },
+            {
+                "name": "Shipping Address Mgmt.",
+                "link":"/en/en/OR/shippingAddressManage",
+                "active":false
+            }
+        ]
+    }
+]
+}

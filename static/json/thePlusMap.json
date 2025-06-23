@@ -1,0 +1,262 @@
+{
+    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/theplus-map-1.png",
+    "list" : [
+        {
+            "type" : "mileage",
+            "reward" : "300M",
+            "data" : 300,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "340M",
+            "data" : 340,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "380M",
+            "data" : 380,
+            "open" : false
+        },{
+            "type" : "coupon",
+            "reward" : "쿠폰",
+            "data" : "1,000원",
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "460M",
+            "data" : 460,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "500M",
+            "data" : 500,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "540M",
+            "data" : 540,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "580M",
+            "data" : 580,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "620M",
+            "data" : 620,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "660M",
+            "data" : 660,
+            "open" : false
+        },{
+            "type" : "gift",
+            "reward" : "사은품",
+            "data" : "사은품",
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "740M",
+            "data" : 740,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "780M",
+            "data" : 780,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "820M",
+            "data" : 820,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "860M",
+            "data" : 860,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "900M",
+            "data" : 900,
+            "open" : false
+        },
+        
+        
+        {
+            "type" : "mileage",
+            "reward" : "940M",
+            "data" : 940,
+            "open" : false
+        },{
+            "type" : "coupon",
+            "reward" : "쿠폰",
+            "data" : "10%",
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1020M",
+            "data" : 1020,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "10600M",
+            "data" : 1060,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1100M",
+            "data" : 1100,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1140M",
+            "data" : 1140,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1180M",
+            "data" : 1180,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1220M",
+            "data" : 1220,
+            "open" : false
+        },{
+            "type" : "gift",
+            "reward" : "사은품",
+            "data" : "사은품",
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1300M",
+            "data" : 1300,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1340M",
+            "data" : 1340,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1380M",
+            "data" : 1380,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1420M",
+            "data" : 1420,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1460M",
+            "data" : 1460,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1500M",
+            "data" : 1500,
+            "open" : false
+        },{
+            "type" : "coupon",
+            "reward" : "쿠폰",
+            "data" : "10,000원",
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1580M",
+            "data" : 1580,
+            "open" : false
+        },
+        
+        
+        {
+            "type" : "mileage",
+            "reward" : "1620M",
+            "data" : 1620,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1660M",
+            "data" : 1660,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1700M",
+            "data" : 1700,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1740M",
+            "data" : 1740,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1780M",
+            "data" : 1780,
+            "open" : false
+        },{
+            "type" : "gift",
+            "reward" : "사은품",
+            "data" : "사은품",
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1860M",
+            "data" : 1860,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1900M",
+            "data" : 1900,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1940M",
+            "data" : 1940,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "1980M",
+            "data" : 1980,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "2020M",
+            "data" : 2020,
+            "open" : false
+        },{
+            "type" : "gift",
+            "reward" : "사은품",
+            "data" : "사은품",
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "2100M",
+            "data" : 2100,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "2140M",
+            "data" : 2140,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "2180M",
+            "data" : 2180,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "2220M",
+            "data" : 2220,
+            "open" : false
+        },{
+            "type" : "mileage",
+            "reward" : "3000M",
+            "data" : 3000,
+            "open" : false
+        }
+    ]
+}

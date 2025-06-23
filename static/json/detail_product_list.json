@@ -1,0 +1,85 @@
+{
+    "list" : [
+        {
+            "color_value" : "COCOA",
+            "color_image" : "https://img.thehandsome.com/md/publish/dummy/color-COCOA.png",
+            "images" : [
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/bundle-prd-img4.png"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/002.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/003.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/004.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/005.jpg"
+                },
+                {
+                    "video_url" : "https://img.thehandsome.com/md/publish/dummy/pc/product_video.mp4"
+                }
+            ]
+        },
+        {
+            "color_value" : "BLUE",
+            "color_image" : "https://img.thehandsome.com/md/publish/dummy/color-BLUE.png",
+            "images" : [
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/007.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/008.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/009.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/010.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/011.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/012.jpg"
+                }
+            ]
+        },
+        {
+            "color_value" : "PURPLE",
+            "color_image" : "https://img.thehandsome.com/md/publish/dummy/color-PURPLE.png",
+            "images" : [
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/020.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/021.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/022.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/023.jpg"
+                }
+            ]
+        },
+        {
+            "color_value" : "YELLOW",
+            "color_image" : "https://img.thehandsome.com/md/publish/dummy/color-YELLOW.png",
+            "images" : [
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/030.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/031.jpg"
+                },
+                {
+                    "image_url" : "https://img.thehandsome.com/md/publish/dummy/pc/032.jpg"
+                }
+            ]
+        }
+    ]
+}

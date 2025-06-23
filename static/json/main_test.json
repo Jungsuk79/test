@@ -1,0 +1,133 @@
+{
+    "list" : [
+        
+        {
+            "unitName": "MainVisualTest",
+            "data": {
+                "title": "슬라이드",
+                "list": [
+                    {
+                        "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/main-05.png",
+                        "video_url": "https://video-stg.thehandsome.com/media/unsigned/Horizontal/3b524e2f-b8a3-4249-81c8-6cef8d7a3bde/adde0c13-d190-4b69-a3d1-2b8ffa74e516/HLS/adde0c13-d190-4b69-a3d1-2b8ffa74e516.m3u8",
+                        "link_url": "#none",
+                        "title": "고독한 겨울의 흑과 백<br/>Lucid Dreams",
+                        "subtitle": "절제된 강렬함의 스타일",
+                        "type": "video"
+                    },{
+                        "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/main-01.png",
+                        "video_url": "",
+                        "link_url": "#none",
+                        "title": "",
+                        "subtitle": "",
+                        "type": "image"
+
+                    },{
+                        "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/main-02.png",
+                        "video_url": "",
+                        "link_url": "#none",
+                        "title": "고독한 겨울의 흑과 백<br/>Lucid Dreams",
+                        "subtitle": "절제된 강렬함의 스타일",
+                        "type": "text"
+                    },{
+                        "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/main-04.png",
+                        "video_url": "",
+                        "link_url": "#none",
+                        "title": "",
+                        "subtitle": "",
+                        "text": [
+                            "2021 SYSTEM WINTER",
+                            "WINTER CAPSULE LINE",
+                            "시스템의 액티브한 순간"
+                        ],
+                        "type": "motion1"
+                    },{
+                        "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/main-03.png",
+                        "video_url": "",
+                        "link_url": "#none",
+                        "title": "",
+                        "subtitle": "",
+                        "text": [
+                            "MADE BY CHARACTER CRYSTAL HAZE",
+                            "고요한 겨울의 흑과 백 Lucid Dreams",
+                            "2021 SYSTEM WINTER CAPSULE LINE",
+                            "시스템의 액티브한 순간"
+                        ],
+                        "type": "motion2"
+                    },{
+                        "image_url": "https://video-stg.thehandsome.com/media/unsigned/Horizontal/c46e8718-cd3a-413e-a736-36b4d51ed820/8f60e1f2-679e-4a94-befd-bd716c8aee46/Thumbnails/8f60e1f2-679e-4a94-befd-bd716c8aee46.0000001.jpg",
+                        "video_url": "https://video-stg.thehandsome.com/media/unsigned/Horizontal/c46e8718-cd3a-413e-a736-36b4d51ed820/8f60e1f2-679e-4a94-befd-bd716c8aee46/HLS/8f60e1f2-679e-4a94-befd-bd716c8aee46.m3u8",
+                        "link_url": "#none",
+                        "title": "고독한 겨울의 흑과 백<br/>Lucid Dreams",
+                        "subtitle": "절제된 강렬함의 스타일",
+                        "type": "video"
+                    }
+                ]
+            }
+        },
+        {
+            "unitName": "MainVisualTest3",
+            "data": {
+                "title": "페이드 인아웃",
+                "list": [
+                    {
+                        "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/main-05.png",
+                        "video_url": "https://video-stg.thehandsome.com/media/unsigned/Horizontal/3b524e2f-b8a3-4249-81c8-6cef8d7a3bde/adde0c13-d190-4b69-a3d1-2b8ffa74e516/HLS/adde0c13-d190-4b69-a3d1-2b8ffa74e516.m3u8",
+                        "link_url": "#none",
+                        "title": "고독한 겨울의 흑과 백<br/>Lucid Dreams",
+                        "subtitle": "절제된 강렬함의 스타일",
+                        "type": "video"
+                    },{
+                        "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/main-01.png",
+                        "video_url": "",
+                        "link_url": "#none",
+                        "title": "",
+                        "subtitle": "",
+                        "type": "image"
+
+                    },{
+                        "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/main-02.png",
+                        "video_url": "",
+                        "link_url": "#none",
+                        "title": "고독한 겨울의 흑과 백<br/>Lucid Dreams",
+                        "subtitle": "절제된 강렬함의 스타일",
+                        "type": "text"
+                    },{
+                        "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/main-04.png",
+                        "video_url": "",
+                        "link_url": "#none",
+                        "title": "",
+                        "subtitle": "",
+                        "text": [
+                            "2021 SYSTEM WINTER",
+                            "WINTER CAPSULE LINE",
+                            "시스템의 액티브한 순간"
+                        ],
+                        "type": "motion1"
+                    },{
+                        "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/main-03.png",
+                        "video_url": "",
+                        "link_url": "#none",
+                        "title": "",
+                        "subtitle": "",
+                        "text": [
+                            "MADE BY CHARACTER CRYSTAL HAZE",
+                            "고요한 겨울의 흑과 백 Lucid Dreams",
+                            "2021 SYSTEM WINTER CAPSULE LINE",
+                            "시스템의 액티브한 순간"
+                        ],
+                        "type": "motion2"
+                    },{
+                        "image_url": "https://video-stg.thehandsome.com/media/unsigned/Horizontal/c46e8718-cd3a-413e-a736-36b4d51ed820/8f60e1f2-679e-4a94-befd-bd716c8aee46/Thumbnails/8f60e1f2-679e-4a94-befd-bd716c8aee46.0000001.jpg",
+                        "video_url": "https://video-stg.thehandsome.com/media/unsigned/Horizontal/c46e8718-cd3a-413e-a736-36b4d51ed820/8f60e1f2-679e-4a94-befd-bd716c8aee46/HLS/8f60e1f2-679e-4a94-befd-bd716c8aee46.m3u8",
+                        "link_url": "#none",
+                        "title": "고독한 겨울의 흑과 백<br/>Lucid Dreams",
+                        "subtitle": "절제된 강렬함의 스타일",
+                        "type": "video"
+                    }
+                ]
+            }
+        }
+
+    ]
+
+}

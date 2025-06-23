@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+	<meta http-equiv='pragma' content='no-cache'/>
+	<meta http-equiv='Cache-Control' content='No-Cache'/>
+	<title>These are the details of your order at the Handsome.com.</title>
+</head>
+
+<body>
+    <div style='max-width: 730px; width: 100%; margin: 0 auto; padding: 0; background-color: #ffffff;'>
+        <table style='width:100%; padding:0; margin:0;' border='0' cellpadding='0' cellspacing='0'>
+            <tbody>
+                <!-- header -->
+                <tr>
+                    <td height='60' style='border:0;padding:0;margin:0;'>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td height='39' style='border-top:2px solid #000000;padding:0;margin:0;'>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>
+                    <table style='width:100%; margin:0;' border='0' cellpadding='0' cellspacing='0'>
+                      <tbody>
+                      <tr>
+                        <td style='text-align: left; border: 0; padding: 0;'>
+                          <a th:href='${pcDefaultUrl}' target='_blank' style='border: 0; padding: 0; margin: 0;'><img src='http://www.thehandsome.com/_ui/desktop/common/images/email/logo.gif' alt='THEHANDSOME.COM' style='display: block; border: 0;'></a>
+                        </td>
+                        <td style='text-align: right; border: 0; padding: 0;'>
+                          <a th:href='|${pcDefaultUrl}/ME/login|' target='_blank' style='color: #000000; font-size: 13px; line-height: 21px; font-family: Malgun Gothic, sans-serif; font-weight: normal; text-decoration: none; border: 0; padding: 0; margin: 0;'>Login</a>
+                          <span style='color: #000000; font-size: 11px; line-height: 11px; font-family: Malgun Gothic, sans-serif; font-weight: normal; vertical-align: middle; border: 0; padding: 0; margin: 0;'>│</span>
+                          <a th:href='|${pcDefaultUrl}/CS/csCenterMain|' target='_blank' style='color: #000000; font-size: 13px; line-height: 21px; font-family: Malgun Gothic, sans-serif; font-weight: normal; text-decoration: none; border: 0; padding: 0; margin: 0;'>Customer Center</a>
+                        </td>
+                      </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                    <td height='39' style='border-bottom:1px solid #F0F0F0; padding:0; margin:0;'>&nbsp;</td>
+                </tr>
+                <!-- //header -->
+                <!-- date -->
+                <tr>
+                    <td height='20' style='line-height:20px;border:0; padding:0; margin:0;'>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style='text-align: right; border: 0; padding: 0; margin: 0;'>
+                    <p style='text-align: right; color: #000000; font-size: 12px; line-height: 18px; font-family: sans-serif; font-weight: normal; text-decoration: none; border: 0; padding: 0; margin: 0;' th:text="${eCurYm}">2022. 07. 07 임시 텍스트</p><!-- 실제 반영시 텍스트 삭제할것 -->
+                    </td>
+                </tr>
+                <tr>
+                    <td height='40' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+                </tr>
+                <!-- // date -->
+		<tr>
+			<td style="color:#000000; font-size:18px; line-height:26px; font-family:sans-serif; font-weight:normal; text-decoration:none; border:0; padding:0; margin:0;">This is a general home-Shipping order delivered quickly and safely.</td>
+		</tr>
+		<tr>
+		  <td height='12' style='line-height: 12px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="color:#000000; font-size:32px; line-height:40px; font-family:sans-serif; font-weight:normal; text-decoration:none; border:0; padding:0; margin:0;">These are the details of your order<br>at TheHandsome.com.</td>
+		</tr>
+		<tr>
+			<td height='40' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="color:#000000; font-size:16px; line-height:24px; font-family:sans-serif; font-weight:normal; text-decoration:none; border:0; padding:0; margin:0;word-break: keep-all;">
+				Hi <b><th:block th:text="${ordManNm}"/></b><br>Thank you for shopping at TheHandsome.com.
+			</td>
+		</tr>
+		<tr>
+		  <td height='12' style='line-height: 12px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="color:#000000; font-size:16px; line-height:24px; font-family:sans-serif; font-weight:normal; text-decoration:none; border:0; padding:0; margin:0;word-break: keep-all;">
+				Even today, we were amazed at your great sense of style.<br/>We’ll make sure to deliver your products safely and as soon as possible.
+			</td>
+		</tr>
+		<tr>
+		  <td height='12' style='line-height: 12px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="color:#000000; font-size:16px; line-height:24px; font-family:sans-serif; font-weight:normal; text-decoration:none; border:0; padding:0; margin:0;word-break: keep-all;">
+				You can check the purchase details and payment info at <a th:href="|${pcDefaultUrl}/OR/orderShippingList|" target="_blank" style="text-decoration:none;color:#000000;font-weight:bold;">My Page > Order</a> menu with in TheHandsome.com website.
+			</td>
+		</tr>
+		<tr>
+		  <td height='12' style='line-height: 12px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="color:#DF2101; font-size:16px; line-height:24px; font-family:sans-serif; font-weight:normal; text-decoration:none; border:0; padding:0; margin:0;word-break: keep-all;">
+				As we ship sequentially from the products prepared first, partial shipments may occur.
+			</td>
+		</tr>
+		<tr>
+		  <td height='12' style='line-height: 12px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="color:#000000; font-size:16px; line-height:24px; font-family:sans-serif; font-weight:normal; text-decoration:none; border:0; padding:0; margin:0;word-break: keep-all;">
+				Thank you.
+			</td>
+		</tr>
+		<tr>
+			<td height='60' style='border:0;padding:0;margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="color:#000000; font-size:20px; line-height:28px; font-family:sans-serif; font-weight:normal; text-decoration:none; border:0; padding:0; margin:0;">Order Information</td>
+		</tr>
+		<tr>
+		  <td height='16' style='line-height: 16px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="border:0; padding:0; margin:0;">
+				<table style="width:100%; padding:0; margin:0;" border="0" cellpadding="0" cellspacing="0">
+					<colgroup>
+						<col style="width:50%;">
+						<col style="width:50%;">
+					</colgroup>
+					<tbody>
+					<tr>
+						<td style="text-align:left;font-size:14px;line-height:22px;color: #000000;font-family:sans-serif; font-weight:normal; border:0; padding:0;margin:0;">Order No.<span style="display:inline-block;padding:0 0 0 8px"><th:block th:text="${ordNo}"/>${ordNo}"</span></td>
+						<td style="text-align:right;font-size:13px;line-height:21px;color: #000000;font-family:sans-serif; font-weight:normal; border:0; padding:0;margin:0;"><th:block th:text="${orderDate}"/>${orderDate}</td>
+					</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+		  <td height='8' style='line-height:8px; border-bottom:1px solid #000000; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="border:0; padding:0; margin:0;">
+				<table th:each="goods : ${goodsList}" style="width:100%; border:0; padding:0; margin:0;table-layout:fixed;" border="0" cellpadding="0" cellspacing="0">
+					<tbody>
+						<tr>
+							<td width="83px" height="20" style="line-height:20px;padding:0;border:0; margin:0;">&nbsp;</td>
+							<td width="auto" height="20" style="line-height:20px;padding:0;border:0; margin:0;">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="83px" style="padding:0;border:0; margin:0;">
+								<div style="width:83px;height:125px;">
+									<a th:href="|${pcDefaultUrl}/PM/productDetail/${goods.goodsNo}?itmNo=${goods.itmNo}|" target="_blank" style="text-decoration: none;">
+									<img th:src="${goods.goodsImg}" src="images/dummyimg-01.jpg" alt="productImage" style="width:100%;display: block;border:0;">
+									</a>
+								</div>
+							</td>
+							<td wisth="auto" style="padding:0;border:0; margin:0;vertical-align: top;">
+								<div style="padding:6px 0 0 16px;margin:0;">
+                  <a href="" target='_blank' style="text-decoration: none;">
+                  <p style="font-size:11px;line-height:17px;color: #000000; font-family:sans-serif; font-weight:bold;padding:0 0 1px 0;margin:0;height:17px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">LANVIN COLLECTION</p>
+                  <p style="font-size:12px;line-height:18px;color: #000000; font-family:sans-serif; font-weight:normal;padding:0 0 4px 0;margin:0;height:18px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Seersucker Baseball Cap</p>
+                  <p style="font-size:12px;line-height:18px;color: #000000; font-family:sans-serif; font-weight:normal;padding:0 0 12px 0;margin:0">CHARCOAL GRAY<span style="display:inline-block;padding:0 0 0 4px;">90</span></p>
+                  <p style="font-size:12px;line-height:18px;color: #000000; font-family:sans-serif; font-weight:normal;padding:0;margin:0">￦<b>75,000</b> ($<b>57.69</b>)</p>
+                  <p style="font-size:13px;line-height:21px;color: #000000; font-family:sans-serif; font-weight:normal;padding:0;margin:0;overflow: hidden;">
+                    Notified<span style="color: #707070;padding:0 0 0 4px;margin:0;">21.Jun. 2022</span>
+                  </p>
+                  </a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" height="20" style="line-height:20px;padding:0;border-bottom:1px solid #F0F0F0; margin:0;">&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height='60' style='border:0;padding:0;margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="color:#000000;font-size:20px;line-height:28px;font-family:sans-serif; font-weight:normal; border:0;padding:0;margin:0;">Shipping Address</td>
+		</tr>
+		<tr>
+		  <td height='16' style='line-height:16px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+		  <td height='20' style='line-height:20px; border-top:1px solid #000000; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="border:0;border:0;padding:0;margin:0;">
+				<p style="color:#000000;font-size:14px;line-height:22px;font-family:sans-serif; font-weight:normal;padding:0;margin:0;">
+					<th:block th:text="${ordManNm}"/>${ordManNm} / <th:block th:text="${opOrdDlvp.frgnTelNo}"/>${opOrdDlvp.frgnTelNo}
+				</p>
+				<p style="color:#000000;font-size:14px;line-height:22px;font-family:sans-serif; font-weight:normal;padding:4px 0 0 0;margin:0;">
+					<th:block th:text="|(${opOrdDlvp.zipNo}) ${opOrdDlvp.ffmAddr1} ${opOrdDlvp.ffmAddr2} ${opOrdDlvp.ffmAddrCity} ${opOrdDlvp.ffmAddrState}|"/>|(${opOrdDlvp.zipNo}) ${opOrdDlvp.ffmAddr1} ${opOrdDlvp.ffmAddr2} ${opOrdDlvp.ffmAddrCity} ${opOrdDlvp.ffmAddrState}|
+				</p>
+			</td>
+		</tr>
+		<tr>
+		  <td height='20' style='line-height:20px; border-bottom:1px solid #f0f0f0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td height='60' style='border:0;padding:0;margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="color:#000000;font-size:20px;line-height:28px;font-family:sans-serif; font-weight:normal; border:0;padding:0;margin:0;">Payment Info</td>
+		</tr>
+		<tr>
+		  <td height='15' style='line-height:15px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+		  <td height='20' style='line-height:20px; border-top:1px solid #000000; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="border:0;padding:0;margin:0;">
+				<p style="color:#000000;font-size:16px;line-height:24px;font-family:sans-serif; font-weight:normal;padding:0;margin:0;">
+					<b><th:block th:text="${payWayNm}"/>${payWayNm} <th:block th:if="${not #strings.isEmpty(mainPayNm)}">${not #strings.isEmpty(mainPayNm)/</th:block></b><th:block th:text="${mainPayNm}"/>
+				</p>
+			</td>
+		</tr>
+		<tr>
+		  <td height='16' style='line-height:16px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="padding:0;margin:0;background:#F8F8F8;">
+				<table style="width:100%; margin:0;" border="0" cellpadding="0" cellspacing="0">
+					<tbody>
+					<tr>
+						<td colspan="4" height='20' style='line-height: 20px; border:0; padding:0; margin:0;'>&nbsp;</td>
+					</tr>
+					<tr>
+						<td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+						<td style="color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;">Product price</td>
+						<td style="color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;text-align: right;">
+							<span style="padding:0 2px 0 2px;">￦</span><th:block th:text="|${#numbers.formatInteger(totGoodsAmt, 0, 'COMMA')}|"/>
+						</td>
+						<td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="4" height='8' style='line-height: 8px; border:0; padding:0; margin:0;'>&nbsp;</td>
+					</tr>
+					<tr>
+						<td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+						<td style="color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;">Discount</td>
+						<td style="color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;text-align: right;">
+							<th:block th:if="${totDcAmt > 0}">-</th:block>
+							<span style="padding:0 2px 0 2px;">￦</span><th:block th:text="|${#numbers.formatInteger(totDcAmt, 0, 'COMMA')}|"/>
+						</td>
+						<td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="4" height='8' style='line-height: 8px; border:0; padding:0; margin:0;'>&nbsp;</td>
+					</tr>
+					<tr>
+						<td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+						<td style="color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;">Shipping fee</td>
+						<td style="color:#000000;font-size:12px;line-height:18px;font-family:Dotum,sans-serif; font-weight:normal;padding:0;border:0; margin:0;text-align: right;">
+							<span style="padding:0 2px 0 2px;">￦</span><th:block th:text="|${#numbers.formatInteger(deliAmt, 0, 'COMMA')}|"/>
+						</td>
+						<td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="4" height='17' style='line-height: 17px; border:0; padding:0; margin:0;'>&nbsp;</td>
+					</tr>
+					<tr>
+						<td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+						<td style="color:#000000;font-size:16px;line-height:24px;font-family:sans-serif; font-weight:normal;padding:0;border:0; margin:0;">Payment Amount</td>
+						<td style="color:#000000;font-size:13px;line-height:21px;font-family:sans-serif; font-weight:normal;padding:0;border:0; margin:0;text-align: right;">Lump sum<p style="display:inline-block;color:#000000;font-size:18px;line-height:26px;font-weight:normal;margin:0;padding:0 0 0 5px;">
+							<span style="padding:0 2px 0 0;">￦</span><b><th:block th:text="|${#numbers.formatInteger(mainPayAmt, 0, 'COMMA')}|"/></b>
+						</p></td>
+						<td width='20' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="4" height='20' style='line-height: 20px; border:0; padding:0; margin:0;'>&nbsp;</td>
+					</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+		  <td height='20' style='line-height:20px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="border:0;margin:0;padding:0;">
+				<p style="color:#000000;font-size:16px;line-height:24px;font-family:sans-serif; font-weight:normal;padding:0;margin:0;">Discount Details</p>
+			</td>
+		</tr>
+		<tr>
+		  <td height='16' style='line-height:16px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="border:0;margin:0;padding:0;">
+				<p style="color:#000000;font-size:12px;line-height:18px;font-family:sans-serif; font-weight:normal;padding:0;margin:0;">
+					<th:block th:if="${discountSum <= 0}">
+						<b style="font-size:14px;line-height:22px;padding:0 10px 0 0;"><span style="padding:0 2px 0 2px;">￦</span><span style="padding:0 10px 0 0;">0</span><span style="display:inline-block;width:1px;height:12px;background: #F0F0F0;"></span></b>
+					</th:block>
+					<th:block th:if="${discountSum > 0}">
+						<b style="font-size:14px;line-height:22px;padding:0 10px 0 0;">-<span style="padding:0 2px 0 2px;">￦</span><span style="padding:0 10px 0 0;">
+							<th:block th:text="|${#numbers.formatInteger(discountSum, 0, 'COMMA')}|"/>
+						</span><span style="display:inline-block;width:1px;height:12px;background: #F0F0F0;"></span></b>
+						<th:block th:if="${gnlCpSum > 0}">
+							<span style="padding:0 6px 0 0;"><th:block th:text="${gnlCpName}"/></span>-<span style="padding:0 2px 0 2px;">￦</span><th:block th:text="|${#numbers.formatInteger(gnlCpSum, 0, 'COMMA')}|"/>
+						</th:block>
+						<th:block th:if="${addCpSum > 0}">
+							<span style="padding:0 6px 0 12px;"><th:block th:text="${addCpName}"/></span>-<span style="padding:0 2px 0 2px;">￦</span><th:block th:text="|${#numbers.formatInteger(addCpSum, 0, 'COMMA')}|"/>
+						</th:block>
+						<th:block th:if="${dlvCpSum > 0}">
+							<span style="padding:0 6px 0 12px;">Shipping fee coupon</span>-<span style="padding:0 2px 0 2px;">￦</span><th:block th:text="|${#numbers.formatInteger(dlvCpSum, 0, 'COMMA')}|"/>
+						</th:block>
+					</th:block>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td height='20' style='line-height:20px; border-bottom:1px solid #f0f0f0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td height='40' style='border:0;padding:0;margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style='text-align:center; border:0; padding:0; margin:0;'>
+				<a th:href='|${pcDefaultUrl}/OR/orderShippingList|' target='_blank' style='display:inline-block; color:#ffffff; font-size:16px; line-height:24px; font-family:sans-serif; font-weight:normal; text-decoration:none; background-color:#000000; border:0; padding:13px 96px; margin:0;'>Check order details</a>
+			</td>
+		</tr>
+		<!-- footer -->
+		<tr>
+			<td height='100' style='border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td height='20' style='line-height:20px;border-top:1px solid #000000; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+			<table style='width: 100%; margin: 0;' border='0' cellpadding='0' cellspacing='0'>
+				<tbody>
+				<tr>
+					<td width='10' style='border: 0; padding: 0; margin: 0; vertical-align: top;'>
+					<p style='color:#707070;font-size:14px; font-family:sans-serif; font-weight:normal; vertical-align:top; border:0; padding:0;margin: 0;'>ㆍ</p>
+					</td>
+					<td width='auto' style='border: 0; padding: 0; margin: 0;'>
+					<p style='color:#707070; font-size:11px; line-height:17px;font-family:sans-serif; font-weight:normal; text-align:left; border:0; padding:0;margin: 0;'>
+						This email is an unmonitored address and replies to this email cannot be responded to or read.<br>For further inquiries, please contact hsglobal@thehandsome.com.
+					</p>
+					</td>
+				</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td height='20' style='line-height:20px; border-bottom: 1px solid #f0f0f0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style='border: 0; padding: 0; margin: 0;'>
+			<table style='width: 100%; padding: 0; margin: 0;' border='0' cellpadding='0' cellspacing='0'>
+				<tbody>
+				<tr>
+					<td height='24' style='line-height:24px; padding:0; margin:0;'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td style='color: #000000; font-size: 12px; line-height: 18px; font-family: sans-serif; font-weight: normal; border: 0; padding: 0; margin: 0'>
+					<span style='padding: 0 15px 0 0; margin: 0;'>Handsome Co., Ltd.</span>
+					<span style='padding: 0 15px 0 0; margin: 0;'>CEO : Kim Min-deok</span>
+					<span style='padding: 0 15px 0 0; margin: 0;'>Handsome Bldg. 523, Dosandae-ro, Gangnam, Seoul</span>
+					<span style='padding: 0 15px 0 0; margin: 0;'>TEL 02-3416-2000</span>
+					</td>
+				</tr>
+				<tr>
+					<td height='10' style='line-height:10px; padding:0; margin:0;'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td style='color: #000000; font-size: 12px; line-height: 18px; font-family: sans-serif; font-weight: normal; border: 0; padding: 0; margin: 0;'>
+					<span style='padding: 0 10px 0 0; margin: 0;'>FAX 02-516-7028</span>
+					<span style='padding: 0 10px 0 0; margin: 0;'>Business Registration No. 120-81-26337</span>
+					<span style='padding: 0 10px 0 0; margin: 0;'>Online Marketing Business Reg. No. Gangam No. 00826</span>
+					</td>
+				</tr>
+				<tr>
+					<td height='6' style='line-height:6px; padding:0; margin:0;'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td style='color: #000000; font-size: 12px; line-height: 18px; font-family: sans-serif; font-weight: normal; border: 0; padding: 0; margin: 0;'>
+					<span style='display: block; padding: 0; margin: 0;'>Personal Info Manager : Lee Jeong-deuk</span>
+					</td>
+				</tr>
+				<tr>
+					<td height='14' style='line-height:14px; padding:0; margin:0;'>&nbsp;</td>
+				</tr>
+				<tr>
+					<td style='color: #707070; font-size: 12px; line-height: 18px; font-family: sans-serif; font-weight: normal; text-align: left; letter-spacing: 1px; border: 0; padding: 0; margin: 0;'>
+					COPYRIGHT @ 2023 HANDSOME. ALL RIGHT RESERVED.
+					</td>
+				</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td height='30' style='line-height:30px; border:0; padding:0; margin:0;'>&nbsp;</td>
+		</tr>
+		<!-- // footer -->
+	</tbody>
+</table>
+</div>
+</body>
+</html>

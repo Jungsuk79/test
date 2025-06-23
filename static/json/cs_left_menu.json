@@ -1,0 +1,122 @@
+{
+"list":[
+    {
+        "name": "공지사항",
+        "link": "/ko/CS/csCenterNotice",
+        "active": false
+    },
+    {
+        "name": "자주 묻는 질문",
+        "link": "/ko/CS/csCenterFAQ",
+        "active": false
+    },
+    {
+        "name": "1:1 문의",
+        "link": "/ko/CS/oneToOneList",
+        "active": false
+    },
+    {
+        "name": "고객의 소리",
+        "link": "/ko/CS/offlineStore",
+        "active": false
+    },
+    {
+        "name": "매장안내",
+        "link": "/ko/CS/storeInformation",
+        "active": false
+    },
+    {
+        "name": "한섬 회원 혜택",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "온라인 멤버십 혜택",
+                "link":"/ko/CS/onlineMemberBenefit",
+                "active":false
+            },
+            {
+                "name": "한섬 VVIP 혜택",
+                "link":"/ko/CS/onlineMemberBenefitVVIP",
+                "active":false
+            }
+        ]
+    },
+    {
+        "name": "서비스 소개",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "스타일라이브",
+                "link":"/ko/CS/serviceStyleLive",
+                "active":false
+            },
+            {
+                "name": "취향의 발견",
+                "link":"/ko/CS/serviceDiscovery",
+                "active":false
+            },
+            {
+                "name": "나의 옷장",
+                "link":"/ko/CS/serviceCloset",
+                "active":false
+            },
+            {
+                "name": "선물하기",
+                "link":"/ko/CS/servicePresent",
+                "active":false
+            },
+            {
+                "name": "케어플러스 세탁",
+                "link":"/ko/CS/serviceCare",
+                "active":false
+            },
+            {
+                "name": "케어플러스 수선",
+                "link":"/ko/CS/serviceRepairCare",
+                "active":false
+            }
+        ]
+    },
+    {
+        "name": "쇼핑 가이드",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "한섬마일리지",
+                "link":"/ko/CS/shoppingGuideMileage",
+                "active":false
+            },
+            {
+                "name": "쿠폰",
+                "link":"/ko/CS/shoppingGuideCoupon",
+                "active":false
+            },
+            {
+                "name": "주문/결제",
+                "link":"/ko/CS/shoppingGuideOrder",
+                "active":false
+            },
+            {
+                "name": "배송",
+                "link":"/ko/CS/shoppingGuideDelivery",
+                "active":false
+            },
+            {
+                "name": "교환/반품/환불",
+                "link":"/ko/CS/shoppingGuideExchange",
+                "active":false
+            },
+            {
+                "name": "딜리버리 서비스",
+                "link":"/ko/CS/shoppingDelivery",
+                "active":false
+            }
+        ]
+    }
+  
+]
+
+}

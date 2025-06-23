@@ -1,0 +1,695 @@
+{
+    "list": [
+        {
+            "label": "TOM GREYHOUND",
+            "item_cd": "12345",
+            "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/brand-img1.png",
+            "link_url": "#none",
+            "list": [
+                {
+                    "label": "TOM GREYHOUND",
+                    "link_url": "#none",
+                    "flags":["BEST"]
+                },
+                {
+                    "label": ".test",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "TOTEME",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "DRAGON DIFFUSION",
+                    "link_url": "#none",
+                    "flags":["BEST"]
+                },
+                {
+                    "label": "GANNI",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "DUNST",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "PUMA",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "WEHOURS",
+                    "link_url": "#none",
+                    "flags":["PB"]
+                },
+                {
+                    "label": "AGOLDE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MOTHER DENIM",
+                    "link_url": "#none",
+                    "flags":["NEW"]
+                },
+                {
+                    "label": "SPADECLUBSEOUL",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "ALIGHIERI",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "VIA PLAIN",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "HOTEL CERRITOS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "JAMES PERSE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MUVEIL",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "BAUM UND PFERDGARTEN",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "SELETTI",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "BIRKENSTOCK",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "ADIDAS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "DRY CLEAN ONLY",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "THE EDITOR",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "XIRENA",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "NAGONSTANS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "LES COYOTES DE PARIS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "DROGHERIA CRIVELLINI",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "APPARIS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "CLU",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "CLOSED",
+                    "link_url": "#none",
+                    "flags":[]
+                }
+            ]
+        },
+        {
+            "label": "FOURM THE STORE",
+            "item_cd": "22222222",
+            "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/brand-lookbook.png",
+            "link_url": "#none",
+            "list": [
+                {
+                    "label": "FOURM THE STORE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "SAINT JAMES",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "JOSHUA SANDERS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MOTHER DENIM",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "RE/DONE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "FRAME",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "RIXO",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "ETRE CECILE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "PAIRS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "PAIRS DELI&GROCERY",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "ANINE BING",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "CLU TOO",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "EENK",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "HOUSE OF SUNNY",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "SUNDRY",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "FIORUCCI",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "G KERO",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "JUMPER 1234",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "GRLFRND",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "GESTUZ",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "ROTATE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "COOL SMILE CLUB",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "KARHU",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "JAMIE WANDER",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "VEJA",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "IPANEMA",
+                    "link_url": "#none",
+                    "flags":[]
+                }
+            ]
+        },
+        {
+            "label": "FOURM STUDIO",
+            "item_cd": "33333",
+            "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/category1.png",
+            "link_url": "#none",
+            "list": [
+                {
+                    "label": "FOURM STUDIO",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "CRYSTAL HAZE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "HAY",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MARGESHERWOOD",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "HIDDEN FOREST MARKET",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "LVIR",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "LE17SEPTEMBRE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "ENFOLD",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "DRAGON DIFFUSION",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "ERIKA CAVALLINI",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MIJEONG PARK",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "LSA INTERNATIONAL",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MATIAS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "GREY MANSION",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "NEUL",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "REJINA PYO",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "CA4LA",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "NEHERA",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "ALLUDE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MOTHER DENIM",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "GI'N'GI",
+                    "link_url": "#none",
+                    "flags":[]
+                }
+            ]
+        },
+        {
+            "label": "FOURM MEN'S LOUNGE",
+            "item_cd": "444444",
+            "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/category2.png",
+            "link_url": "#none",
+            "list": [
+                {
+                    "label": "STANCE SEOUL",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "NORTH WORKS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MADEWORN",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "JAMES PERSE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "POP TRADING COMPANY",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "BEARBRICK",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "PHILIPPE AUDIBERT",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "CASA DRYCLEAN ONLY",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "HELINOX",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "INOUITOOSH",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MALIBU SANDALS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "WILD DONKEY",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "CATCH BALL",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "KARHU",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "VEJA",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "SUNSPEL",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MARSHALL",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "PUEBCO",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "FDMTL",
+                    "link_url": "#none",
+                    "flags":[]
+                }
+            ]
+        },
+        {
+            "label": "MUE",
+            "item_cd": "5555",
+            "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/detail-review-img1.png",
+            "link_url": "#none",
+            "list": [
+                {
+                    "label": "AUTRY",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "A COLD WALL",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MUSEUM OF PEACE&QUIET",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "NANUSHKA",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "JACQUEMUS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "REPRESENT",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "EMOTIONALLY UNAVAILABLE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "KHAITE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MIHARA YASUHIRO",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "CASABLANCA",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "GALLERY DEPARTMENT",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "LEE MATHEWS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "HERON PRESTON",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "WIND AND SEA",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "MM6 MAISON MARGIELA",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "RE/DONE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "POLIQUANT",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "VIS A VIS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "JOHN ELLIOTT",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "NST STUDIO",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "IENKI IENKI",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "VETEMENTS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "WALD",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "WILD DONKEY",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "Y-3",
+                    "link_url": "#none",
+                    "flags":[]
+                }
+            ]
+        },
+        {
+            "label": "H : SCENE",
+            "item_cd": "66666",
+            "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/style-lens-img.png",
+            "link_url": "#none",
+            "list": [
+                {
+                    "label": "H:SCENE",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "YUN",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "APPEAR SEOUL",
+                    "link_url": "#none",
+                    "flags":[]
+                }
+            ]
+        },
+        {
+            "label": "Liquides Perfume Bar",
+            "item_cd": "7777",
+            "image_url": "https://img.thehandsome.com/md/publish/dummy/pc/slider1.png",
+            "link_url": "#none",
+            "list": [
+                {
+                    "label": "BDK",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "OBVIOUS",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "FRAPIN",
+                    "link_url": "#none",
+                    "flags":[]
+                },
+                {
+                    "label": "Carine Roitfeld",
+                    "link_url": "#none",
+                    "flags":[]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+"list":[
+    {
+        "name": "Notice",
+        "link": "/en/en/CS/csCenterNotice",
+        "active": false
+    },
+    {
+        "name": "FAQs",
+        "link": "/en/en/CS/csCenterFAQ",
+        "active": false
+    },
+    {
+        "name": "1:1 Query",
+        "link": "/en/en/CS/oneToOneList",
+        "active": false
+    },
+    {
+        "name": "Shopping Guide",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "Coupon",
+                "link":"/en/en/CS/shoppingGuideCoupon",
+                "active":false
+            },
+            {
+                "name": "Order",
+                "link":"/en/en/CS/shoppingGuideOrder",
+                "active":false
+            },
+            {
+                "name": "Product",
+                "link":"/en/en/CS/shoppingGuideProduct",
+                "active":false
+            },
+            {
+                "name": "Shipping",
+                "link":"/en/en/CS/shoppingGuideDelivery",
+                "active":false
+            },
+            {
+                "name": "Refund/Return",
+                "link":"/en/en/CS/shoppingGuideRefund",
+                "active":false
+            },
+            {
+                "name": "Duty/Tax",
+                "link":"/en/en/CS/shoppingGuideDuty",
+                "active":false
+            }
+        ]
+    }
+  
+]
+
+}

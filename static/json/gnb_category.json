@@ -1,0 +1,109 @@
+{
+"list":[
+    {
+        "label": "아우터",
+        "list":[
+            {
+                "label": "아우터전체",
+                "link_url": "#none"
+            },{
+                "label": "재킷",
+                "link_url": "#none"
+            },{
+                "label": "점퍼",
+                "link_url": "#none"
+            },{
+                "label": "가디건/베스트",
+                "link_url": "#none"
+            },{
+                "label": "트렌치 코트",
+                "link_url": "#none"
+            },{
+                "label": "코트",
+                "link_url": "#none"
+            },{
+                "label": "다운/패딩",
+                "link_url": "#none"
+            }
+        ]
+    },{
+        "label": "탑",
+        "link_url": "#none"
+    },{
+        "label": "드레스",
+        "link_url": "#none"
+    },{
+        "label": "팬츠",
+        "link_url": "#none"
+    },{
+        "label": "스커트",
+        "link_url": "#none"
+    },{
+        "label": "잡화",
+        "list": [
+            {
+                "label" : "잡화전체",
+                "link_url": "#none"
+            },{
+                "label" : "여성슈즈",
+                "list": [
+                    {
+                        "label": "여성슈즈전체",
+                        "link_url": "#none"
+                    },{
+                        "label": "부츠",
+                        "link_url": "#none"
+                    },{
+                        "label": "로퍼/플로퍼",
+                        "link_url": "#none"
+                    },{
+                        "label": "스니커즈",
+                        "link_url": "#none"
+                    },{
+                        "label": "힐/슬링백",
+                        "link_url": "#none"
+                    },{
+                        "label": "샌들/슬라이드",
+                        "link_url": "#none"
+                    }
+                ]
+            },{
+                "label" : "남성슈즈",
+                "list": [
+                    {
+                        "label": "남성슈즈전체",
+                        "link_url": "#none"
+                    },{
+                        "label": "부츠",
+                        "link_url": "#none"
+                    },{
+                        "label": "로퍼/플로퍼",
+                        "link_url": "#none"
+                    },{
+                        "label": "스니커즈",
+                        "link_url": "#none"
+                    },{
+                        "label": "샌들/슬라이드",
+                        "link_url": "#none"
+                    }
+                ]
+            },{
+                "label" : "여성백",
+                "link_url": "#none"
+            },{
+                "label" : "남성백",
+                "link_url": "#none"
+            },{
+                "label" : "기타ACC",
+                "link_url": "#none"
+            }
+        ]
+    },{
+        "label": "라이프스타일",
+        "link_url": "#none"
+    },{
+        "label": "SPECIAL SHOP",
+        "link_url": "#none"
+    }
+]
+}

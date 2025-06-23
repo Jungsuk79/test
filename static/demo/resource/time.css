@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.gnb{
+    position:fixed;width:1920px;left:calc(50% - 960px);top:0;right:0;height:136px;z-index:10;
+    background:url(../images/gnb-time.png) no-repeat 0 0;background-size:100% auto;
+}
+.gnb.black{background-image:url(../images/gnb-time-black.png);}
+.gnb.white{background-color:#fff;}
+
+.swiper{width:1920px;height:100vh;}
+
+.swiper-slide{background-repeat:no-repeat;background-position:50% 50%;background-size:cover;background-color:#fff;}
+.swiper-slide a{display:block;width:100%;height:100%;z-index:2;position:relative;}
+
+.slide-01{background-image:url(../images/time-01.png);}
+.slide-02{background-image:url(../images/time-02.png);}
+.slide-03{background:url(../images/time-03.png) no-repeat 50% 60%;background-size:1201px auto;background-color:#000;}
+.slide-04{background-image:url(../images/time-04.png);}
+.slide-05{background-image:url(../images/time-05.png);background-size:1800px auto;}
+.slide-06{background-image:url(../images/time-06.png);}
+.slide-07{background:url(../images/time-07.png) no-repeat 50% 60%;background-size:1800px auto;}
+.slide-08{background:url(../images/time-08.png) no-repeat 50% 60%;background-size:1800px auto;}
+.slide-09{background:url(../images/time-09.png) no-repeat 0 100%;background-size:1920px auto;}
+.slide-10{height:244px !important;background-image:url(../images/time-footer.png);}
+
+.slide-01:before{
+    content:"";display:block;width:211px;height:64px;position:absolute;top:calc(50% - 32px);left:calc(50% - 105px);
+    background:url(../images/time-01-btn.png) no-repeat 0 0;background-size:100% auto;
+}
+.slide-01:after{
+    content:"";display:block;width:77px;height:67px;position:absolute;bottom:46px;left:calc(50% - 38px);
+    background:url(../images/time-01-motion.png) no-repeat 0 0;background-size:100% auto;
+}
+
+.slide-02:before{
+    content:"";display:block;width:1799px;height:350px;position:absolute;bottom:160px;left:80px;
+    background:url(../images/time-02-txt.png) no-repeat 0 0;background-size:100% auto;
+}
+
+.slide-04:before{
+    content:"";display:block;width:1800px;height:560px;position:absolute;top:calc(50% - 280px);left:calc(50% - 900px);
+    background:url(../images/time-04-prod.png) no-repeat 0 0;background-size:100% auto;
+}
+
+.slide-06:before{
+    content:"";display:block;width:1800px;height:633px;position:absolute;top:calc(50% - 260px);left:calc(50% - 900px);
+    background:url(../images/time-06-prod.png) no-repeat 0 0;background-size:100% auto;
+}
+
+.video{width:1200px;height:533px;position:absolute;left:calc(50% - 600px);top:calc(50% - 245px);}
+video{width:1200px;height:533px;object-fit:cover;}

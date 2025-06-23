@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>thehandsome</title>
+
+<link rel="stylesheet" href="resource/swiper-bundle.min.css" />
+<link rel="stylesheet" href="resource/pc.css" />
+<link rel="stylesheet" href="resource/time.css" />
+
+<script src="resource/jquery-3.1.1.min.js"></script>
+<script src="resource/jquery-ui.min.js"></script>
+<script src="resource/swiper-bundle.min.js"></script>
+<script>
+var swiper;
+$(function(){
+    swiper = new Swiper('.swiper', {
+        _initialSlide: 1,
+        slidesPerView:'auto',
+        direction:'vertical',
+        mousewheel:true,
+        on:{
+            realIndexChange:changed
+        }
+    });
+
+});
+
+function changed(){
+    switch(swiper.realIndex){
+        case 3:
+        case 4:
+        case 6:
+        case 7:
+        case 8:
+            $(".gnb").addClass("black");
+            break;
+        default:
+            $(".gnb").removeClass("black");
+            break;
+    }
+    switch(swiper.realIndex){
+        case 8:
+        case 9:
+            $(".gnb").addClass("white");
+            break;
+        default:
+            $(".gnb").removeClass("white");
+            break;
+    }
+}
+</script>
+</head>
+
+<body>
+
+<div class="contents main">
+    <div class="gnb"></div>
+    <div class="main-cont">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-01"><a href="system.html"></a></div>
+                <div class="swiper-slide slide-02"><a href="system.html"></a></div>
+                <div class="swiper-slide slide-03">
+                    <div class="video">
+                        <video playsinline :poster="poster" autoplay="autoplay" muted="muted" preload="preload" loop="loop">
+                            <source src="images/time.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <a href="system.html"></a>
+                </div>
+                <div class="swiper-slide slide-04"><a href="system.html"></a></div>
+                <div class="swiper-slide slide-05"><a href="system.html"></a></div>
+                <div class="swiper-slide slide-06"><a href="system.html"></a></div>
+                <div class="swiper-slide slide-07"><a href="system.html"></a></div>
+                <div class="swiper-slide slide-08"><a href="system.html"></a></div>
+                <div class="swiper-slide slide-09"><a href="system.html"></a></div>
+                <div class="swiper-slide slide-10"><a href="system.html"></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

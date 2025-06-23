@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>thehandsome</title>
+
+<link rel="stylesheet" href="resource/swiper-bundle.min.css" />
+<link rel="stylesheet" href="resource/pc.css" />
+<link rel="stylesheet" href="resource/main.css" />
+
+<script src="resource/jquery-3.1.1.min.js"></script>
+<script src="resource/jquery-ui.min.js"></script>
+<script src="resource/swiper-bundle.min.js"></script>
+<script>
+var gnb;
+$(function(){
+    gnb = $(".gnb");
+    gnb.on("mouseenter mouseleave", gnbEvent);
+    $(window).on("scroll", scroll);
+
+    const swiper = new Swiper('.swiper', {
+        _initialSlide: 2,
+        autoplay: {
+            delay: 5000,
+        },
+        loop: true
+    });
+
+});
+
+function gnbEvent(e){
+    if(e.type === "mouseenter"){
+        gnb.addClass("over");
+    }else{
+        gnb.removeClass("over");
+    }
+}
+
+function scroll(){
+    var st = $(document).scrollTop();
+    if(st >= 72){
+        gnb.addClass("fixed");
+    }else{
+        gnb.removeClass("fixed");
+    }
+}
+</script>
+</head>
+
+<body>
+
+<div class="contents main">
+    <div class="gnb">
+        <div class="menu"></div>
+    </div>
+    <div class="main-cont">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="time.html"><img src="images/visual-1.png" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="time.html"><img src="images/visual-3.png" /></a>
+                    <div class="t31"></div>
+                    <div class="t31 t32"></div>
+                    <div class="t33"></div>
+                    <div class="t33 t34"></div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="time.html"><img src="images/visual-5.png" /></a>
+                    <div class="t5 t51"></div>
+                    <div class="t5 t52"></div>
+                    <div class="t5 t53"></div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="time.html"><img src="images/visual-2.png" /></a>
+                </div>
+                <!-- <div class="swiper-slide"><img src="images/visual-4.png" /></div> -->
+            </div>
+            <!-- <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div> -->
+        </div>
+        <div>
+            <a href="time.html"><img src="images/main.png" /></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

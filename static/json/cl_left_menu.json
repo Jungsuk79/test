@@ -1,0 +1,165 @@
+{
+"list":[
+    {
+        "name": "마이하트",
+        "link": "/ko/ME/myHeartWishList",
+        "active": false
+    },{
+        "name": "나의 옷장",
+        "link": "/ko/CL/myCloset",
+        "active": false,
+        "sublist":[
+            {
+                "name": "옷장",
+                "link": "/ko/CL/myCloset",
+                "active":false
+            },{
+                "name": "코디북",
+                "link": "/ko/CL/codiBook",
+                "active":false
+            }
+        ]
+    },{
+        "name": "주문조회",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "주문내역",
+                "link":"/ko/OR/orderShippingList",
+                "active":false
+            },{
+                "name": "받은 선물함/보낸 선물함",
+                "link":"/ko/OR/giftBoxList",
+                "active":false
+            }
+        ]
+    },{
+        "name": "THE서비스",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "케어플러스 세탁",
+                "link":"/ko/HC/handsomeCare",
+                "active":false
+            },{
+                "name": "케어플러스 수선",
+                "link":"/ko/HR/handsomeRepair",
+                "active":false
+            }
+        ]
+    },{
+        "name": "혜택관리",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "쿠폰",
+                "link":"/ko/ME/couponList",
+                "active":false
+            },{
+                "name": "나의 회원등급",
+                "link":"/ko/ME/myMemberLevel",
+                "active":false
+            },{
+                "name": "나의 혜택",
+                "link":"/ko/ME/handsomeMileage",
+                "active":false
+            }
+        ]
+    },{
+        "name": "활동관리",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "상품 Q&A",
+                "link":"/ko/PM/myQAList",
+                "active":false
+            },{
+                "name": "1:1 문의",
+                "link":"/ko/CS/oneToOneList",
+                "active":false
+            },{
+                "name": "상품평",
+                "link":"/ko/PM/myReviewListPossible",
+                "active":false
+            },{
+                "name": "이벤트 참여내역",
+                "link":"/ko/MK/myEventList",
+                "active":false
+            },{
+                "name": "재입고 알림",
+                "link":"/ko/PM/restockList",
+                "active":false
+            }
+        ]
+    },{
+        "name": "e-Gift Card",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "선물하기",
+                "link":"/ko/GC/giftCardList",
+                "active":false
+            },{
+                "name": "선물 사용내역",
+                "link":"/ko/GC/myeGiftCardList",
+                "active":false
+            }
+        ]
+    },{
+        "name": "정보관리",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "개인정보 변경/탈퇴",
+                "link":"/ko/ME/withdrawal",
+                "active":false
+            },{
+                "name": "나의 사이즈",
+                "link":"/ko/ME/mySize",
+                "active":false
+            },{
+                "name": "배송지 관리",
+                "link":"/ko/OR/shippingAddressManage",
+                "active":false
+            },{
+                "name": "한섬 통합 멤버십",
+                "link":"/ko/ME/handsomeMembership",
+                "active":false
+            },{
+                "name": "통합회원 전환",
+                "link": "#",
+                "active":false
+            }
+        ]
+    },{
+        "name": "결제수단관리",
+        "link": "#",
+        "active": false,
+        "sublist":[
+            {
+                "name": "H.Point Pay 관리",
+                "link":"#",
+                "active":false
+            },
+            {
+                "name": "H.Point Pay 해지",
+                "link":"#",
+                "active":false
+            },
+            {
+                "name": "환불 계좌",
+                "link":"/ko/OR/refundAccountRegister",
+                "active":false
+            }
+        ]
+    }
+  
+]
+
+}
