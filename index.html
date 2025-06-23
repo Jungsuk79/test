@@ -1,5 +1,10 @@
-000
-1111
-
-111
-222
+<!-- [개발 확인] eslint-disable -->
+<div class="info-cnt ani-box">
+    <div v-if="item.tags" class="tags ani-cnt">
+        <span v-for="(item2, index2) in item.tags" :key="index2" class="ani-txt">{{item2}}</span>
+    </div>
+    <div v-if="item.desc&&system" class="desc ani-cnt"><div class="ani-txt" v-html="item.desc"></div></div>
+    <div class="tit ani-cnt type-po"><div class="ani-txt" v-html="item.title"></div></div>
+    <div v-if="item.desc&&!system" class="desc ani-cnt"><div class="ani-txt" v-html="item.desc"></div></div>
+</div>
+<!-- eslint-disable -->
